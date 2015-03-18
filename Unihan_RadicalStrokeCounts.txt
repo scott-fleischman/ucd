@@ -1,10 +1,10 @@
 #
 # Unihan_RadicalStrokeCounts.txt
-# Date: 2010-09-23 09:29:58 UDT [JHJ]
-# Unicode version: 6.0.0
+# Date: 2011-08-08 22:10:53 GMT [JHJ]
+# Unicode version: 6.1.0
 #
 # Unicode Character Database
-# Copyright (c) 1991-2010 Unicode, Inc.
+# Copyright (c) 1991-2011 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr44/
 #
@@ -61562,6 +61562,8 @@ U+9FC8	kRSUnicode	60.4
 U+9FC9	kRSUnicode	60.4
 U+9FCA	kRSUnicode	140.7
 U+9FCB	kRSUnicode	145.12
+U+9FCC	kRSAdobe_Japan1_6	C+20156+85.3.9
+U+9FCC	kRSUnicode	85.9
 U+F900	kRSKangXi	151.3
 U+F900	kRSUnicode	151.3
 U+F901	kRSKangXi	73.3
@@ -62216,6 +62218,8 @@ U+FA2C	kRSUnicode	184.8
 U+FA2D	kRSAdobe_Japan1_6	C+8715+196.11.11
 U+FA2D	kRSKangXi	196.11
 U+FA2D	kRSUnicode	196.10
+U+FA2E	kRSUnicode	163.7
+U+FA2F	kRSUnicode	171.8
 U+FA30	kRSAdobe_Japan1_6	C+13382+9.2.7
 U+FA30	kRSUnicode	9.7
 U+FA31	kRSAdobe_Japan1_6	C+13360+9.2.12
@@ -87298,7 +87302,7 @@ U+23058	kRSUnicode	67.9
 U+23059	kRSKangXi	67.9
 U+23059	kRSUnicode	67.9
 U+2305A	kRSKangXi	67.8
-U+2305A	kRSUnicode	66.11
+U+2305A	kRSUnicode	67.8
 U+2305B	kRSKangXi	67.11
 U+2305B	kRSUnicode	67.11
 U+2305C	kRSKangXi	67.11
@@ -149109,7 +149113,7 @@ U+2AAA5	kRSUnicode	53.13
 U+2AAA6	kRSUnicode	53.14
 U+2AAA7	kRSUnicode	53.14
 U+2AAA8	kRSUnicode	53.14
-U+2AAA9	kRSUnicode	55.15
+U+2AAA9	kRSUnicode	53.15 55.15
 U+2AAAA	kRSUnicode	53.16
 U+2AAAB	kRSUnicode	53.18
 U+2AAAC	kRSUnicode	54.3
