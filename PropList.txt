@@ -1,3 +1,48 @@
+PropList-2.1.2.txt
+
+Author: Ken Whistler
+Date:   March 15, 1998
+
+Revision History: 
+   March 5, 1998 (corrected bidi property for U+FEFF)
+   March 15, 1998 (substantial revision of BIDI properties)    
+
+This file lists properties for all characters in the
+Unicode Standard, Version 2.1.
+
+These properties were independently derived, and do
+not necessarily match the normative data in
+UnicodeData-2.1.2.txt in all respects. Character
+properties which can be related to the normative and
+informative values of the Category field in the
+UnicodeData-2.1.2.txt file should match quite well,
+but the bidi properties proposed here and the normative
+bidi properties in UnicodeData-2.1.2.txt have some
+systematic differences. These differences have not
+yet been resolved by UTC action. There are also a several
+additional properties (e.g. delimiter, ignorable control)
+that cannot be derived from the UnicodeData-2.1.2.txt
+data, and a combined property (identifier-part) derived
+from other properties.
+
+Hence, the content of this file should be taken as
+informative, not normative. The bidi properties, in
+particular, represent a proposed reconciliation of some
+difficulties in the current property specificiations.
+
+Please be careful when making use of this file.
+
+Properties are specified here by simply enumerating the
+list of characters which have that property, in ascending
+Unicode order.
+
+"Unassigned" is treated as a special property. The final
+listing, for the "Unassigned" property is, of course,
+not a property of encoded characters per se, but constitutes
+the list of all the unencoded code values.
+
+*******************************************
+
 Property dump for: 0x10000001 (Zero-width)
 
 200B..200F  (5 chars)
@@ -5,25 +50,27 @@ Property dump for: 0x10000001 (Zero-width)
 206A..206F  (6 chars)
 FEFF
 
+*******************************************
+
 Property dump for: 0x10000002 (Space)
 
 0020
 00A0
 2000..200B  (12 chars)
 3000
-FEFF
+
+*******************************************
 
 Property dump for: 0x10000004 (White space)
 
-0000
 0009..000D  (5 chars)
 0020
 00A0
-2000..200F  (16 chars)
-2028..202E  (7 chars)
-206A..206F  (6 chars)
+2000..200B  (12 chars)
+2028..2029  (2 chars)
 3000
-FEFF
+
+*******************************************
 
 Property dump for: 0x00400000 (Non-break)
 
@@ -31,23 +78,33 @@ Property dump for: 0x00400000 (Non-break)
 2011
 FEFF
 
+*******************************************
+
 Property dump for: 0x10000008 (ISO Control)
 
 0000..001F  (32 chars)
 007F..009F  (33 chars)
+
+*******************************************
 
 Property dump for: 0x10000090 (Bidi Control)
 
 200E..200F  (2 chars)
 202A..202E  (5 chars)
 
+*******************************************
+
 Property dump for: 0x100000A0 (Join Control)
 
 200C..200D  (2 chars)
 
+*******************************************
+
 Property dump for: 0x100000C0 (Format Control)
 
 206A..206F  (6 chars)
+
+*******************************************
 
 Property dump for: 0x20000400 (Dash)
 
@@ -64,6 +121,8 @@ FE58
 FE63
 FF0D
 
+*******************************************
+
 Property dump for: 0x20000800 (Hyphen)
 
 002D
@@ -73,6 +132,8 @@ Property dump for: 0x20000800 (Hyphen)
 FE63
 FF0D
 FF65
+
+*******************************************
 
 Property dump for: 0x20001000 (Punctuation)
 
@@ -88,9 +149,9 @@ Property dump for: 0x20001000 (Punctuation)
 00A1
 00AB
 00AD
+00B7
 00BB
 00BF
-02BC
 0374..0375  (2 chars)
 037E
 0387
@@ -144,6 +205,8 @@ FF5B
 FF5D
 FF61..FF65  (5 chars)
 
+*******************************************
+
 Property dump for: 0x00800000 (Delimiter)
 
 0000
@@ -196,7 +259,6 @@ FE50..FE52  (3 chars)
 FE54..FE57  (4 chars)
 FE59..FE5F  (7 chars)
 FE68
-FEFF
 FF01..FF03  (3 chars)
 FF08..FF09  (2 chars)
 FF0C
@@ -208,13 +270,19 @@ FF5B..FF5D  (3 chars)
 FF61..FF65  (5 chars)
 FFE4
 
+*******************************************
+
 Property dump for: 0x80000003 (Line Separator)
 
 2028
 
+*******************************************
+
 Property dump for: 0x80000004 (Paragraph Separator)
 
 2029
+
+*******************************************
 
 Property dump for: 0x20002000 (Quotation Mark)
 
@@ -230,6 +298,8 @@ FE41..FE44  (4 chars)
 FF02
 FF07
 FF62..FF63  (2 chars)
+
+*******************************************
 
 Property dump for: 0x20004000 (Terminal Punctuation)
 
@@ -258,17 +328,21 @@ FF1F
 FF61
 FF64
 
+*******************************************
+
 Property dump for: 0x20008000 (Currency Symbol)
 
 0024
 00A2..00A5  (4 chars)
 09F2..09F3  (2 chars)
 0E3F
-20A0..20AB  (12 chars)
+20A0..20AC  (13 chars)
 FE69
 FF04
 FFE0..FFE1  (2 chars)
 FFE5..FFE6  (2 chars)
+
+*******************************************
 
 Property dump for: 0x20080000 (Math)
 
@@ -310,6 +384,8 @@ FF5B..FF5E  (4 chars)
 FFE2
 FFE9..FFEC  (4 chars)
 
+*******************************************
+
 Property dump for: 0x20000100 (Paired Punctuation)
 
 0028..0029  (2 chars)
@@ -339,6 +415,8 @@ FF5B
 FF5D
 FF62..FF63  (2 chars)
 
+*******************************************
+
 Property dump for: 0x20000300 (Left of Pair)
 
 0028
@@ -366,7 +444,6 @@ Property dump for: 0x20000300 (Left of Pair)
 3018
 301A
 301D
-301F
 FD3E
 FE35
 FE37
@@ -383,6 +460,8 @@ FF08
 FF3B
 FF5B
 FF62
+
+*******************************************
 
 Property dump for: 0x20000004 (Combining)
 
@@ -474,6 +553,8 @@ Property dump for: 0x20000004 (Combining)
 FB1E
 FE20..FE23  (4 chars)
 
+*******************************************
+
 Property dump for: 0x20040000 (Non-spacing)
 
 0300..0345  (70 chars)
@@ -555,14 +636,16 @@ Property dump for: 0x20040000 (Non-spacing)
 FB1E
 FE20..FE23  (4 chars)
 
+*******************************************
+
 Property dump for: 0x20000008 (Composite)
 
 00C0..00C5  (6 chars)
-00C8..00CF  (8 chars)
+00C7..00CF  (9 chars)
 00D1..00D6  (6 chars)
 00D9..00DD  (5 chars)
 00E0..00E5  (6 chars)
-00E8..00EF  (8 chars)
+00E7..00EF  (9 chars)
 00F1..00F6  (6 chars)
 00F9..00FD  (5 chars)
 00FF..0130  (50 chars)
@@ -570,6 +653,8 @@ Property dump for: 0x20000008 (Composite)
 0139..0149  (17 chars)
 014C..0151  (6 chars)
 0154..017E  (43 chars)
+01A0..01A1  (2 chars)
+01AF..01B0  (2 chars)
 01C4..01DC  (25 chars)
 01DE..01F5  (24 chars)
 01FA..0209  (16 chars)
@@ -744,6 +829,8 @@ FE70..FE72  (3 chars)
 FE74
 FE76..FE7F  (10 chars)
 
+*******************************************
+
 Property dump for: 0x20000080 (Hex Digit)
 
 0030..0039  (10 chars)
@@ -752,6 +839,8 @@ Property dump for: 0x20000080 (Hex Digit)
 FF10..FF19  (10 chars)
 FF21..FF26  (6 chars)
 FF41..FF46  (6 chars)
+
+*******************************************
 
 Property dump for: 0x20000030 (Decimal Digit)
 
@@ -771,6 +860,8 @@ Property dump for: 0x20000030 (Decimal Digit)
 0ED0..0ED9  (10 chars)
 0F20..0F29  (10 chars)
 FF10..FF19  (10 chars)
+
+*******************************************
 
 Property dump for: 0x20000010 (Numeric)
 
@@ -806,6 +897,8 @@ Property dump for: 0x20000010 (Numeric)
 3220..3229  (10 chars)
 3280..3289  (10 chars)
 FF10..FF19  (10 chars)
+
+*******************************************
 
 Property dump for: 0x20000001 (Alphabetic)
 
@@ -1062,12 +1155,16 @@ FFCA..FFCF  (6 chars)
 FFD2..FFD7  (6 chars)
 FFDA..FFDC  (3 chars)
 
+*******************************************
+
 Property dump for: 0x20000002 (Ideographic)
 
 3007
 3021..3029  (9 chars)
 4E00..9FA5  (20902 chars)
 F900..FA2D  (302 chars)
+
+*******************************************
 
 Property dump for: 0x20010000 (Diacritic)
 
@@ -1077,8 +1174,7 @@ Property dump for: 0x20010000 (Diacritic)
 00AF
 00B4
 00B7..00B8  (2 chars)
-02B0..02BB  (12 chars)
-02BD..02DE  (34 chars)
+02B0..02DE  (47 chars)
 02E0..02E9  (10 chars)
 0300..0345  (70 chars)
 0360..0361  (2 chars)
@@ -1136,6 +1232,8 @@ FF70
 FF9E..FF9F  (2 chars)
 FFE3
 
+*******************************************
+
 Property dump for: 0x20000040 (Extender)
 
 00B7
@@ -1149,6 +1247,8 @@ Property dump for: 0x20000040 (Extender)
 30FC..30FE  (3 chars)
 FF70
 FF9E..FF9F  (2 chars)
+
+*******************************************
 
 Property dump for: 0x20020000 (Identifier Part)
 
@@ -1166,8 +1266,7 @@ Property dump for: 0x20020000 (Identifier Part)
 01FA..0217  (30 chars)
 0250..02A8  (89 chars)
 02B0..02B8  (9 chars)
-02BB
-02BD..02C1  (5 chars)
+02BB..02C1  (7 chars)
 02D0..02D1  (2 chars)
 02E0..02E4  (5 chars)
 0300..0345  (70 chars)
@@ -1452,6 +1551,8 @@ FFCA..FFCF  (6 chars)
 FFD2..FFD7  (6 chars)
 FFDA..FFDC  (3 chars)
 
+*******************************************
+
 Property dump for: 0x10000080 (Ignorable Control)
 
 200C..200F  (4 chars)
@@ -1459,10 +1560,11 @@ Property dump for: 0x10000080 (Ignorable Control)
 206A..206F  (6 chars)
 FEFF
 
+*******************************************
+
 Property dump for: 0x01000000 (Bidi: Left-to-Right)
 
-0026
-0040..005A  (27 chars)
+0041..005A  (26 chars)
 0061..007A  (26 chars)
 00AA
 00B5
@@ -1473,9 +1575,10 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 01FA..0217  (30 chars)
 0250..02A8  (89 chars)
 02B0..02B8  (9 chars)
-02BB
-02BD..02C1  (5 chars)
+02BB..02C1  (7 chars)
 02E0..02E4  (5 chars)
+0300..0345  (70 chars)
+0360..0361  (2 chars)
 037A
 0386
 0388..038A  (3 chars)
@@ -1492,6 +1595,7 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 040E..044F  (66 chars)
 0451..045C  (12 chars)
 045E..0481  (36 chars)
+0483..0486  (4 chars)
 0490..04C4  (53 chars)
 04C7..04C8  (2 chars)
 04CB..04CC  (2 chars)
@@ -1503,8 +1607,10 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0561..0587  (39 chars)
 0901..0903  (3 chars)
 0905..0939  (53 chars)
-093D..094C  (16 chars)
+093C..094D  (18 chars)
+0950..0954  (5 chars)
 0958..0963  (12 chars)
+0966..096F  (10 chars)
 0981..0983  (3 chars)
 0985..098C  (8 chars)
 098F..0990  (2 chars)
@@ -1512,13 +1618,14 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 09AA..09B0  (7 chars)
 09B2
 09B6..09B9  (4 chars)
+09BC
 09BE..09C4  (7 chars)
 09C7..09C8  (2 chars)
-09CB..09CC  (2 chars)
+09CB..09CD  (3 chars)
 09D7
 09DC..09DD  (2 chars)
 09DF..09E3  (5 chars)
-09F0..09F1  (2 chars)
+09E6..09F1  (12 chars)
 0A02
 0A05..0A0A  (6 chars)
 0A0F..0A10  (2 chars)
@@ -1527,12 +1634,13 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0A32..0A33  (2 chars)
 0A35..0A36  (2 chars)
 0A38..0A39  (2 chars)
+0A3C
 0A3E..0A42  (5 chars)
 0A47..0A48  (2 chars)
-0A4B..0A4C  (2 chars)
+0A4B..0A4D  (3 chars)
 0A59..0A5C  (4 chars)
 0A5E
-0A70..0A74  (5 chars)
+0A66..0A74  (15 chars)
 0A81..0A83  (3 chars)
 0A85..0A8B  (7 chars)
 0A8D
@@ -1541,10 +1649,12 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0AAA..0AB0  (7 chars)
 0AB2..0AB3  (2 chars)
 0AB5..0AB9  (5 chars)
-0ABD..0AC5  (9 chars)
+0ABC..0AC5  (10 chars)
 0AC7..0AC9  (3 chars)
-0ACB..0ACC  (2 chars)
+0ACB..0ACD  (3 chars)
+0AD0
 0AE0
+0AE6..0AEF  (10 chars)
 0B01..0B03  (3 chars)
 0B05..0B0C  (8 chars)
 0B0F..0B10  (2 chars)
@@ -1552,12 +1662,13 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0B2A..0B30  (7 chars)
 0B32..0B33  (2 chars)
 0B36..0B39  (4 chars)
-0B3D..0B43  (7 chars)
+0B3C..0B43  (8 chars)
 0B47..0B48  (2 chars)
-0B4B..0B4C  (2 chars)
+0B4B..0B4D  (3 chars)
 0B56..0B57  (2 chars)
 0B5C..0B5D  (2 chars)
 0B5F..0B61  (3 chars)
+0B66..0B6F  (10 chars)
 0B82..0B83  (2 chars)
 0B85..0B8A  (6 chars)
 0B8E..0B90  (3 chars)
@@ -1571,8 +1682,9 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0BB7..0BB9  (3 chars)
 0BBE..0BC2  (5 chars)
 0BC6..0BC8  (3 chars)
-0BCA..0BCC  (3 chars)
+0BCA..0BCD  (4 chars)
 0BD7
+0BE7..0BEF  (9 chars)
 0C01..0C03  (3 chars)
 0C05..0C0C  (8 chars)
 0C0E..0C10  (3 chars)
@@ -1581,9 +1693,10 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0C35..0C39  (5 chars)
 0C3E..0C44  (7 chars)
 0C46..0C48  (3 chars)
-0C4A..0C4C  (3 chars)
+0C4A..0C4D  (4 chars)
 0C55..0C56  (2 chars)
 0C60..0C61  (2 chars)
+0C66..0C6F  (10 chars)
 0C82..0C83  (2 chars)
 0C85..0C8C  (8 chars)
 0C8E..0C90  (3 chars)
@@ -1592,10 +1705,11 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0CB5..0CB9  (5 chars)
 0CBE..0CC4  (7 chars)
 0CC6..0CC8  (3 chars)
-0CCA..0CCC  (3 chars)
+0CCA..0CCD  (4 chars)
 0CD5..0CD6  (2 chars)
 0CDE
 0CE0..0CE1  (2 chars)
+0CE6..0CEF  (10 chars)
 0D02..0D03  (2 chars)
 0D05..0D0C  (8 chars)
 0D0E..0D10  (3 chars)
@@ -1603,14 +1717,15 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0D2A..0D39  (16 chars)
 0D3E..0D43  (6 chars)
 0D46..0D48  (3 chars)
-0D4A..0D4C  (3 chars)
+0D4A..0D4D  (4 chars)
 0D57
 0D60..0D61  (2 chars)
+0D66..0D6F  (10 chars)
 0E01..0E2E  (46 chars)
 0E30..0E3A  (11 chars)
 0E40..0E45  (6 chars)
-0E47
-0E4D
+0E47..0E4E  (8 chars)
+0E50..0E59  (10 chars)
 0E81..0E82  (2 chars)
 0E84
 0E87..0E88  (2 chars)
@@ -1626,11 +1741,18 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 0EB0..0EB9  (10 chars)
 0EBB..0EBD  (3 chars)
 0EC0..0EC4  (5 chars)
-0ECD
+0EC8..0ECD  (6 chars)
+0ED0..0ED9  (10 chars)
 0EDC..0EDD  (2 chars)
+0F18..0F19  (2 chars)
+0F20..0F33  (20 chars)
+0F35
+0F37
+0F39
 0F40..0F47  (8 chars)
 0F49..0F69  (33 chars)
-0F71..0F81  (17 chars)
+0F71..0F84  (20 chars)
+0F86..0F8B  (6 chars)
 0F90..0F95  (6 chars)
 0F97
 0F99..0FAD  (21 chars)
@@ -1664,6 +1786,7 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 1FF6..1FFC  (7 chars)
 200E
 207F
+20D0..20E1  (18 chars)
 2102
 2107
 210A..2113  (10 chars)
@@ -1675,19 +1798,21 @@ Property dump for: 0x01000000 (Bidi: Left-to-Right)
 212A..2131  (8 chars)
 2133..2138  (6 chars)
 2160..2182  (35 chars)
+2336..237A  (69 chars)
+302A..302F  (6 chars)
 3041..3094  (84 chars)
+3099..309A  (2 chars)
 30A1..30FA  (90 chars)
 3105..312C  (40 chars)
 3131..318E  (94 chars)
+3190..319F  (16 chars)
 4E00..9FA5  (20902 chars)
 AC00..D7A3  (11172 chars)
-F900..FA2D  (302 chars)
+D800..FA2D  (8750 chars)
 FB00..FB06  (7 chars)
 FB13..FB17  (5 chars)
-FE60
-FE6B
-FF06
-FF20..FF3A  (27 chars)
+FE20..FE23  (4 chars)
+FF21..FF3A  (26 chars)
 FF41..FF5A  (26 chars)
 FF66..FF6F  (10 chars)
 FF71..FF9D  (45 chars)
@@ -1696,6 +1821,8 @@ FFC2..FFC7  (6 chars)
 FFCA..FFCF  (6 chars)
 FFD2..FFD7  (6 chars)
 FFDA..FFDC  (3 chars)
+
+*******************************************
 
 Property dump for: 0x02000000 (Bidi: Right-to-Left)
 
@@ -1708,7 +1835,7 @@ Property dump for: 0x02000000 (Bidi: Right-to-Left)
 061B
 061F
 0621..063A  (26 chars)
-0641..0652  (18 chars)
+0640..0652  (19 chars)
 066D
 0670..06B7  (72 chars)
 06BA..06BE  (5 chars)
@@ -1731,24 +1858,27 @@ FE70..FE72  (3 chars)
 FE74
 FE76..FEFC  (135 chars)
 
+*******************************************
+
 Property dump for: 0x03000000 (Bidi: European Digit)
 
 0030..0039  (10 chars)
 00B2..00B3  (2 chars)
 00B9
 06F0..06F9  (10 chars)
-0F20..0F29  (10 chars)
 2070
 2074..2079  (6 chars)
 2080..2089  (10 chars)
 FF10..FF19  (10 chars)
 
+*******************************************
+
 Property dump for: 0x04000000 (Bidi: Eur Num Separator)
 
-002E..002F  (2 chars)
-2007
-FE52
-FF0E..FF0F  (2 chars)
+002F
+FF0F
+
+*******************************************
 
 Property dump for: 0x05000000 (Bidi: Eur Num Terminator)
 
@@ -1758,10 +1888,11 @@ Property dump for: 0x05000000 (Bidi: Eur Num Terminator)
 00A2..00A5  (4 chars)
 00B0..00B1  (2 chars)
 066A
-2030..2033  (4 chars)
+0E3F
+2030..2034  (5 chars)
 207A..207B  (2 chars)
 208A..208B  (2 chars)
-20A0..20AB  (12 chars)
+20A0..20AC  (13 chars)
 2212..2213  (2 chars)
 FB29
 FE5F
@@ -1773,33 +1904,44 @@ FF0D
 FFE0..FFE1  (2 chars)
 FFE5..FFE6  (2 chars)
 
+*******************************************
+
 Property dump for: 0x06000000 (Bidi: Arabic Digit)
 
 0660..0669  (10 chars)
 066B..066C  (2 chars)
 
+*******************************************
+
 Property dump for: 0x07000000 (Bidi: Common Separator)
 
 002C
+002E
 003A
-0387
+2007
 FE50
+FE52
 FE55
 FF0C
+FF0E
 FF1A
+
+*******************************************
 
 Property dump for: 0x08000000 (Bidi: Block Separator)
 
 000A
 000C..000D  (2 chars)
-001C..001E  (3 chars)
 2028..2029  (2 chars)
+
+*******************************************
 
 Property dump for: 0x09000000 (Bidi: Segment Separator)
 
 0009
 000B
-001F
+
+*******************************************
 
 Property dump for: 0x0A000000 (Bidi: Whitespace)
 
@@ -1808,23 +1950,166 @@ Property dump for: 0x0A000000 (Bidi: Whitespace)
 2000..2006  (7 chars)
 2008..200B  (4 chars)
 3000
+
+*******************************************
+
+Property dump for: 0x80000009 (Bidi: Other Neutral)
+
+0000..0008  (9 chars)
+000E..001F  (18 chars)
+0021..0022  (2 chars)
+0026..002A  (5 chars)
+003B..0040  (6 chars)
+005B..0060  (6 chars)
+007B..009F  (37 chars)
+00A1
+00A6..00A9  (4 chars)
+00AB..00AF  (5 chars)
+00B4
+00B6..00B8  (3 chars)
+00BB..00BF  (5 chars)
+00D7
+00F7
+02B9..02BA  (2 chars)
+02C2..02DE  (29 chars)
+02E5..02E9  (5 chars)
+0374..0375  (2 chars)
+037E
+0384..0385  (2 chars)
+0387
+0482
+055A..055F  (6 chars)
+0589
+06E9
+0964..0965  (2 chars)
+0970
+09F2..09FA  (9 chars)
+0B70
+0BF0..0BF2  (3 chars)
+0E2F
+0E46
+0E4F
+0E5A..0E5B  (2 chars)
+0EAF
+0EC6
+0F00..0F17  (24 chars)
+0F1A..0F1F  (6 chars)
+0F34
+0F36
+0F38
+0F3A..0F3F  (6 chars)
+0F85
+10FB
+1FBD
+1FBF..1FC1  (3 chars)
+1FCD..1FCF  (3 chars)
+1FDD..1FDF  (3 chars)
+1FED..1FEF  (3 chars)
+1FFD..1FFE  (2 chars)
+200C..200D  (2 chars)
+2010..2027  (24 chars)
+202A..202E  (5 chars)
+2035..2046  (18 chars)
+206A..206F  (6 chars)
+207C..207E  (3 chars)
+208C..208E  (3 chars)
+2100..2101  (2 chars)
+2103..2106  (4 chars)
+2108..2109  (2 chars)
+2114
+2116..2117  (2 chars)
+211E..2123  (6 chars)
+2125
+2127
+2129
+2132
+2153..215F  (13 chars)
+2190..21EA  (91 chars)
+2200..2211  (18 chars)
+2214..22F1  (222 chars)
+2300
+2302..2335  (52 chars)
+2400..2424  (37 chars)
+2440..244A  (11 chars)
+2460..24EA  (139 chars)
+2500..2595  (150 chars)
+25A0..25EF  (80 chars)
+2600..2613  (20 chars)
+261A..266F  (86 chars)
+2701..2704  (4 chars)
+2706..2709  (4 chars)
+270C..2727  (28 chars)
+2729..274B  (35 chars)
+274D
+274F..2752  (4 chars)
+2756
+2758..275E  (7 chars)
+2761..2767  (7 chars)
+2776..2794  (31 chars)
+2798..27AF  (24 chars)
+27B1..27BE  (14 chars)
+3001..3029  (41 chars)
+3030..3037  (8 chars)
+303F
+309B..309E  (4 chars)
+30FB..30FE  (4 chars)
+3200..321C  (29 chars)
+3220..3243  (36 chars)
+3260..327B  (28 chars)
+327F..32B0  (50 chars)
+32C0..32CB  (12 chars)
+32D0..32FE  (47 chars)
+3300..3376  (119 chars)
+337B..33DD  (99 chars)
+33E0..33FE  (31 chars)
+FD3E..FD3F  (2 chars)
+FE30..FE44  (21 chars)
+FE49..FE4F  (7 chars)
+FE51
+FE54
+FE56..FE5E  (9 chars)
+FE60..FE61  (2 chars)
+FE64..FE66  (3 chars)
+FE68
+FE6B
 FEFF
+FF01..FF02  (2 chars)
+FF06..FF0A  (5 chars)
+FF1B..FF20  (6 chars)
+FF3B..FF40  (6 chars)
+FF5B..FF5E  (4 chars)
+FF61..FF65  (5 chars)
+FF70
+FF9E..FF9F  (2 chars)
+FFE2..FFE4  (3 chars)
+FFE8..FFEE  (7 chars)
+FFFC..FFFD  (2 chars)
+
+*******************************************
 
 Property dump for: 0x80000005 (Private Use)
 
 E000..F8FF  (6400 chars)
 
+*******************************************
+
 Property dump for: 0x80000006 (Low Surrogate)
 
 DC00..DFFF  (1024 chars)
+
+*******************************************
 
 Property dump for: 0x80000007 (High Surrogate)
 
 D800..DB7F  (896 chars)
 
+*******************************************
+
 Property dump for: 0x80000008 (Private Use High Surrogate)
 
 DB80..DBFF  (128 chars)
+
+*******************************************
 
 Property dump for: 0x00000000 (Unassigned Code Value)
 
@@ -2049,7 +2334,7 @@ Property dump for: 0x00000000 (Unassigned Code Value)
 2047..2069  (35 chars)
 2071..2073  (3 chars)
 208F..209F  (17 chars)
-20AC..20CF  (36 chars)
+20AD..20CF  (35 chars)
 20E2..20FF  (30 chars)
 2139..2152  (26 chars)
 2183..218F  (13 chars)
@@ -2124,5 +2409,5 @@ FFD0..FFD1  (2 chars)
 FFD8..FFD9  (2 chars)
 FFDD..FFDF  (3 chars)
 FFE7
-FFEF..FFFC  (14 chars)
+FFEF..FFFB  (13 chars)
 

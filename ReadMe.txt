@@ -1,12 +1,12 @@
 
-UNICODE 2.0 CHARACTER DATABASE
+UNICODE 2.1 CHARACTER DATABASE
 
-Copyright (c) 1991-1996 Unicode, Inc.
+Copyright (c) 1991-1998 Unicode, Inc.
 All Rights reserved.
 
 DISCLAIMER
 
-The Unicode Character Database "UNIDATA2.TXT" is provided as-is by
+The Unicode Character Database "UNIDAT21.TXT" is provided as-is by
 Unicode, Inc. (The Unicode Consortium). No claims are made as to fitness for any
 particular purpose. No warranties of any kind are expressed or implied. The
 recipient agrees to determine applicability of information provided. If this
@@ -39,9 +39,21 @@ accompanying the Unicode Character Database, see the section of the
 Unicode Standard they were extracted from, or the explanatory readme
 files and/or header sections with those files.
 
+The Unicode Character Database has been updated to reflect Version 2.1
+of the Unicode Standard, with two additional characters added to those
+published in Version 2.0:
+
+   U+20AC EURO SIGN
+   U+FFFC OBJECT REPLACEMENT CHARACTER
+
+A number of corrections have also been made to case mappings or other
+errors in the database noted since the publication of Version 2.0. And
+a few normative bidirectional properties have been modified to reflect
+decisions of the Unicode Technical Committee.
+
 The Unicode Character Database is a plain ASCII text file consisting of lines
 containing fields terminated by semicolons. Each line represents the data for
-one encoded character in the Unicode Standard, Version 2.0. Every encoded
+one encoded character in the Unicode Standard, Version 2.1. Every encoded
 character has a data entry, with the exception of certain special ranges, as
 detailed below.
 
@@ -70,8 +82,9 @@ Field	Explanation
   0	Code value in 4-digit hexadecimal format.
   	This field is normative.
 
-  1	Unicode 2.0 Character Name. These names match exactly the
-	names published in Chapter 7 of the Unicode Standard.
+  1	Unicode 2.1 Character Name. These names match exactly the
+	names published in Chapter 7 of the Unicode Standard, Version
+	2.0, except for the two additional characters.
   	This field is normative.
 
   2	General Category. This is a useful breakdown into various "character
@@ -90,7 +103,7 @@ Field	Explanation
 	These categories are summarized in Chapter 4 of the Unicode Standard.
 	This field is normative.
 
-  5	Character Decomposition. In the Unicode Standard, Version 2.0, not all of
+  5	Character Decomposition. In the Unicode Standard, not all of
 	the decompositions are full decompositions. Recursive
 	application of look-up for decompositions will, in all cases, lead to
 	a maximal decomposition. The decompositions match exactly the
@@ -122,7 +135,7 @@ Field	Explanation
 
  10	Unicode 1.0 Name. This is the old name as published in Unicode 1.0.
 	This name is only provided when it is significantly different from
-	the Unicode 2.0 name for the character. This field is informative.
+	the Unicode 2.1 name for the character. This field is informative.
 
  11	10646 Comment field. This field is informative.
 
@@ -160,7 +173,7 @@ Normative
     Zp = Separator, Paragraph
 
     Cc = Other, Control
-	Cf = Other, Format
+    Cf = Other, Format
     Cs = Other, Surrogate
     Co = Other, Private Use
     Cn = Other, Not Assigned
@@ -242,6 +255,7 @@ The compatibility formatting tags used are:
 	<narrow>	A narrow (or hankaku) compatibility character.
 	<small>		A small variant form (CNS compatibility).
 	<square>	A CJK squared font variant.
+	<fraction>	A vulgar fraction form.
 	<compat>	Otherwise unspecified compatibility character.
 
 CANONICAL COMBINING CLASSES
@@ -294,6 +308,19 @@ as Turkish, German, French, or Greek may have small deviations from the
 default mappings listed in the Unicode Character Database.
 
 MODIFICATION HISTORY
+
+Modifications made in updating the Unicode Character Database for
+the Unicode Standard, Version 2.1 (from Version 2.0) are:
+* Added two characters (U+20AC and U+FFFC).
+* Amended bidi properties for U+0026, U+002E, U+0040, U+2007.
+* Corrected case mappings for U+018E, U+019F, U+01DD, U+0258, U+0275,
+	U+03C2, U+1E9B.
+* Changed combining order class for U+0F71.
+* Corrected canonical decompositions for U+0F73, U+1FBE.
+* Changed decomposition for U+FB1F from compatibility to canonical.
+* Added compatibility decompositions for U+FBE8, U+FBE9, U+FBF9..U+FBFB.
+* Corrected compatibility decompositions for U+2469, U+246A, U+3358.
+
 
 Some of the modifications made in updating the Unicode Character Database
 for the Unicode Standard, Version 2.0 are:
