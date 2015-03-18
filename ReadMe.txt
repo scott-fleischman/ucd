@@ -6,7 +6,7 @@ All Rights reserved.
 
 DISCLAIMER
 
-The Unicode Character Database "UNIDAT21.TXT" is provided as-is by
+The Unicode Character Database "UnicodeData-Latest.txt" is provided as-is by
 Unicode, Inc. (The Unicode Consortium). No claims are made as to fitness for any
 particular purpose. No warranties of any kind are expressed or implied. The
 recipient agrees to determine applicability of information provided. If this
@@ -48,7 +48,7 @@ published in Version 2.0:
 
 A number of corrections have also been made to case mappings or other
 errors in the database noted since the publication of Version 2.0. And
-a few normative bidirectional properties have been modified to reflect
+normative bidirectional properties have been modified to reflect
 decisions of the Unicode Technical Committee.
 
 The Unicode Character Database is a plain ASCII text file consisting of lines
@@ -57,7 +57,7 @@ one encoded character in the Unicode Standard, Version 2.1. Every encoded
 character has a data entry, with the exception of certain special ranges, as
 detailed below.
 
-There are five special ranges of characters that are represented only by
+There are four special ranges of characters that are represented only by
 their start and end characters, since the properties in the file are uniform,
 except for code values (which are all sequential and assigned). The names of CJK
 ideograph characters and Hangul syllable characters are algorithmically
@@ -70,7 +70,6 @@ The exact ranges represented by start and end characters are:
    The Hangul Syllables Area (U+AC00 - U+D7A3)
    The Surrogates Area (U+D800 - U+DFFF)
    The Private Use Area (U+E000 - U+F8FF)
-   CJK Compatibility Ideographs (U+F900 - U+FAFF)
 
 The following table describes the format and meaning of each field in a
 data entry in the Unicode Character Database. Fields which contain
@@ -189,6 +188,10 @@ Informative
     Pd = Punctuation, Dash
     Ps = Punctuation, Open
     Pe = Punctuation, Close
+    Pi = Punctuation, Initial quote (may behave like Ps or Pe depending
+                              on usage)
+    Pf = Punctuation, Final quote (may behave like Ps or Pe depending
+                              on usage)
     Po = Punctuation, Other
 
     Sm = Symbol, Math
@@ -309,8 +312,41 @@ default mappings listed in the Unicode Character Database.
 
 MODIFICATION HISTORY
 
-Modifications made in updating the Unicode Character Database for
-the Unicode Standard, Version 2.1 (from Version 2.0) are:
+Modifications made for Version 2.1.5 of the Unicode Character Database:
+* Changed decomposition for U+FF9E and U+FF9F so that correct collation
+	weighting will automatically result from the canonical
+	equivalences.
+* Removed canonical decompositions for U+04D4, U+04D5, U+04D8, U+04D9,
+	U+04E0, U+04E1, U+04E8, U+04E9 (the implication being that
+	no canonical equivalence is claimed between these 8 characters
+	and similar Latin letters), and updated 4 canonical decompositions
+	for U+04DB, U+04DC, U+04EA, U+04EB to reflect the implied
+	difference in the base character.
+* Added Pi, and Pf categories and assigned the relevant quotation
+        marks to those categories, based on the Unicode Technical
+        Corrigendem on Quotation Characters.
+* Updating of many bidi properties, following the advice of the ad hoc
+	committee on bidi, and to make the bidi properties of compatibility
+	characters more consistent.
+* Changed category of several Tibetan characters: U+0F3E, U+0F3F,
+	U+0F88..U+0F8B to make them non-combining, reflecting the
+	combined opinion of Tibetan experts.
+* Added case mapping for U+03F2.
+* Corrected case mapping for U+0275.
+* Added titlecase mappings for U+03D0, U+03D1, U+03D5, U+03D6, U+03F0..
+	U+03F2.
+* Corrected compatibility label for U+2121.
+* Add specific entries for all the CJK compatibility ideographs,
+	U+F900..U+FA2D, so the canonical decomposition for each
+	(the URO character it is equivalent to) can be carried
+	in the database.
+
+[Note that Versions 2.1.3 and 2.1.4 of the Unicode Character
+Database were for internal change tracking only, and were never
+finally approved for public release.]
+
+Modifications made in updating the Unicode Character Database to
+Version 2.1.2 for the Unicode Standard, Version 2.1 (from Version 2.0) are:
 * Added two characters (U+20AC and U+FFFC).
 * Amended bidi properties for U+0026, U+002E, U+0040, U+2007.
 * Corrected case mappings for U+018E, U+019F, U+01DD, U+0258, U+0275,
@@ -323,7 +359,7 @@ the Unicode Standard, Version 2.1 (from Version 2.0) are:
 
 
 Some of the modifications made in updating the Unicode Character Database
-for the Unicode Standard, Version 2.0 are:
+to Version 2.0.14 for the Unicode Standard, Version 2.0 are:
 * Fixed decompositions with TONOS to use correct NSM: 030D.
 * Removed old Hangul Syllables; mapping to new characters are
 	in a separate table.

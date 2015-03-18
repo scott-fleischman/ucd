@@ -1,25 +1,17 @@
-May 12, 1998
+August 10, 1998
 
-Last minute news flash.
+This directory contains the second update for Unicode 2.1.
 
-The Unicode Character Database has been updated in
-this directory to:
+The second update consists of corrections to the Unicode
+Character Database. The current version is 2.1.5, updated
+from the last publicly released version 2.1.2, which is
+posted in the 2.1-Update directory.
 
-UnicodeData-2.1.2.txt
+UnicodeData-2.1.5.txt (the Unicode Character Database)
+ReadMe-2.1.5.txt (the explanation file for the database)
 
-This version of the database incorporates the following
-fixes authorized by the Unicode Technical Committee:
+diff212v214.txt
+diff214v215.txt diff files for the accumulated differences
+                between 2.1.2 and 2.1.5 versions.
 
-1. The decompositions of a number of compatibility characters
-in the 24XX block have been marked <compat> for consistency
-with other compatibility characters of the same type.
 
-2. U+301F has been changed from Ps to Pe.
-
-3. U+FCF2..U+FCF4 have had their decompositions changed to be
-based on U+0640 TATWEEL instead of U+0020 SPACE, for consistency
-with other medial Arabic compatibility characters.
-
-diff211v212.txt provides the exact list of changes from
-version 2.1.1 of the Unicode Character Database to
-version 2.1.2.
