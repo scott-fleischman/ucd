@@ -1,23 +1,25 @@
-# DerivedCombiningClass-4.0.0.txt
-# Date: 2003-03-19, 01:17:03 GMT [MD]
+# DerivedCombiningClass-4.0.1.txt
+# Date: 2004-03-11, 18:34:08 GMT [MD]
 #
-# Unicode Character Database: Derived Property Data
-# Generated algorithmically from the Unicode Character Database
+# Unicode Character Database
+# Copyright (c) 1991-2004 Unicode, Inc.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UCD.html
-# Note: Unassigned and Noncharacter codepoints may be omitted
-#       if they have default property values.
-# ================================================
-
 
 # ================================================
+
 # Combining Class (listing UnicodeData.txt, field 3: see UCD.html)
 #	All code points not explicitly listed in this file have the property
 #	value:   0.
+
+#  All code points not explicitly listed for Canonical_Combining_Class
+#  have the value Not_Reordered (0).
+
 # ================================================
 
-# NotReordered
+# Canonical_Combining_Class=Not_Reordered
 
-0000..001F    ; 0 # Cc  [32] <control>..<control>
+0000..001F    ; 0 # Cc  [32] <control-0000>..<control-001F>
 0020          ; 0 # Zs       SPACE
 0021..0023    ; 0 # Po   [3] EXCLAMATION MARK..NUMBER SIGN
 0024          ; 0 # Sc       DOLLAR SIGN
@@ -45,7 +47,7 @@
 007C          ; 0 # Sm       VERTICAL LINE
 007D          ; 0 # Pe       RIGHT CURLY BRACKET
 007E          ; 0 # Sm       TILDE
-007F..009F    ; 0 # Cc  [33] <control>..<control>
+007F..009F    ; 0 # Cc  [33] <control-007F>..<control-009F>
 00A0          ; 0 # Zs       NO-BREAK SPACE
 00A1          ; 0 # Po       INVERTED EXCLAMATION MARK
 00A2..00A5    ; 0 # Sc   [4] CENT SIGN..YEN SIGN
@@ -527,8 +529,8 @@
 1FF2..1FF4    ; 0 # L&   [3] GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI..GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI
 1FF6..1FFC    ; 0 # L&   [7] GREEK SMALL LETTER OMEGA WITH PERISPOMENI..GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI
 1FFD..1FFE    ; 0 # Sk   [2] GREEK OXIA..GREEK DASIA
-2000..200B    ; 0 # Zs  [12] EN QUAD..ZERO WIDTH SPACE
-200C..200F    ; 0 # Cf   [4] ZERO WIDTH NON-JOINER..RIGHT-TO-LEFT MARK
+2000..200A    ; 0 # Zs  [11] EN QUAD..HAIR SPACE
+200B..200F    ; 0 # Cf   [5] ZERO WIDTH SPACE..RIGHT-TO-LEFT MARK
 2010..2015    ; 0 # Pd   [6] HYPHEN..HORIZONTAL BAR
 2016..2017    ; 0 # Po   [2] DOUBLE VERTICAL LINE..DOUBLE LOW LINE
 2018          ; 0 # Pi       LEFT SINGLE QUOTATION MARK
@@ -802,8 +804,7 @@
 A000..A48C    ; 0 # Lo [1165] YI SYLLABLE IT..YI SYLLABLE YYR
 A490..A4C6    ; 0 # So  [55] YI RADICAL QOT..YI RADICAL KE
 AC00..D7A3    ; 0 # Lo [11172] HANGUL SYLLABLE GA..HANGUL SYLLABLE HIH
-D800..DFFF    ; 0 # Cs [2048] 
-E000..F8FF    ; 0 # Co [6400] 
+E000..F8FF    ; 0 # Co [6400] <private-use-E000>..<private-use-F8FF>
 F900..FA2D    ; 0 # Lo [302] CJK COMPATIBILITY IDEOGRAPH-F900..CJK COMPATIBILITY IDEOGRAPH-FA2D
 FA30..FA6A    ; 0 # Lo  [59] CJK COMPATIBILITY IDEOGRAPH-FA30..CJK COMPATIBILITY IDEOGRAPH-FA6A
 FB00..FB06    ; 0 # L&   [7] LATIN SMALL LIGATURE FF..LATIN SMALL LIGATURE ST
@@ -1002,14 +1003,15 @@ FFFC..FFFD    ; 0 # So   [2] OBJECT REPLACEMENT CHARACTER..REPLACEMENT CHARACTER
 E0001         ; 0 # Cf       LANGUAGE TAG
 E0020..E007F  ; 0 # Cf  [96] TAG SPACE..CANCEL TAG
 E0100..E01EF  ; 0 # Mn [240] VARIATION SELECTOR-17..VARIATION SELECTOR-256
-F0000..FFFFD  ; 0 # Co [65534] 
-100000..10FFFD; 0 # Co [65534] 
+F0000..FFFFD  ; 0 # Co [65534] <private-use-F0000>..<private-use-FFFFD>
+100000..10FFFD; 0 # Co [65534] <private-use-100000>..<private-use-10FFFD>
 
-# Total code points: 235611
+# The above property value applies to 880197 code points not listed here.
+# Total code points: 1113760
 
 # ================================================
 
-# Overlay
+# Canonical_Combining_Class=Overlay
 
 0334..0338    ; 1 # Mn   [5] COMBINING TILDE OVERLAY..COMBINING LONG SOLIDUS OVERLAY
 20D2..20D3    ; 1 # Mn   [2] COMBINING LONG VERTICAL LINE OVERLAY..COMBINING SHORT VERTICAL LINE OVERLAY
@@ -1022,7 +1024,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Nukta
+# Canonical_Combining_Class=Nukta
 
 093C          ; 7 # Mn       DEVANAGARI SIGN NUKTA
 09BC          ; 7 # Mn       BENGALI SIGN NUKTA
@@ -1036,7 +1038,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# KanaVoicing
+# Canonical_Combining_Class=Kana_Voicing
 
 3099..309A    ; 8 # Mn   [2] COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK..COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK
 
@@ -1044,7 +1046,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Virama
+# Canonical_Combining_Class=Virama
 
 094D          ; 9 # Mn       DEVANAGARI SIGN VIRAMA
 09CD          ; 9 # Mn       BENGALI SIGN VIRAMA
@@ -1067,7 +1069,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=10
 
 05B0          ; 10 # Mn       HEBREW POINT SHEVA
 
@@ -1075,7 +1077,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=11
 
 05B1          ; 11 # Mn       HEBREW POINT HATAF SEGOL
 
@@ -1083,7 +1085,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=12
 
 05B2          ; 12 # Mn       HEBREW POINT HATAF PATAH
 
@@ -1091,7 +1093,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=13
 
 05B3          ; 13 # Mn       HEBREW POINT HATAF QAMATS
 
@@ -1099,7 +1101,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=14
 
 05B4          ; 14 # Mn       HEBREW POINT HIRIQ
 
@@ -1107,7 +1109,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=15
 
 05B5          ; 15 # Mn       HEBREW POINT TSERE
 
@@ -1115,7 +1117,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=16
 
 05B6          ; 16 # Mn       HEBREW POINT SEGOL
 
@@ -1123,7 +1125,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=17
 
 05B7          ; 17 # Mn       HEBREW POINT PATAH
 
@@ -1131,7 +1133,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=18
 
 05B8          ; 18 # Mn       HEBREW POINT QAMATS
 
@@ -1139,7 +1141,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=19
 
 05B9          ; 19 # Mn       HEBREW POINT HOLAM
 
@@ -1147,7 +1149,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=20
 
 05BB          ; 20 # Mn       HEBREW POINT QUBUTS
 
@@ -1155,7 +1157,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=21
 
 05BC          ; 21 # Mn       HEBREW POINT DAGESH OR MAPIQ
 
@@ -1163,7 +1165,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=22
 
 05BD          ; 22 # Mn       HEBREW POINT METEG
 
@@ -1171,7 +1173,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=23
 
 05BF          ; 23 # Mn       HEBREW POINT RAFE
 
@@ -1179,7 +1181,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=24
 
 05C1          ; 24 # Mn       HEBREW POINT SHIN DOT
 
@@ -1187,7 +1189,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=25
 
 05C2          ; 25 # Mn       HEBREW POINT SIN DOT
 
@@ -1195,7 +1197,7 @@ F0000..FFFFD  ; 0 # Co [65534]
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=26
 
 FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
@@ -1203,7 +1205,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=27
 
 064B          ; 27 # Mn       ARABIC FATHATAN
 
@@ -1211,7 +1213,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=28
 
 064C          ; 28 # Mn       ARABIC DAMMATAN
 
@@ -1219,7 +1221,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=29
 
 064D          ; 29 # Mn       ARABIC KASRATAN
 
@@ -1227,7 +1229,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=30
 
 064E          ; 30 # Mn       ARABIC FATHA
 
@@ -1235,7 +1237,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=31
 
 064F          ; 31 # Mn       ARABIC DAMMA
 
@@ -1243,7 +1245,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=32
 
 0650          ; 32 # Mn       ARABIC KASRA
 
@@ -1251,7 +1253,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=33
 
 0651          ; 33 # Mn       ARABIC SHADDA
 
@@ -1259,7 +1261,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=34
 
 0652          ; 34 # Mn       ARABIC SUKUN
 
@@ -1267,7 +1269,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=35
 
 0670          ; 35 # Mn       ARABIC LETTER SUPERSCRIPT ALEF
 
@@ -1275,7 +1277,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=36
 
 0711          ; 36 # Mn       SYRIAC LETTER SUPERSCRIPT ALAPH
 
@@ -1283,7 +1285,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=84
 
 0C55          ; 84 # Mn       TELUGU LENGTH MARK
 
@@ -1291,7 +1293,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=91
 
 0C56          ; 91 # Mn       TELUGU AI LENGTH MARK
 
@@ -1299,7 +1301,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=103
 
 0E38..0E39    ; 103 # Mn   [2] THAI CHARACTER SARA U..THAI CHARACTER SARA UU
 
@@ -1307,7 +1309,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=107
 
 0E48..0E4B    ; 107 # Mn   [4] THAI CHARACTER MAI EK..THAI CHARACTER MAI CHATTAWA
 
@@ -1315,7 +1317,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=118
 
 0EB8..0EB9    ; 118 # Mn   [2] LAO VOWEL SIGN U..LAO VOWEL SIGN UU
 
@@ -1323,7 +1325,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=122
 
 0EC8..0ECB    ; 122 # Mn   [4] LAO TONE MAI EK..LAO TONE MAI CATAWA
 
@@ -1331,7 +1333,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=129
 
 0F71          ; 129 # Mn       TIBETAN VOWEL SIGN AA
 
@@ -1339,7 +1341,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=130
 
 0F72          ; 130 # Mn       TIBETAN VOWEL SIGN I
 0F7A..0F7D    ; 130 # Mn   [4] TIBETAN VOWEL SIGN E..TIBETAN VOWEL SIGN OO
@@ -1349,7 +1351,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Other Combining Class
+# Canonical_Combining_Class=132
 
 0F74          ; 132 # Mn       TIBETAN VOWEL SIGN U
 
@@ -1357,7 +1359,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# AttachedBelow
+# Canonical_Combining_Class=Attached_Below
 
 0321..0322    ; 202 # Mn   [2] COMBINING PALATALIZED HOOK BELOW..COMBINING RETROFLEX HOOK BELOW
 0327..0328    ; 202 # Mn   [2] COMBINING CEDILLA..COMBINING OGONEK
@@ -1366,7 +1368,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# AttachedAboveRight
+# Canonical_Combining_Class=Attached_Above_Right
 
 031B          ; 216 # Mn       COMBINING HORN
 0F39          ; 216 # Mn       TIBETAN MARK TSA -PHRU
@@ -1377,7 +1379,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# BelowLeft
+# Canonical_Combining_Class=Below_Left
 
 302A          ; 218 # Mn       IDEOGRAPHIC LEVEL TONE MARK
 
@@ -1385,7 +1387,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Below
+# Canonical_Combining_Class=Below
 
 0316..0319    ; 220 # Mn   [4] COMBINING GRAVE ACCENT BELOW..COMBINING RIGHT TACK BELOW
 031C..0320    ; 220 # Mn   [5] COMBINING LEFT HALF RING BELOW..COMBINING MINUS SIGN BELOW
@@ -1427,7 +1429,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# BelowRight
+# Canonical_Combining_Class=Below_Right
 
 059A          ; 222 # Mn       HEBREW ACCENT YETIV
 05AD          ; 222 # Mn       HEBREW ACCENT DEHI
@@ -1438,7 +1440,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Left
+# Canonical_Combining_Class=Left
 
 302E..302F    ; 224 # Mn   [2] HANGUL SINGLE DOT TONE MARK..HANGUL DOUBLE DOT TONE MARK
 
@@ -1446,7 +1448,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Right
+# Canonical_Combining_Class=Right
 
 1D16D         ; 226 # Mc       MUSICAL SYMBOL COMBINING AUGMENTATION DOT
 
@@ -1454,7 +1456,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# AboveLeft
+# Canonical_Combining_Class=Above_Left
 
 05AE          ; 228 # Mn       HEBREW ACCENT ZINOR
 18A9          ; 228 # Mn       MONGOLIAN LETTER ALI GALI DAGALGA
@@ -1464,7 +1466,7 @@ FB1E          ; 26 # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 
 # ================================================
 
-# Above
+# Canonical_Combining_Class=Above
 
 0300..0314    ; 230 # Mn  [21] COMBINING GRAVE ACCENT..COMBINING REVERSED COMMA ABOVE
 033D..0344    ; 230 # Mn   [8] COMBINING X ABOVE..COMBINING GREEK DIALYTIKA TONOS
@@ -1519,7 +1521,7 @@ FE20..FE23    ; 230 # Mn   [4] COMBINING LIGATURE LEFT HALF..COMBINING DOUBLE TI
 
 # ================================================
 
-# AboveRight
+# Canonical_Combining_Class=Above_Right
 
 0315          ; 232 # Mn       COMBINING COMMA ABOVE RIGHT
 031A          ; 232 # Mn       COMBINING LEFT ANGLE ABOVE
@@ -1529,7 +1531,7 @@ FE20..FE23    ; 230 # Mn   [4] COMBINING LIGATURE LEFT HALF..COMBINING DOUBLE TI
 
 # ================================================
 
-# DoubleBelow
+# Canonical_Combining_Class=Double_Below
 
 035F          ; 233 # Mn       COMBINING DOUBLE MACRON BELOW
 0362          ; 233 # Mn       COMBINING DOUBLE RIGHTWARDS ARROW BELOW
@@ -1538,7 +1540,7 @@ FE20..FE23    ; 230 # Mn   [4] COMBINING LIGATURE LEFT HALF..COMBINING DOUBLE TI
 
 # ================================================
 
-# DoubleAbove
+# Canonical_Combining_Class=Double_Above
 
 035D..035E    ; 234 # Mn   [2] COMBINING DOUBLE BREVE..COMBINING DOUBLE MACRON
 0360..0361    ; 234 # Mn   [2] COMBINING DOUBLE TILDE..COMBINING DOUBLE INVERTED BREVE
@@ -1547,9 +1549,8 @@ FE20..FE23    ; 230 # Mn   [4] COMBINING LIGATURE LEFT HALF..COMBINING DOUBLE TI
 
 # ================================================
 
-# IotaSubscript
+# Canonical_Combining_Class=Iota_Subscript
 
 0345          ; 240 # Mn       COMBINING GREEK YPOGEGRAMMENI
 
 # Total code points: 1
-

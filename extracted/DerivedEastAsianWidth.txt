@@ -1,22 +1,24 @@
-# DerivedEastAsianWidth-4.0.0.txt
-# Date: 2003-04-05, 03:01:19 GMT [MD]
+# DerivedEastAsianWidth-4.0.1.txt
+# Date: 2004-03-11, 18:37:55 GMT [MD]
 #
-# Unicode Character Database: Derived Property Data
-# Generated algorithmically from the Unicode Character Database
+# Unicode Character Database
+# Copyright (c) 1991-2004 Unicode, Inc.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UCD.html
-# Note: Unassigned and Noncharacter codepoints may be omitted
-#       if they have default property values.
-# ================================================
-
 
 # ================================================
-# East Asian Width (listing EastAsianWidth.txt, field 1)
-#	All code points not explicitly listed in this file have the property
-#	value:   N.
+
+# East_Asian_Width (listing EastAsianWidth.txt, field 1)
+
+#  All code points not explicitly listed for East_Asian_Width
+#  have the value Neutral (N).
+
 # ================================================
 
-0000..001F    ; N # Cc  [32] <control>..<control>
-007F..009F    ; N # Cc  [33] <control>..<control>
+# East_Asian_Width=Neutral
+
+0000..001F    ; N # Cc  [32] <control-0000>..<control-001F>
+007F..009F    ; N # Cc  [33] <control-007F>..<control-009F>
 00A0          ; N # Zs       NO-BREAK SPACE
 00A9          ; N # So       COPYRIGHT SIGN
 00AB          ; N # Pi       LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
@@ -558,8 +560,8 @@
 1FF2..1FF4    ; N # L&   [3] GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI..GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI
 1FF6..1FFC    ; N # L&   [7] GREEK SMALL LETTER OMEGA WITH PERISPOMENI..GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI
 1FFD..1FFE    ; N # Sk   [2] GREEK OXIA..GREEK DASIA
-2000..200B    ; N # Zs  [12] EN QUAD..ZERO WIDTH SPACE
-200C..200F    ; N # Cf   [4] ZERO WIDTH NON-JOINER..RIGHT-TO-LEFT MARK
+2000..200A    ; N # Zs  [11] EN QUAD..HAIR SPACE
+200B..200F    ; N # Cf   [5] ZERO WIDTH SPACE..RIGHT-TO-LEFT MARK
 2011..2012    ; N # Pd   [2] NON-BREAKING HYPHEN..FIGURE DASH
 2017          ; N # Po       DOUBLE LOW LINE
 201A          ; N # Ps       SINGLE LOW-9 QUOTATION MARK
@@ -804,7 +806,6 @@
 2B00..2B0D    ; N # So  [14] NORTH EAST WHITE ARROW..UP DOWN BLACK ARROW
 303F          ; N # So       IDEOGRAPHIC HALF FILL SPACE
 4DC0..4DFF    ; N # So  [64] HEXAGRAM FOR THE CREATIVE HEAVEN..HEXAGRAM FOR BEFORE COMPLETION
-D800..DFFF    ; N # Cs [2048] 
 FB00..FB06    ; N # L&   [7] LATIN SMALL LIGATURE FF..LATIN SMALL LIGATURE ST
 FB13..FB17    ; N # L&   [5] ARMENIAN SMALL LIGATURE MEN NOW..ARMENIAN SMALL LIGATURE MEN XEH
 FB1D          ; N # Lo       HEBREW LETTER YOD WITH HIRIQ
@@ -916,9 +917,12 @@ FFFC          ; N # So       OBJECT REPLACEMENT CHARACTER
 E0001         ; N # Cf       LANGUAGE TAG
 E0020..E007F  ; N # Cf  [96] TAG SPACE..CANCEL TAG
 
-# Total code points: 12181
+# The above property value applies to 792382 code points not listed here.
+# Total code points: 802515
 
 # ================================================
+
+# East_Asian_Width=Ambiguous
 
 00A1          ; A # Po       INVERTED EXCLAMATION MARK
 00A4          ; A # Sc       CURRENCY SIGN
@@ -1094,16 +1098,18 @@ E0020..E007F  ; N # Cf  [96] TAG SPACE..CANCEL TAG
 266F          ; A # Sm       MUSIC SHARP SIGN
 273D          ; A # So       HEAVY TEARDROP-SPOKED ASTERISK
 2776..277F    ; A # No  [10] DINGBAT NEGATIVE CIRCLED DIGIT ONE..DINGBAT NEGATIVE CIRCLED NUMBER TEN
-E000..F8FF    ; A # Co [6400] 
+E000..F8FF    ; A # Co [6400] <private-use-E000>..<private-use-F8FF>
 FE00..FE0F    ; A # Mn  [16] VARIATION SELECTOR-1..VARIATION SELECTOR-16
 FFFD          ; A # So       REPLACEMENT CHARACTER
 E0100..E01EF  ; A # Mn [240] VARIATION SELECTOR-17..VARIATION SELECTOR-256
-F0000..FFFFD  ; A # Co [65534] 
-100000..10FFFD; A # Co [65534] 
+F0000..FFFFD  ; A # Co [65534] <private-use-F0000>..<private-use-FFFFD>
+100000..10FFFD; A # Co [65534] <private-use-100000>..<private-use-10FFFD>
 
 # Total code points: 138526
 
 # ================================================
+
+# East_Asian_Width=Halfwidth
 
 20A9          ; H # Sc       WON SIGN
 FF61          ; H # Po       HALFWIDTH IDEOGRAPHIC FULL STOP
@@ -1127,6 +1133,8 @@ FFED..FFEE    ; H # So   [2] HALFWIDTH BLACK SQUARE..HALFWIDTH WHITE CIRCLE
 # Total code points: 123
 
 # ================================================
+
+# East_Asian_Width=Wide
 
 1100..1159    ; W # Lo  [90] HANGUL CHOSEONG KIYEOK..HANGUL CHOSEONG YEORINHIEUH
 115F          ; W # Lo       HANGUL CHOSEONG FILLER
@@ -1251,14 +1259,16 @@ FE68          ; W # Po       SMALL REVERSE SOLIDUS
 FE69          ; W # Sc       SMALL DOLLAR SIGN
 FE6A..FE6B    ; W # Po   [2] SMALL PERCENT SIGN..SMALL COMMERCIAL AT
 20000..2A6D6  ; W # Lo [42711] CJK UNIFIED IDEOGRAPH-20000..CJK UNIFIED IDEOGRAPH-2A6D6
-2A6D7..2F7FF  ; W # Cn [20777] 
+2A6D7..2F7FF  ; W # Cn [20777] <reserved-2A6D7>..<reserved-2F7FF>
 2F800..2FA1D  ; W # Lo [542] CJK COMPATIBILITY IDEOGRAPH-2F800..CJK COMPATIBILITY IDEOGRAPH-2FA1D
-2FA1E..2FFFD  ; W # Cn [1504] 
-30000..3FFFD  ; W # Cn [65534] 
+2FA1E..2FFFD  ; W # Cn [1504] <reserved-2FA1E>..<reserved-2FFFD>
+30000..3FFFD  ; W # Cn [65534] <reserved-30000>..<reserved-3FFFD>
 
 # Total code points: 172735
 
 # ================================================
+
+# East_Asian_Width=Fullwidth
 
 3000          ; F # Zs       IDEOGRAPHIC SPACE
 FF01..FF03    ; F # Po   [3] FULLWIDTH EXCLAMATION MARK..FULLWIDTH NUMBER SIGN
@@ -1298,6 +1308,8 @@ FFE5..FFE6    ; F # Sc   [2] FULLWIDTH YEN SIGN..FULLWIDTH WON SIGN
 # Total code points: 104
 
 # ================================================
+
+# East_Asian_Width=Narrow
 
 0020          ; Na # Zs       SPACE
 0021..0023    ; Na # Po   [3] EXCLAMATION MARK..NUMBER SIGN
@@ -1341,4 +1353,3 @@ FFE5..FFE6    ; F # Sc   [2] FULLWIDTH YEN SIGN..FULLWIDTH WON SIGN
 2986          ; Na # Pe       RIGHT WHITE PARENTHESIS
 
 # Total code points: 109
-

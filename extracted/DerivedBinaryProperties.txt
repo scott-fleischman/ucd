@@ -1,19 +1,14 @@
-# DerivedBinaryProperties-4.0.0.txt
-# Date: 2003-03-19, 01:17:02 GMT [MD]
+# DerivedBinaryProperties-4.0.1.txt
+# Date: 2004-03-02, 02:41:37 GMT [MD]
 #
-# Unicode Character Database: Derived Property Data
-# Generated algorithmically from the Unicode Character Database
+# Unicode Character Database
+# Copyright (c) 1991-2004 Unicode, Inc.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UCD.html
-# Note: Unassigned and Noncharacter codepoints may be omitted
-#       if they have default property values.
-# ================================================
-
 
 # ================================================
-# BidiMirrored (listing UnicodeData.txt, field 9: see UCD.html)
-#	All code points not explicitly listed in this file have the property
-#	value:   N.
-# ================================================
+
+# Bidi_Mirrored (listing UnicodeData.txt, field 9: see UCD.html)
 
 0028          ; Bidi_Mirrored # Ps       LEFT PARENTHESIS
 0029          ; Bidi_Mirrored # Pe       RIGHT PARENTHESIS
@@ -180,4 +175,3 @@ FF62          ; Bidi_Mirrored # Ps       HALFWIDTH LEFT CORNER BRACKET
 FF63          ; Bidi_Mirrored # Pe       HALFWIDTH RIGHT CORNER BRACKET
 
 # Total code points: 492
-

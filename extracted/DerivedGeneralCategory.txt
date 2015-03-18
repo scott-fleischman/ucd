@@ -1,453 +1,427 @@
-# DerivedGeneralCategory-4.0.0.txt
-# Date: 2003-03-19, 01:17:26 GMT [MD]
+# DerivedGeneralCategory-4.0.1.txt
+# Date: 2004-03-11, 18:38:51 GMT [MD]
 #
-# Unicode Character Database: Derived Property Data
-# Generated algorithmically from the Unicode Character Database
+# Unicode Character Database
+# Copyright (c) 1991-2004 Unicode, Inc.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UCD.html
-# Note: Unassigned and Noncharacter codepoints may be omitted
-#       if they have default property values.
-# ================================================
-
 
 # ================================================
-# General Category (listing UnicodeData.txt, field 2: see UCD.html)
-#	All code points not explicitly listed in this file have the property
-#	value:   Cn.
+
+# Property:	General_Category
+
 # ================================================
 
-0237..024F    ; Cn #  [25] 
-0358..035C    ; Cn #   [5] 
-0370..0373    ; Cn #   [4] 
-0376..0379    ; Cn #   [4] 
-037B..037D    ; Cn #   [3] 
-037F..0383    ; Cn #   [5] 
-038B          ; Cn #       
-038D          ; Cn #       
-03A2          ; Cn #       
-03CF          ; Cn #       
-03FC..03FF    ; Cn #   [4] 
-0487          ; Cn #       
-04CF          ; Cn #       
-04F6..04F7    ; Cn #   [2] 
-04FA..04FF    ; Cn #   [6] 
-0510..0530    ; Cn #  [33] 
-0557..0558    ; Cn #   [2] 
-0560          ; Cn #       
-0588          ; Cn #       
-058B..0590    ; Cn #   [6] 
-05A2          ; Cn #       
-05BA          ; Cn #       
-05C5..05CF    ; Cn #  [11] 
-05EB..05EF    ; Cn #   [5] 
-05F5..05FF    ; Cn #  [11] 
-0604..060B    ; Cn #   [8] 
-0616..061A    ; Cn #   [5] 
-061C..061E    ; Cn #   [3] 
-0620          ; Cn #       
-063B..063F    ; Cn #   [5] 
-0659..065F    ; Cn #   [7] 
-070E          ; Cn #       
-074B..074C    ; Cn #   [2] 
-0750..077F    ; Cn #  [48] 
-07B2..0900    ; Cn # [335] 
-093A..093B    ; Cn #   [2] 
-094E..094F    ; Cn #   [2] 
-0955..0957    ; Cn #   [3] 
-0971..0980    ; Cn #  [16] 
-0984          ; Cn #       
-098D..098E    ; Cn #   [2] 
-0991..0992    ; Cn #   [2] 
-09A9          ; Cn #       
-09B1          ; Cn #       
-09B3..09B5    ; Cn #   [3] 
-09BA..09BB    ; Cn #   [2] 
-09C5..09C6    ; Cn #   [2] 
-09C9..09CA    ; Cn #   [2] 
-09CE..09D6    ; Cn #   [9] 
-09D8..09DB    ; Cn #   [4] 
-09DE          ; Cn #       
-09E4..09E5    ; Cn #   [2] 
-09FB..0A00    ; Cn #   [6] 
-0A04          ; Cn #       
-0A0B..0A0E    ; Cn #   [4] 
-0A11..0A12    ; Cn #   [2] 
-0A29          ; Cn #       
-0A31          ; Cn #       
-0A34          ; Cn #       
-0A37          ; Cn #       
-0A3A..0A3B    ; Cn #   [2] 
-0A3D          ; Cn #       
-0A43..0A46    ; Cn #   [4] 
-0A49..0A4A    ; Cn #   [2] 
-0A4E..0A58    ; Cn #  [11] 
-0A5D          ; Cn #       
-0A5F..0A65    ; Cn #   [7] 
-0A75..0A80    ; Cn #  [12] 
-0A84          ; Cn #       
-0A8E          ; Cn #       
-0A92          ; Cn #       
-0AA9          ; Cn #       
-0AB1          ; Cn #       
-0AB4          ; Cn #       
-0ABA..0ABB    ; Cn #   [2] 
-0AC6          ; Cn #       
-0ACA          ; Cn #       
-0ACE..0ACF    ; Cn #   [2] 
-0AD1..0ADF    ; Cn #  [15] 
-0AE4..0AE5    ; Cn #   [2] 
-0AF0          ; Cn #       
-0AF2..0B00    ; Cn #  [15] 
-0B04          ; Cn #       
-0B0D..0B0E    ; Cn #   [2] 
-0B11..0B12    ; Cn #   [2] 
-0B29          ; Cn #       
-0B31          ; Cn #       
-0B34          ; Cn #       
-0B3A..0B3B    ; Cn #   [2] 
-0B44..0B46    ; Cn #   [3] 
-0B49..0B4A    ; Cn #   [2] 
-0B4E..0B55    ; Cn #   [8] 
-0B58..0B5B    ; Cn #   [4] 
-0B5E          ; Cn #       
-0B62..0B65    ; Cn #   [4] 
-0B72..0B81    ; Cn #  [16] 
-0B84          ; Cn #       
-0B8B..0B8D    ; Cn #   [3] 
-0B91          ; Cn #       
-0B96..0B98    ; Cn #   [3] 
-0B9B          ; Cn #       
-0B9D          ; Cn #       
-0BA0..0BA2    ; Cn #   [3] 
-0BA5..0BA7    ; Cn #   [3] 
-0BAB..0BAD    ; Cn #   [3] 
-0BB6          ; Cn #       
-0BBA..0BBD    ; Cn #   [4] 
-0BC3..0BC5    ; Cn #   [3] 
-0BC9          ; Cn #       
-0BCE..0BD6    ; Cn #   [9] 
-0BD8..0BE6    ; Cn #  [15] 
-0BFB..0C00    ; Cn #   [6] 
-0C04          ; Cn #       
-0C0D          ; Cn #       
-0C11          ; Cn #       
-0C29          ; Cn #       
-0C34          ; Cn #       
-0C3A..0C3D    ; Cn #   [4] 
-0C45          ; Cn #       
-0C49          ; Cn #       
-0C4E..0C54    ; Cn #   [7] 
-0C57..0C5F    ; Cn #   [9] 
-0C62..0C65    ; Cn #   [4] 
-0C70..0C81    ; Cn #  [18] 
-0C84          ; Cn #       
-0C8D          ; Cn #       
-0C91          ; Cn #       
-0CA9          ; Cn #       
-0CB4          ; Cn #       
-0CBA..0CBB    ; Cn #   [2] 
-0CC5          ; Cn #       
-0CC9          ; Cn #       
-0CCE..0CD4    ; Cn #   [7] 
-0CD7..0CDD    ; Cn #   [7] 
-0CDF          ; Cn #       
-0CE2..0CE5    ; Cn #   [4] 
-0CF0..0D01    ; Cn #  [18] 
-0D04          ; Cn #       
-0D0D          ; Cn #       
-0D11          ; Cn #       
-0D29          ; Cn #       
-0D3A..0D3D    ; Cn #   [4] 
-0D44..0D45    ; Cn #   [2] 
-0D49          ; Cn #       
-0D4E..0D56    ; Cn #   [9] 
-0D58..0D5F    ; Cn #   [8] 
-0D62..0D65    ; Cn #   [4] 
-0D70..0D81    ; Cn #  [18] 
-0D84          ; Cn #       
-0D97..0D99    ; Cn #   [3] 
-0DB2          ; Cn #       
-0DBC          ; Cn #       
-0DBE..0DBF    ; Cn #   [2] 
-0DC7..0DC9    ; Cn #   [3] 
-0DCB..0DCE    ; Cn #   [4] 
-0DD5          ; Cn #       
-0DD7          ; Cn #       
-0DE0..0DF1    ; Cn #  [18] 
-0DF5..0E00    ; Cn #  [12] 
-0E3B..0E3E    ; Cn #   [4] 
-0E5C..0E80    ; Cn #  [37] 
-0E83          ; Cn #       
-0E85..0E86    ; Cn #   [2] 
-0E89          ; Cn #       
-0E8B..0E8C    ; Cn #   [2] 
-0E8E..0E93    ; Cn #   [6] 
-0E98          ; Cn #       
-0EA0          ; Cn #       
-0EA4          ; Cn #       
-0EA6          ; Cn #       
-0EA8..0EA9    ; Cn #   [2] 
-0EAC          ; Cn #       
-0EBA          ; Cn #       
-0EBE..0EBF    ; Cn #   [2] 
-0EC5          ; Cn #       
-0EC7          ; Cn #       
-0ECE..0ECF    ; Cn #   [2] 
-0EDA..0EDB    ; Cn #   [2] 
-0EDE..0EFF    ; Cn #  [34] 
-0F48          ; Cn #       
-0F6B..0F70    ; Cn #   [6] 
-0F8C..0F8F    ; Cn #   [4] 
-0F98          ; Cn #       
-0FBD          ; Cn #       
-0FCD..0FCE    ; Cn #   [2] 
-0FD0..0FFF    ; Cn #  [48] 
-1022          ; Cn #       
-1028          ; Cn #       
-102B          ; Cn #       
-1033..1035    ; Cn #   [3] 
-103A..103F    ; Cn #   [6] 
-105A..109F    ; Cn #  [70] 
-10C6..10CF    ; Cn #  [10] 
-10F9..10FA    ; Cn #   [2] 
-10FC..10FF    ; Cn #   [4] 
-115A..115E    ; Cn #   [5] 
-11A3..11A7    ; Cn #   [5] 
-11FA..11FF    ; Cn #   [6] 
-1207          ; Cn #       
-1247          ; Cn #       
-1249          ; Cn #       
-124E..124F    ; Cn #   [2] 
-1257          ; Cn #       
-1259          ; Cn #       
-125E..125F    ; Cn #   [2] 
-1287          ; Cn #       
-1289          ; Cn #       
-128E..128F    ; Cn #   [2] 
-12AF          ; Cn #       
-12B1          ; Cn #       
-12B6..12B7    ; Cn #   [2] 
-12BF          ; Cn #       
-12C1          ; Cn #       
-12C6..12C7    ; Cn #   [2] 
-12CF          ; Cn #       
-12D7          ; Cn #       
-12EF          ; Cn #       
-130F          ; Cn #       
-1311          ; Cn #       
-1316..1317    ; Cn #   [2] 
-131F          ; Cn #       
-1347          ; Cn #       
-135B..1360    ; Cn #   [6] 
-137D..139F    ; Cn #  [35] 
-13F5..1400    ; Cn #  [12] 
-1677..167F    ; Cn #   [9] 
-169D..169F    ; Cn #   [3] 
-16F1..16FF    ; Cn #  [15] 
-170D          ; Cn #       
-1715..171F    ; Cn #  [11] 
-1737..173F    ; Cn #   [9] 
-1754..175F    ; Cn #  [12] 
-176D          ; Cn #       
-1771          ; Cn #       
-1774..177F    ; Cn #  [12] 
-17DE..17DF    ; Cn #   [2] 
-17EA..17EF    ; Cn #   [6] 
-17FA..17FF    ; Cn #   [6] 
-180F          ; Cn #       
-181A..181F    ; Cn #   [6] 
-1878..187F    ; Cn #   [8] 
-18AA..18FF    ; Cn #  [86] 
-191D..191F    ; Cn #   [3] 
-192C..192F    ; Cn #   [4] 
-193C..193F    ; Cn #   [4] 
-1941..1943    ; Cn #   [3] 
-196E..196F    ; Cn #   [2] 
-1975..19DF    ; Cn # [107] 
-1A00..1CFF    ; Cn # [768] 
-1D6C..1DFF    ; Cn # [148] 
-1E9C..1E9F    ; Cn #   [4] 
-1EFA..1EFF    ; Cn #   [6] 
-1F16..1F17    ; Cn #   [2] 
-1F1E..1F1F    ; Cn #   [2] 
-1F46..1F47    ; Cn #   [2] 
-1F4E..1F4F    ; Cn #   [2] 
-1F58          ; Cn #       
-1F5A          ; Cn #       
-1F5C          ; Cn #       
-1F5E          ; Cn #       
-1F7E..1F7F    ; Cn #   [2] 
-1FB5          ; Cn #       
-1FC5          ; Cn #       
-1FD4..1FD5    ; Cn #   [2] 
-1FDC          ; Cn #       
-1FF0..1FF1    ; Cn #   [2] 
-1FF5          ; Cn #       
-1FFF          ; Cn #       
-2055..2056    ; Cn #   [2] 
-2058..205E    ; Cn #   [7] 
-2064..2069    ; Cn #   [6] 
-2072..2073    ; Cn #   [2] 
-208F..209F    ; Cn #  [17] 
-20B2..20CF    ; Cn #  [30] 
-20EB..20FF    ; Cn #  [21] 
-213C          ; Cn #       
-214C..2152    ; Cn #   [7] 
-2184..218F    ; Cn #  [12] 
-23D1..23FF    ; Cn #  [47] 
-2427..243F    ; Cn #  [25] 
-244B..245F    ; Cn #  [21] 
-2618          ; Cn #       
-267E..267F    ; Cn #   [2] 
-2692..269F    ; Cn #  [14] 
-26A2..2700    ; Cn #  [95] 
-2705          ; Cn #       
-270A..270B    ; Cn #   [2] 
-2728          ; Cn #       
-274C          ; Cn #       
-274E          ; Cn #       
-2753..2755    ; Cn #   [3] 
-2757          ; Cn #       
-275F..2760    ; Cn #   [2] 
-2795..2797    ; Cn #   [3] 
-27B0          ; Cn #       
-27BF..27CF    ; Cn #  [17] 
-27EC..27EF    ; Cn #   [4] 
-2B0E..2E7F    ; Cn # [882] 
-2E9A          ; Cn #       
-2EF4..2EFF    ; Cn #  [12] 
-2FD6..2FEF    ; Cn #  [26] 
-2FFC..2FFF    ; Cn #   [4] 
-3040          ; Cn #       
-3097..3098    ; Cn #   [2] 
-3100..3104    ; Cn #   [5] 
-312D..3130    ; Cn #   [4] 
-318F          ; Cn #       
-31B8..31EF    ; Cn #  [56] 
-321F          ; Cn #       
-3244..324F    ; Cn #  [12] 
-327E          ; Cn #       
-32FF          ; Cn #       
-4DB6..4DBF    ; Cn #  [10] 
-9FA6..9FFF    ; Cn #  [90] 
-A48D..A48F    ; Cn #   [3] 
-A4C7..ABFF    ; Cn # [1849] 
-D7A4..D7FF    ; Cn #  [92] 
-FA2E..FA2F    ; Cn #   [2] 
-FA6B..FAFF    ; Cn # [149] 
-FB07..FB12    ; Cn #  [12] 
-FB18..FB1C    ; Cn #   [5] 
-FB37          ; Cn #       
-FB3D          ; Cn #       
-FB3F          ; Cn #       
-FB42          ; Cn #       
-FB45          ; Cn #       
-FBB2..FBD2    ; Cn #  [33] 
-FD40..FD4F    ; Cn #  [16] 
-FD90..FD91    ; Cn #   [2] 
-FDC8..FDCF    ; Cn #   [8] 
-FDD0..FDEF    ; Cn #  [32] 
-FDFE..FDFF    ; Cn #   [2] 
-FE10..FE1F    ; Cn #  [16] 
-FE24..FE2F    ; Cn #  [12] 
-FE53          ; Cn #       
-FE67          ; Cn #       
-FE6C..FE6F    ; Cn #   [4] 
-FE75          ; Cn #       
-FEFD..FEFE    ; Cn #   [2] 
-FF00          ; Cn #       
-FFBF..FFC1    ; Cn #   [3] 
-FFC8..FFC9    ; Cn #   [2] 
-FFD0..FFD1    ; Cn #   [2] 
-FFD8..FFD9    ; Cn #   [2] 
-FFDD..FFDF    ; Cn #   [3] 
-FFE7          ; Cn #       
-FFEF..FFF8    ; Cn #  [10] 
-FFFE..FFFF    ; Cn #   [2] 
-1000C         ; Cn #       
-10027         ; Cn #       
-1003B         ; Cn #       
-1003E         ; Cn #       
-1004E..1004F  ; Cn #   [2] 
-1005E..1007F  ; Cn #  [34] 
-100FB..100FF  ; Cn #   [5] 
-10103..10106  ; Cn #   [4] 
-10134..10136  ; Cn #   [3] 
-10140..102FF  ; Cn # [448] 
-1031F         ; Cn #       
-10324..1032F  ; Cn #  [12] 
-1034B..1037F  ; Cn #  [53] 
-1039E         ; Cn #       
-103A0..103FF  ; Cn #  [96] 
-1049E..1049F  ; Cn #   [2] 
-104AA..107FF  ; Cn # [854] 
-10806..10807  ; Cn #   [2] 
-10809         ; Cn #       
-10836         ; Cn #       
-10839..1083B  ; Cn #   [3] 
-1083D..1083E  ; Cn #   [2] 
-10840..1CFFF  ; Cn # [51136] 
-1D0F6..1D0FF  ; Cn #  [10] 
-1D127..1D129  ; Cn #   [3] 
-1D1DE..1D2FF  ; Cn # [290] 
-1D357..1D3FF  ; Cn # [169] 
-1D455         ; Cn #       
-1D49D         ; Cn #       
-1D4A0..1D4A1  ; Cn #   [2] 
-1D4A3..1D4A4  ; Cn #   [2] 
-1D4A7..1D4A8  ; Cn #   [2] 
-1D4AD         ; Cn #       
-1D4BA         ; Cn #       
-1D4BC         ; Cn #       
-1D4C4         ; Cn #       
-1D506         ; Cn #       
-1D50B..1D50C  ; Cn #   [2] 
-1D515         ; Cn #       
-1D51D         ; Cn #       
-1D53A         ; Cn #       
-1D53F         ; Cn #       
-1D545         ; Cn #       
-1D547..1D549  ; Cn #   [3] 
-1D551         ; Cn #       
-1D6A4..1D6A7  ; Cn #   [4] 
-1D7CA..1D7CD  ; Cn #   [4] 
-1D800..1FFFD  ; Cn # [10238] 
-1FFFE..1FFFF  ; Cn #   [2] 
-2A6D7..2F7FF  ; Cn # [20777] 
-2FA1E..2FFFD  ; Cn # [1504] 
-2FFFE..2FFFF  ; Cn #   [2] 
-30000..3FFFD  ; Cn # [65534] 
-3FFFE..3FFFF  ; Cn #   [2] 
-40000..4FFFD  ; Cn # [65534] 
-4FFFE..4FFFF  ; Cn #   [2] 
-50000..5FFFD  ; Cn # [65534] 
-5FFFE..5FFFF  ; Cn #   [2] 
-60000..6FFFD  ; Cn # [65534] 
-6FFFE..6FFFF  ; Cn #   [2] 
-70000..7FFFD  ; Cn # [65534] 
-7FFFE..7FFFF  ; Cn #   [2] 
-80000..8FFFD  ; Cn # [65534] 
-8FFFE..8FFFF  ; Cn #   [2] 
-90000..9FFFD  ; Cn # [65534] 
-9FFFE..9FFFF  ; Cn #   [2] 
-A0000..AFFFD  ; Cn # [65534] 
-AFFFE..AFFFF  ; Cn #   [2] 
-B0000..BFFFD  ; Cn # [65534] 
-BFFFE..BFFFF  ; Cn #   [2] 
-C0000..CFFFD  ; Cn # [65534] 
-CFFFE..CFFFF  ; Cn #   [2] 
-D0000..DFFFD  ; Cn # [65534] 
-DFFFE..DFFFF  ; Cn #   [2] 
-E0000         ; Cn #       
-E0002..E001F  ; Cn #  [30] 
-E0080..E00FF  ; Cn # [128] 
-E01F0..EFFFD  ; Cn # [65038] 
-EFFFE..EFFFF  ; Cn #   [2] 
-FFFFE..FFFFF  ; Cn #   [2] 
-10FFFE..10FFFF; Cn #   [2] 
+# General_Category=Unassigned
+
+0237..024F    ; Cn #  [25] <reserved-0237>..<reserved-024F>
+0358..035C    ; Cn #   [5] <reserved-0358>..<reserved-035C>
+0370..0373    ; Cn #   [4] <reserved-0370>..<reserved-0373>
+0376..0379    ; Cn #   [4] <reserved-0376>..<reserved-0379>
+037B..037D    ; Cn #   [3] <reserved-037B>..<reserved-037D>
+037F..0383    ; Cn #   [5] <reserved-037F>..<reserved-0383>
+038B          ; Cn #       <reserved-038B>
+038D          ; Cn #       <reserved-038D>
+03A2          ; Cn #       <reserved-03A2>
+03CF          ; Cn #       <reserved-03CF>
+03FC..03FF    ; Cn #   [4] <reserved-03FC>..<reserved-03FF>
+0487          ; Cn #       <reserved-0487>
+04CF          ; Cn #       <reserved-04CF>
+04F6..04F7    ; Cn #   [2] <reserved-04F6>..<reserved-04F7>
+04FA..04FF    ; Cn #   [6] <reserved-04FA>..<reserved-04FF>
+0510..0530    ; Cn #  [33] <reserved-0510>..<reserved-0530>
+0557..0558    ; Cn #   [2] <reserved-0557>..<reserved-0558>
+0560          ; Cn #       <reserved-0560>
+0588          ; Cn #       <reserved-0588>
+058B..0590    ; Cn #   [6] <reserved-058B>..<reserved-0590>
+05A2          ; Cn #       <reserved-05A2>
+05BA          ; Cn #       <reserved-05BA>
+05C5..05CF    ; Cn #  [11] <reserved-05C5>..<reserved-05CF>
+05EB..05EF    ; Cn #   [5] <reserved-05EB>..<reserved-05EF>
+05F5..05FF    ; Cn #  [11] <reserved-05F5>..<reserved-05FF>
+0604..060B    ; Cn #   [8] <reserved-0604>..<reserved-060B>
+0616..061A    ; Cn #   [5] <reserved-0616>..<reserved-061A>
+061C..061E    ; Cn #   [3] <reserved-061C>..<reserved-061E>
+0620          ; Cn #       <reserved-0620>
+063B..063F    ; Cn #   [5] <reserved-063B>..<reserved-063F>
+0659..065F    ; Cn #   [7] <reserved-0659>..<reserved-065F>
+070E          ; Cn #       <reserved-070E>
+074B..074C    ; Cn #   [2] <reserved-074B>..<reserved-074C>
+0750..077F    ; Cn #  [48] <reserved-0750>..<reserved-077F>
+07B2..0900    ; Cn # [335] <reserved-07B2>..<reserved-0900>
+093A..093B    ; Cn #   [2] <reserved-093A>..<reserved-093B>
+094E..094F    ; Cn #   [2] <reserved-094E>..<reserved-094F>
+0955..0957    ; Cn #   [3] <reserved-0955>..<reserved-0957>
+0971..0980    ; Cn #  [16] <reserved-0971>..<reserved-0980>
+0984          ; Cn #       <reserved-0984>
+098D..098E    ; Cn #   [2] <reserved-098D>..<reserved-098E>
+0991..0992    ; Cn #   [2] <reserved-0991>..<reserved-0992>
+09A9          ; Cn #       <reserved-09A9>
+09B1          ; Cn #       <reserved-09B1>
+09B3..09B5    ; Cn #   [3] <reserved-09B3>..<reserved-09B5>
+09BA..09BB    ; Cn #   [2] <reserved-09BA>..<reserved-09BB>
+09C5..09C6    ; Cn #   [2] <reserved-09C5>..<reserved-09C6>
+09C9..09CA    ; Cn #   [2] <reserved-09C9>..<reserved-09CA>
+09CE..09D6    ; Cn #   [9] <reserved-09CE>..<reserved-09D6>
+09D8..09DB    ; Cn #   [4] <reserved-09D8>..<reserved-09DB>
+09DE          ; Cn #       <reserved-09DE>
+09E4..09E5    ; Cn #   [2] <reserved-09E4>..<reserved-09E5>
+09FB..0A00    ; Cn #   [6] <reserved-09FB>..<reserved-0A00>
+0A04          ; Cn #       <reserved-0A04>
+0A0B..0A0E    ; Cn #   [4] <reserved-0A0B>..<reserved-0A0E>
+0A11..0A12    ; Cn #   [2] <reserved-0A11>..<reserved-0A12>
+0A29          ; Cn #       <reserved-0A29>
+0A31          ; Cn #       <reserved-0A31>
+0A34          ; Cn #       <reserved-0A34>
+0A37          ; Cn #       <reserved-0A37>
+0A3A..0A3B    ; Cn #   [2] <reserved-0A3A>..<reserved-0A3B>
+0A3D          ; Cn #       <reserved-0A3D>
+0A43..0A46    ; Cn #   [4] <reserved-0A43>..<reserved-0A46>
+0A49..0A4A    ; Cn #   [2] <reserved-0A49>..<reserved-0A4A>
+0A4E..0A58    ; Cn #  [11] <reserved-0A4E>..<reserved-0A58>
+0A5D          ; Cn #       <reserved-0A5D>
+0A5F..0A65    ; Cn #   [7] <reserved-0A5F>..<reserved-0A65>
+0A75..0A80    ; Cn #  [12] <reserved-0A75>..<reserved-0A80>
+0A84          ; Cn #       <reserved-0A84>
+0A8E          ; Cn #       <reserved-0A8E>
+0A92          ; Cn #       <reserved-0A92>
+0AA9          ; Cn #       <reserved-0AA9>
+0AB1          ; Cn #       <reserved-0AB1>
+0AB4          ; Cn #       <reserved-0AB4>
+0ABA..0ABB    ; Cn #   [2] <reserved-0ABA>..<reserved-0ABB>
+0AC6          ; Cn #       <reserved-0AC6>
+0ACA          ; Cn #       <reserved-0ACA>
+0ACE..0ACF    ; Cn #   [2] <reserved-0ACE>..<reserved-0ACF>
+0AD1..0ADF    ; Cn #  [15] <reserved-0AD1>..<reserved-0ADF>
+0AE4..0AE5    ; Cn #   [2] <reserved-0AE4>..<reserved-0AE5>
+0AF0          ; Cn #       <reserved-0AF0>
+0AF2..0B00    ; Cn #  [15] <reserved-0AF2>..<reserved-0B00>
+0B04          ; Cn #       <reserved-0B04>
+0B0D..0B0E    ; Cn #   [2] <reserved-0B0D>..<reserved-0B0E>
+0B11..0B12    ; Cn #   [2] <reserved-0B11>..<reserved-0B12>
+0B29          ; Cn #       <reserved-0B29>
+0B31          ; Cn #       <reserved-0B31>
+0B34          ; Cn #       <reserved-0B34>
+0B3A..0B3B    ; Cn #   [2] <reserved-0B3A>..<reserved-0B3B>
+0B44..0B46    ; Cn #   [3] <reserved-0B44>..<reserved-0B46>
+0B49..0B4A    ; Cn #   [2] <reserved-0B49>..<reserved-0B4A>
+0B4E..0B55    ; Cn #   [8] <reserved-0B4E>..<reserved-0B55>
+0B58..0B5B    ; Cn #   [4] <reserved-0B58>..<reserved-0B5B>
+0B5E          ; Cn #       <reserved-0B5E>
+0B62..0B65    ; Cn #   [4] <reserved-0B62>..<reserved-0B65>
+0B72..0B81    ; Cn #  [16] <reserved-0B72>..<reserved-0B81>
+0B84          ; Cn #       <reserved-0B84>
+0B8B..0B8D    ; Cn #   [3] <reserved-0B8B>..<reserved-0B8D>
+0B91          ; Cn #       <reserved-0B91>
+0B96..0B98    ; Cn #   [3] <reserved-0B96>..<reserved-0B98>
+0B9B          ; Cn #       <reserved-0B9B>
+0B9D          ; Cn #       <reserved-0B9D>
+0BA0..0BA2    ; Cn #   [3] <reserved-0BA0>..<reserved-0BA2>
+0BA5..0BA7    ; Cn #   [3] <reserved-0BA5>..<reserved-0BA7>
+0BAB..0BAD    ; Cn #   [3] <reserved-0BAB>..<reserved-0BAD>
+0BB6          ; Cn #       <reserved-0BB6>
+0BBA..0BBD    ; Cn #   [4] <reserved-0BBA>..<reserved-0BBD>
+0BC3..0BC5    ; Cn #   [3] <reserved-0BC3>..<reserved-0BC5>
+0BC9          ; Cn #       <reserved-0BC9>
+0BCE..0BD6    ; Cn #   [9] <reserved-0BCE>..<reserved-0BD6>
+0BD8..0BE6    ; Cn #  [15] <reserved-0BD8>..<reserved-0BE6>
+0BFB..0C00    ; Cn #   [6] <reserved-0BFB>..<reserved-0C00>
+0C04          ; Cn #       <reserved-0C04>
+0C0D          ; Cn #       <reserved-0C0D>
+0C11          ; Cn #       <reserved-0C11>
+0C29          ; Cn #       <reserved-0C29>
+0C34          ; Cn #       <reserved-0C34>
+0C3A..0C3D    ; Cn #   [4] <reserved-0C3A>..<reserved-0C3D>
+0C45          ; Cn #       <reserved-0C45>
+0C49          ; Cn #       <reserved-0C49>
+0C4E..0C54    ; Cn #   [7] <reserved-0C4E>..<reserved-0C54>
+0C57..0C5F    ; Cn #   [9] <reserved-0C57>..<reserved-0C5F>
+0C62..0C65    ; Cn #   [4] <reserved-0C62>..<reserved-0C65>
+0C70..0C81    ; Cn #  [18] <reserved-0C70>..<reserved-0C81>
+0C84          ; Cn #       <reserved-0C84>
+0C8D          ; Cn #       <reserved-0C8D>
+0C91          ; Cn #       <reserved-0C91>
+0CA9          ; Cn #       <reserved-0CA9>
+0CB4          ; Cn #       <reserved-0CB4>
+0CBA..0CBB    ; Cn #   [2] <reserved-0CBA>..<reserved-0CBB>
+0CC5          ; Cn #       <reserved-0CC5>
+0CC9          ; Cn #       <reserved-0CC9>
+0CCE..0CD4    ; Cn #   [7] <reserved-0CCE>..<reserved-0CD4>
+0CD7..0CDD    ; Cn #   [7] <reserved-0CD7>..<reserved-0CDD>
+0CDF          ; Cn #       <reserved-0CDF>
+0CE2..0CE5    ; Cn #   [4] <reserved-0CE2>..<reserved-0CE5>
+0CF0..0D01    ; Cn #  [18] <reserved-0CF0>..<reserved-0D01>
+0D04          ; Cn #       <reserved-0D04>
+0D0D          ; Cn #       <reserved-0D0D>
+0D11          ; Cn #       <reserved-0D11>
+0D29          ; Cn #       <reserved-0D29>
+0D3A..0D3D    ; Cn #   [4] <reserved-0D3A>..<reserved-0D3D>
+0D44..0D45    ; Cn #   [2] <reserved-0D44>..<reserved-0D45>
+0D49          ; Cn #       <reserved-0D49>
+0D4E..0D56    ; Cn #   [9] <reserved-0D4E>..<reserved-0D56>
+0D58..0D5F    ; Cn #   [8] <reserved-0D58>..<reserved-0D5F>
+0D62..0D65    ; Cn #   [4] <reserved-0D62>..<reserved-0D65>
+0D70..0D81    ; Cn #  [18] <reserved-0D70>..<reserved-0D81>
+0D84          ; Cn #       <reserved-0D84>
+0D97..0D99    ; Cn #   [3] <reserved-0D97>..<reserved-0D99>
+0DB2          ; Cn #       <reserved-0DB2>
+0DBC          ; Cn #       <reserved-0DBC>
+0DBE..0DBF    ; Cn #   [2] <reserved-0DBE>..<reserved-0DBF>
+0DC7..0DC9    ; Cn #   [3] <reserved-0DC7>..<reserved-0DC9>
+0DCB..0DCE    ; Cn #   [4] <reserved-0DCB>..<reserved-0DCE>
+0DD5          ; Cn #       <reserved-0DD5>
+0DD7          ; Cn #       <reserved-0DD7>
+0DE0..0DF1    ; Cn #  [18] <reserved-0DE0>..<reserved-0DF1>
+0DF5..0E00    ; Cn #  [12] <reserved-0DF5>..<reserved-0E00>
+0E3B..0E3E    ; Cn #   [4] <reserved-0E3B>..<reserved-0E3E>
+0E5C..0E80    ; Cn #  [37] <reserved-0E5C>..<reserved-0E80>
+0E83          ; Cn #       <reserved-0E83>
+0E85..0E86    ; Cn #   [2] <reserved-0E85>..<reserved-0E86>
+0E89          ; Cn #       <reserved-0E89>
+0E8B..0E8C    ; Cn #   [2] <reserved-0E8B>..<reserved-0E8C>
+0E8E..0E93    ; Cn #   [6] <reserved-0E8E>..<reserved-0E93>
+0E98          ; Cn #       <reserved-0E98>
+0EA0          ; Cn #       <reserved-0EA0>
+0EA4          ; Cn #       <reserved-0EA4>
+0EA6          ; Cn #       <reserved-0EA6>
+0EA8..0EA9    ; Cn #   [2] <reserved-0EA8>..<reserved-0EA9>
+0EAC          ; Cn #       <reserved-0EAC>
+0EBA          ; Cn #       <reserved-0EBA>
+0EBE..0EBF    ; Cn #   [2] <reserved-0EBE>..<reserved-0EBF>
+0EC5          ; Cn #       <reserved-0EC5>
+0EC7          ; Cn #       <reserved-0EC7>
+0ECE..0ECF    ; Cn #   [2] <reserved-0ECE>..<reserved-0ECF>
+0EDA..0EDB    ; Cn #   [2] <reserved-0EDA>..<reserved-0EDB>
+0EDE..0EFF    ; Cn #  [34] <reserved-0EDE>..<reserved-0EFF>
+0F48          ; Cn #       <reserved-0F48>
+0F6B..0F70    ; Cn #   [6] <reserved-0F6B>..<reserved-0F70>
+0F8C..0F8F    ; Cn #   [4] <reserved-0F8C>..<reserved-0F8F>
+0F98          ; Cn #       <reserved-0F98>
+0FBD          ; Cn #       <reserved-0FBD>
+0FCD..0FCE    ; Cn #   [2] <reserved-0FCD>..<reserved-0FCE>
+0FD0..0FFF    ; Cn #  [48] <reserved-0FD0>..<reserved-0FFF>
+1022          ; Cn #       <reserved-1022>
+1028          ; Cn #       <reserved-1028>
+102B          ; Cn #       <reserved-102B>
+1033..1035    ; Cn #   [3] <reserved-1033>..<reserved-1035>
+103A..103F    ; Cn #   [6] <reserved-103A>..<reserved-103F>
+105A..109F    ; Cn #  [70] <reserved-105A>..<reserved-109F>
+10C6..10CF    ; Cn #  [10] <reserved-10C6>..<reserved-10CF>
+10F9..10FA    ; Cn #   [2] <reserved-10F9>..<reserved-10FA>
+10FC..10FF    ; Cn #   [4] <reserved-10FC>..<reserved-10FF>
+115A..115E    ; Cn #   [5] <reserved-115A>..<reserved-115E>
+11A3..11A7    ; Cn #   [5] <reserved-11A3>..<reserved-11A7>
+11FA..11FF    ; Cn #   [6] <reserved-11FA>..<reserved-11FF>
+1207          ; Cn #       <reserved-1207>
+1247          ; Cn #       <reserved-1247>
+1249          ; Cn #       <reserved-1249>
+124E..124F    ; Cn #   [2] <reserved-124E>..<reserved-124F>
+1257          ; Cn #       <reserved-1257>
+1259          ; Cn #       <reserved-1259>
+125E..125F    ; Cn #   [2] <reserved-125E>..<reserved-125F>
+1287          ; Cn #       <reserved-1287>
+1289          ; Cn #       <reserved-1289>
+128E..128F    ; Cn #   [2] <reserved-128E>..<reserved-128F>
+12AF          ; Cn #       <reserved-12AF>
+12B1          ; Cn #       <reserved-12B1>
+12B6..12B7    ; Cn #   [2] <reserved-12B6>..<reserved-12B7>
+12BF          ; Cn #       <reserved-12BF>
+12C1          ; Cn #       <reserved-12C1>
+12C6..12C7    ; Cn #   [2] <reserved-12C6>..<reserved-12C7>
+12CF          ; Cn #       <reserved-12CF>
+12D7          ; Cn #       <reserved-12D7>
+12EF          ; Cn #       <reserved-12EF>
+130F          ; Cn #       <reserved-130F>
+1311          ; Cn #       <reserved-1311>
+1316..1317    ; Cn #   [2] <reserved-1316>..<reserved-1317>
+131F          ; Cn #       <reserved-131F>
+1347          ; Cn #       <reserved-1347>
+135B..1360    ; Cn #   [6] <reserved-135B>..<reserved-1360>
+137D..139F    ; Cn #  [35] <reserved-137D>..<reserved-139F>
+13F5..1400    ; Cn #  [12] <reserved-13F5>..<reserved-1400>
+1677..167F    ; Cn #   [9] <reserved-1677>..<reserved-167F>
+169D..169F    ; Cn #   [3] <reserved-169D>..<reserved-169F>
+16F1..16FF    ; Cn #  [15] <reserved-16F1>..<reserved-16FF>
+170D          ; Cn #       <reserved-170D>
+1715..171F    ; Cn #  [11] <reserved-1715>..<reserved-171F>
+1737..173F    ; Cn #   [9] <reserved-1737>..<reserved-173F>
+1754..175F    ; Cn #  [12] <reserved-1754>..<reserved-175F>
+176D          ; Cn #       <reserved-176D>
+1771          ; Cn #       <reserved-1771>
+1774..177F    ; Cn #  [12] <reserved-1774>..<reserved-177F>
+17DE..17DF    ; Cn #   [2] <reserved-17DE>..<reserved-17DF>
+17EA..17EF    ; Cn #   [6] <reserved-17EA>..<reserved-17EF>
+17FA..17FF    ; Cn #   [6] <reserved-17FA>..<reserved-17FF>
+180F          ; Cn #       <reserved-180F>
+181A..181F    ; Cn #   [6] <reserved-181A>..<reserved-181F>
+1878..187F    ; Cn #   [8] <reserved-1878>..<reserved-187F>
+18AA..18FF    ; Cn #  [86] <reserved-18AA>..<reserved-18FF>
+191D..191F    ; Cn #   [3] <reserved-191D>..<reserved-191F>
+192C..192F    ; Cn #   [4] <reserved-192C>..<reserved-192F>
+193C..193F    ; Cn #   [4] <reserved-193C>..<reserved-193F>
+1941..1943    ; Cn #   [3] <reserved-1941>..<reserved-1943>
+196E..196F    ; Cn #   [2] <reserved-196E>..<reserved-196F>
+1975..19DF    ; Cn # [107] <reserved-1975>..<reserved-19DF>
+1A00..1CFF    ; Cn # [768] <reserved-1A00>..<reserved-1CFF>
+1D6C..1DFF    ; Cn # [148] <reserved-1D6C>..<reserved-1DFF>
+1E9C..1E9F    ; Cn #   [4] <reserved-1E9C>..<reserved-1E9F>
+1EFA..1EFF    ; Cn #   [6] <reserved-1EFA>..<reserved-1EFF>
+1F16..1F17    ; Cn #   [2] <reserved-1F16>..<reserved-1F17>
+1F1E..1F1F    ; Cn #   [2] <reserved-1F1E>..<reserved-1F1F>
+1F46..1F47    ; Cn #   [2] <reserved-1F46>..<reserved-1F47>
+1F4E..1F4F    ; Cn #   [2] <reserved-1F4E>..<reserved-1F4F>
+1F58          ; Cn #       <reserved-1F58>
+1F5A          ; Cn #       <reserved-1F5A>
+1F5C          ; Cn #       <reserved-1F5C>
+1F5E          ; Cn #       <reserved-1F5E>
+1F7E..1F7F    ; Cn #   [2] <reserved-1F7E>..<reserved-1F7F>
+1FB5          ; Cn #       <reserved-1FB5>
+1FC5          ; Cn #       <reserved-1FC5>
+1FD4..1FD5    ; Cn #   [2] <reserved-1FD4>..<reserved-1FD5>
+1FDC          ; Cn #       <reserved-1FDC>
+1FF0..1FF1    ; Cn #   [2] <reserved-1FF0>..<reserved-1FF1>
+1FF5          ; Cn #       <reserved-1FF5>
+1FFF          ; Cn #       <reserved-1FFF>
+2055..2056    ; Cn #   [2] <reserved-2055>..<reserved-2056>
+2058..205E    ; Cn #   [7] <reserved-2058>..<reserved-205E>
+2064..2069    ; Cn #   [6] <reserved-2064>..<reserved-2069>
+2072..2073    ; Cn #   [2] <reserved-2072>..<reserved-2073>
+208F..209F    ; Cn #  [17] <reserved-208F>..<reserved-209F>
+20B2..20CF    ; Cn #  [30] <reserved-20B2>..<reserved-20CF>
+20EB..20FF    ; Cn #  [21] <reserved-20EB>..<reserved-20FF>
+213C          ; Cn #       <reserved-213C>
+214C..2152    ; Cn #   [7] <reserved-214C>..<reserved-2152>
+2184..218F    ; Cn #  [12] <reserved-2184>..<reserved-218F>
+23D1..23FF    ; Cn #  [47] <reserved-23D1>..<reserved-23FF>
+2427..243F    ; Cn #  [25] <reserved-2427>..<reserved-243F>
+244B..245F    ; Cn #  [21] <reserved-244B>..<reserved-245F>
+2618          ; Cn #       <reserved-2618>
+267E..267F    ; Cn #   [2] <reserved-267E>..<reserved-267F>
+2692..269F    ; Cn #  [14] <reserved-2692>..<reserved-269F>
+26A2..2700    ; Cn #  [95] <reserved-26A2>..<reserved-2700>
+2705          ; Cn #       <reserved-2705>
+270A..270B    ; Cn #   [2] <reserved-270A>..<reserved-270B>
+2728          ; Cn #       <reserved-2728>
+274C          ; Cn #       <reserved-274C>
+274E          ; Cn #       <reserved-274E>
+2753..2755    ; Cn #   [3] <reserved-2753>..<reserved-2755>
+2757          ; Cn #       <reserved-2757>
+275F..2760    ; Cn #   [2] <reserved-275F>..<reserved-2760>
+2795..2797    ; Cn #   [3] <reserved-2795>..<reserved-2797>
+27B0          ; Cn #       <reserved-27B0>
+27BF..27CF    ; Cn #  [17] <reserved-27BF>..<reserved-27CF>
+27EC..27EF    ; Cn #   [4] <reserved-27EC>..<reserved-27EF>
+2B0E..2E7F    ; Cn # [882] <reserved-2B0E>..<reserved-2E7F>
+2E9A          ; Cn #       <reserved-2E9A>
+2EF4..2EFF    ; Cn #  [12] <reserved-2EF4>..<reserved-2EFF>
+2FD6..2FEF    ; Cn #  [26] <reserved-2FD6>..<reserved-2FEF>
+2FFC..2FFF    ; Cn #   [4] <reserved-2FFC>..<reserved-2FFF>
+3040          ; Cn #       <reserved-3040>
+3097..3098    ; Cn #   [2] <reserved-3097>..<reserved-3098>
+3100..3104    ; Cn #   [5] <reserved-3100>..<reserved-3104>
+312D..3130    ; Cn #   [4] <reserved-312D>..<reserved-3130>
+318F          ; Cn #       <reserved-318F>
+31B8..31EF    ; Cn #  [56] <reserved-31B8>..<reserved-31EF>
+321F          ; Cn #       <reserved-321F>
+3244..324F    ; Cn #  [12] <reserved-3244>..<reserved-324F>
+327E          ; Cn #       <reserved-327E>
+32FF          ; Cn #       <reserved-32FF>
+4DB6..4DBF    ; Cn #  [10] <reserved-4DB6>..<reserved-4DBF>
+9FA6..9FFF    ; Cn #  [90] <reserved-9FA6>..<reserved-9FFF>
+A48D..A48F    ; Cn #   [3] <reserved-A48D>..<reserved-A48F>
+A4C7..ABFF    ; Cn # [1849] <reserved-A4C7>..<reserved-ABFF>
+D7A4..D7FF    ; Cn #  [92] <reserved-D7A4>..<reserved-D7FF>
+FA2E..FA2F    ; Cn #   [2] <reserved-FA2E>..<reserved-FA2F>
+FA6B..FAFF    ; Cn # [149] <reserved-FA6B>..<reserved-FAFF>
+FB07..FB12    ; Cn #  [12] <reserved-FB07>..<reserved-FB12>
+FB18..FB1C    ; Cn #   [5] <reserved-FB18>..<reserved-FB1C>
+FB37          ; Cn #       <reserved-FB37>
+FB3D          ; Cn #       <reserved-FB3D>
+FB3F          ; Cn #       <reserved-FB3F>
+FB42          ; Cn #       <reserved-FB42>
+FB45          ; Cn #       <reserved-FB45>
+FBB2..FBD2    ; Cn #  [33] <reserved-FBB2>..<reserved-FBD2>
+FD40..FD4F    ; Cn #  [16] <reserved-FD40>..<reserved-FD4F>
+FD90..FD91    ; Cn #   [2] <reserved-FD90>..<reserved-FD91>
+FDC8..FDEF    ; Cn #  [40] <reserved-FDC8>..<noncharacter-FDEF>
+FDFE..FDFF    ; Cn #   [2] <reserved-FDFE>..<reserved-FDFF>
+FE10..FE1F    ; Cn #  [16] <reserved-FE10>..<reserved-FE1F>
+FE24..FE2F    ; Cn #  [12] <reserved-FE24>..<reserved-FE2F>
+FE53          ; Cn #       <reserved-FE53>
+FE67          ; Cn #       <reserved-FE67>
+FE6C..FE6F    ; Cn #   [4] <reserved-FE6C>..<reserved-FE6F>
+FE75          ; Cn #       <reserved-FE75>
+FEFD..FEFE    ; Cn #   [2] <reserved-FEFD>..<reserved-FEFE>
+FF00          ; Cn #       <reserved-FF00>
+FFBF..FFC1    ; Cn #   [3] <reserved-FFBF>..<reserved-FFC1>
+FFC8..FFC9    ; Cn #   [2] <reserved-FFC8>..<reserved-FFC9>
+FFD0..FFD1    ; Cn #   [2] <reserved-FFD0>..<reserved-FFD1>
+FFD8..FFD9    ; Cn #   [2] <reserved-FFD8>..<reserved-FFD9>
+FFDD..FFDF    ; Cn #   [3] <reserved-FFDD>..<reserved-FFDF>
+FFE7          ; Cn #       <reserved-FFE7>
+FFEF..FFF8    ; Cn #  [10] <reserved-FFEF>..<reserved-FFF8>
+FFFE..FFFF    ; Cn #   [2] <noncharacter-FFFE>..<noncharacter-FFFF>
+1000C         ; Cn #       <reserved-1000C>
+10027         ; Cn #       <reserved-10027>
+1003B         ; Cn #       <reserved-1003B>
+1003E         ; Cn #       <reserved-1003E>
+1004E..1004F  ; Cn #   [2] <reserved-1004E>..<reserved-1004F>
+1005E..1007F  ; Cn #  [34] <reserved-1005E>..<reserved-1007F>
+100FB..100FF  ; Cn #   [5] <reserved-100FB>..<reserved-100FF>
+10103..10106  ; Cn #   [4] <reserved-10103>..<reserved-10106>
+10134..10136  ; Cn #   [3] <reserved-10134>..<reserved-10136>
+10140..102FF  ; Cn # [448] <reserved-10140>..<reserved-102FF>
+1031F         ; Cn #       <reserved-1031F>
+10324..1032F  ; Cn #  [12] <reserved-10324>..<reserved-1032F>
+1034B..1037F  ; Cn #  [53] <reserved-1034B>..<reserved-1037F>
+1039E         ; Cn #       <reserved-1039E>
+103A0..103FF  ; Cn #  [96] <reserved-103A0>..<reserved-103FF>
+1049E..1049F  ; Cn #   [2] <reserved-1049E>..<reserved-1049F>
+104AA..107FF  ; Cn # [854] <reserved-104AA>..<reserved-107FF>
+10806..10807  ; Cn #   [2] <reserved-10806>..<reserved-10807>
+10809         ; Cn #       <reserved-10809>
+10836         ; Cn #       <reserved-10836>
+10839..1083B  ; Cn #   [3] <reserved-10839>..<reserved-1083B>
+1083D..1083E  ; Cn #   [2] <reserved-1083D>..<reserved-1083E>
+10840..1CFFF  ; Cn # [51136] <reserved-10840>..<reserved-1CFFF>
+1D0F6..1D0FF  ; Cn #  [10] <reserved-1D0F6>..<reserved-1D0FF>
+1D127..1D129  ; Cn #   [3] <reserved-1D127>..<reserved-1D129>
+1D1DE..1D2FF  ; Cn # [290] <reserved-1D1DE>..<reserved-1D2FF>
+1D357..1D3FF  ; Cn # [169] <reserved-1D357>..<reserved-1D3FF>
+1D455         ; Cn #       <reserved-1D455>
+1D49D         ; Cn #       <reserved-1D49D>
+1D4A0..1D4A1  ; Cn #   [2] <reserved-1D4A0>..<reserved-1D4A1>
+1D4A3..1D4A4  ; Cn #   [2] <reserved-1D4A3>..<reserved-1D4A4>
+1D4A7..1D4A8  ; Cn #   [2] <reserved-1D4A7>..<reserved-1D4A8>
+1D4AD         ; Cn #       <reserved-1D4AD>
+1D4BA         ; Cn #       <reserved-1D4BA>
+1D4BC         ; Cn #       <reserved-1D4BC>
+1D4C4         ; Cn #       <reserved-1D4C4>
+1D506         ; Cn #       <reserved-1D506>
+1D50B..1D50C  ; Cn #   [2] <reserved-1D50B>..<reserved-1D50C>
+1D515         ; Cn #       <reserved-1D515>
+1D51D         ; Cn #       <reserved-1D51D>
+1D53A         ; Cn #       <reserved-1D53A>
+1D53F         ; Cn #       <reserved-1D53F>
+1D545         ; Cn #       <reserved-1D545>
+1D547..1D549  ; Cn #   [3] <reserved-1D547>..<reserved-1D549>
+1D551         ; Cn #       <reserved-1D551>
+1D6A4..1D6A7  ; Cn #   [4] <reserved-1D6A4>..<reserved-1D6A7>
+1D7CA..1D7CD  ; Cn #   [4] <reserved-1D7CA>..<reserved-1D7CD>
+1D800..1FFFF  ; Cn # [10240] <reserved-1D800>..<noncharacter-1FFFF>
+2A6D7..2F7FF  ; Cn # [20777] <reserved-2A6D7>..<reserved-2F7FF>
+2FA1E..E0000  ; Cn # [722403] <reserved-2FA1E>..<reserved-E0000>
+E0002..E001F  ; Cn #  [30] <reserved-E0002>..<reserved-E001F>
+E0080..E00FF  ; Cn # [128] <reserved-E0080>..<reserved-E00FF>
+E01F0..EFFFF  ; Cn # [65040] <reserved-E01F0>..<noncharacter-EFFFF>
+FFFFE..FFFFF  ; Cn #   [2] <noncharacter-FFFFE>..<noncharacter-FFFFF>
+10FFFE..10FFFF; Cn #   [2] <noncharacter-10FFFE>..<noncharacter-10FFFF>
 
 # Total code points: 878149
 
 # ================================================
+
+# General_Category=Uppercase_Letter
 
 0041..005A    ; Lu #  [26] LATIN CAPITAL LETTER A..LATIN CAPITAL LETTER Z
 00C0..00D6    ; Lu #  [23] LATIN CAPITAL LETTER A WITH GRAVE..LATIN CAPITAL LETTER O WITH DIAERESIS
@@ -874,6 +848,8 @@ FF21..FF3A    ; Lu #  [26] FULLWIDTH LATIN CAPITAL LETTER A..FULLWIDTH LATIN CAP
 # Total code points: 1190
 
 # ================================================
+
+# General_Category=Lowercase_Letter
 
 0061..007A    ; Ll #  [26] LATIN SMALL LETTER A..LATIN SMALL LETTER Z
 00AA          ; Ll #       FEMININE ORDINAL INDICATOR
@@ -1304,6 +1280,8 @@ FF41..FF5A    ; Ll #  [26] FULLWIDTH LATIN SMALL LETTER A..FULLWIDTH LATIN SMALL
 
 # ================================================
 
+# General_Category=Titlecase_Letter
+
 01C5          ; Lt #       LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON
 01C8          ; Lt #       LATIN CAPITAL LETTER L WITH SMALL LETTER J
 01CB          ; Lt #       LATIN CAPITAL LETTER N WITH SMALL LETTER J
@@ -1318,6 +1296,8 @@ FF41..FF5A    ; Ll #  [26] FULLWIDTH LATIN SMALL LETTER A..FULLWIDTH LATIN SMALL
 # Total code points: 31
 
 # ================================================
+
+# General_Category=Modifier_Letter
 
 02B0..02C1    ; Lm #  [18] MODIFIER LETTER SMALL H..MODIFIER LETTER REVERSED GLOTTAL STOP
 02C6..02D1    ; Lm #  [12] MODIFIER LETTER CIRCUMFLEX ACCENT..MODIFIER LETTER HALF TRIANGULAR COLON
@@ -1343,6 +1323,8 @@ FF9E..FF9F    ; Lm #   [2] HALFWIDTH KATAKANA VOICED SOUND MARK..HALFWIDTH KATAK
 # Total code points: 114
 
 # ================================================
+
+# General_Category=Other_Letter
 
 01BB          ; Lo #       LATIN LETTER TWO WITH STROKE
 01C0..01C3    ; Lo #   [4] LATIN LETTER DENTAL CLICK..LATIN LETTER RETROFLEX CLICK
@@ -1576,6 +1558,8 @@ FFDA..FFDC    ; Lo #   [3] HALFWIDTH HANGUL LETTER EU..HALFWIDTH HANGUL LETTER I
 
 # ================================================
 
+# General_Category=Nonspacing_Mark
+
 0300..0357    ; Mn #  [88] COMBINING GRAVE ACCENT..COMBINING RIGHT HALF RING ABOVE
 035D..036F    ; Mn #  [19] COMBINING DOUBLE BREVE..COMBINING LATIN SMALL LETTER X
 0483..0486    ; Mn #   [4] COMBINING CYRILLIC TITLO..COMBINING CYRILLIC PSILI PNEUMATA
@@ -1694,6 +1678,8 @@ E0100..E01EF  ; Mn # [240] VARIATION SELECTOR-17..VARIATION SELECTOR-256
 
 # ================================================
 
+# General_Category=Enclosing_Mark
+
 0488..0489    ; Me #   [2] COMBINING CYRILLIC HUNDRED THOUSANDS SIGN..COMBINING CYRILLIC MILLIONS SIGN
 06DE          ; Me #       ARABIC START OF RUB EL HIZB
 20DD..20E0    ; Me #   [4] COMBINING ENCLOSING CIRCLE..COMBINING ENCLOSING CIRCLE BACKSLASH
@@ -1702,6 +1688,8 @@ E0100..E01EF  ; Mn # [240] VARIATION SELECTOR-17..VARIATION SELECTOR-256
 # Total code points: 10
 
 # ================================================
+
+# General_Category=Spacing_Mark
 
 0903          ; Mc #       DEVANAGARI SIGN VISARGA
 093E..0940    ; Mc #   [3] DEVANAGARI VOWEL SIGN AA..DEVANAGARI VOWEL SIGN II
@@ -1765,6 +1753,8 @@ E0100..E01EF  ; Mn # [240] VARIATION SELECTOR-17..VARIATION SELECTOR-256
 
 # ================================================
 
+# General_Category=Decimal_Number
+
 0030..0039    ; Nd #  [10] DIGIT ZERO..DIGIT NINE
 0660..0669    ; Nd #  [10] ARABIC-INDIC DIGIT ZERO..ARABIC-INDIC DIGIT NINE
 06F0..06F9    ; Nd #  [10] EXTENDED ARABIC-INDIC DIGIT ZERO..EXTENDED ARABIC-INDIC DIGIT NINE
@@ -1793,6 +1783,8 @@ FF10..FF19    ; Nd #  [10] FULLWIDTH DIGIT ZERO..FULLWIDTH DIGIT NINE
 
 # ================================================
 
+# General_Category=Letter_Number
+
 16EE..16F0    ; Nl #   [3] RUNIC ARLAUG SYMBOL..RUNIC BELGTHOR SYMBOL
 2160..2183    ; Nl #  [36] ROMAN NUMERAL ONE..ROMAN NUMERAL REVERSED ONE HUNDRED
 3007          ; Nl #       IDEOGRAPHIC NUMBER ZERO
@@ -1803,6 +1795,8 @@ FF10..FF19    ; Nd #  [10] FULLWIDTH DIGIT ZERO..FULLWIDTH DIGIT NINE
 # Total code points: 53
 
 # ================================================
+
+# General_Category=Other_Number
 
 00B2..00B3    ; No #   [2] SUPERSCRIPT TWO..SUPERSCRIPT THREE
 00B9          ; No #       SUPERSCRIPT ONE
@@ -1831,18 +1825,22 @@ FF10..FF19    ; Nd #  [10] FULLWIDTH DIGIT ZERO..FULLWIDTH DIGIT NINE
 
 # ================================================
 
+# General_Category=Space_Separator
+
 0020          ; Zs #       SPACE
 00A0          ; Zs #       NO-BREAK SPACE
 1680          ; Zs #       OGHAM SPACE MARK
 180E          ; Zs #       MONGOLIAN VOWEL SEPARATOR
-2000..200B    ; Zs #  [12] EN QUAD..ZERO WIDTH SPACE
+2000..200A    ; Zs #  [11] EN QUAD..HAIR SPACE
 202F          ; Zs #       NARROW NO-BREAK SPACE
 205F          ; Zs #       MEDIUM MATHEMATICAL SPACE
 3000          ; Zs #       IDEOGRAPHIC SPACE
 
-# Total code points: 19
+# Total code points: 18
 
 # ================================================
+
+# General_Category=Line_Separator
 
 2028          ; Zl #       LINE SEPARATOR
 
@@ -1850,25 +1848,31 @@ FF10..FF19    ; Nd #  [10] FULLWIDTH DIGIT ZERO..FULLWIDTH DIGIT NINE
 
 # ================================================
 
+# General_Category=Paragraph_Separator
+
 2029          ; Zp #       PARAGRAPH SEPARATOR
 
 # Total code points: 1
 
 # ================================================
 
-0000..001F    ; Cc #  [32] <control>..<control>
-007F..009F    ; Cc #  [33] <control>..<control>
+# General_Category=Control
+
+0000..001F    ; Cc #  [32] <control-0000>..<control-001F>
+007F..009F    ; Cc #  [33] <control-007F>..<control-009F>
 
 # Total code points: 65
 
 # ================================================
+
+# General_Category=Format
 
 00AD          ; Cf #       SOFT HYPHEN
 0600..0603    ; Cf #   [4] ARABIC NUMBER SIGN..ARABIC SIGN SAFHA
 06DD          ; Cf #       ARABIC END OF AYAH
 070F          ; Cf #       SYRIAC ABBREVIATION MARK
 17B4..17B5    ; Cf #   [2] KHMER VOWEL INHERENT AQ..KHMER VOWEL INHERENT AA
-200C..200F    ; Cf #   [4] ZERO WIDTH NON-JOINER..RIGHT-TO-LEFT MARK
+200B..200F    ; Cf #   [5] ZERO WIDTH SPACE..RIGHT-TO-LEFT MARK
 202A..202E    ; Cf #   [5] LEFT-TO-RIGHT EMBEDDING..RIGHT-TO-LEFT OVERRIDE
 2060..2063    ; Cf #   [4] WORD JOINER..INVISIBLE SEPARATOR
 206A..206F    ; Cf #   [6] INHIBIT SYMMETRIC SWAPPING..NOMINAL DIGIT SHAPES
@@ -1878,23 +1882,29 @@ FFF9..FFFB    ; Cf #   [3] INTERLINEAR ANNOTATION ANCHOR..INTERLINEAR ANNOTATION
 E0001         ; Cf #       LANGUAGE TAG
 E0020..E007F  ; Cf #  [96] TAG SPACE..CANCEL TAG
 
-# Total code points: 137
+# Total code points: 138
 
 # ================================================
 
-E000..F8FF    ; Co # [6400] 
-F0000..FFFFD  ; Co # [65534] 
-100000..10FFFD; Co # [65534] 
+# General_Category=Private_Use
+
+E000..F8FF    ; Co # [6400] <private-use-E000>..<private-use-F8FF>
+F0000..FFFFD  ; Co # [65534] <private-use-F0000>..<private-use-FFFFD>
+100000..10FFFD; Co # [65534] <private-use-100000>..<private-use-10FFFD>
 
 # Total code points: 137468
 
 # ================================================
 
-D800..DFFF    ; Cs # [2048] 
+# General_Category=Surrogate
+
+D800..DFFF    ; Cs # [2048] <surrogate-D800>..<surrogate-DFFF>
 
 # Total code points: 2048
 
 # ================================================
+
+# General_Category=Dash_Punctuation
 
 002D          ; Pd #       HYPHEN-MINUS
 058A          ; Pd #       ARMENIAN HYPHEN
@@ -1911,6 +1921,8 @@ FF0D          ; Pd #       FULLWIDTH HYPHEN-MINUS
 # Total code points: 17
 
 # ================================================
+
+# General_Category=Open_Punctuation
 
 0028          ; Ps #       LEFT PARENTHESIS
 005B          ; Ps #       LEFT SQUARE BRACKET
@@ -1982,6 +1994,8 @@ FF62          ; Ps #       HALFWIDTH LEFT CORNER BRACKET
 
 # ================================================
 
+# General_Category=Close_Punctuation
+
 0029          ; Pe #       RIGHT PARENTHESIS
 005D          ; Pe #       RIGHT SQUARE BRACKET
 007D          ; Pe #       RIGHT CURLY BRACKET
@@ -2050,6 +2064,8 @@ FF63          ; Pe #       HALFWIDTH RIGHT CORNER BRACKET
 
 # ================================================
 
+# General_Category=Connector_Punctuation
+
 005F          ; Pc #       LOW LINE
 203F..2040    ; Pc #   [2] UNDERTIE..CHARACTER TIE
 2054          ; Pc #       INVERTED UNDERTIE
@@ -2062,6 +2078,8 @@ FF65          ; Pc #       HALFWIDTH KATAKANA MIDDLE DOT
 # Total code points: 12
 
 # ================================================
+
+# General_Category=Other_Punctuation
 
 0021..0023    ; Po #   [3] EXCLAMATION MARK..NUMBER SIGN
 0025..0027    ; Po #   [3] PERCENT SIGN..APOSTROPHE
@@ -2142,6 +2160,8 @@ FF64          ; Po #       HALFWIDTH IDEOGRAPHIC COMMA
 
 # ================================================
 
+# General_Category=Math_Symbol
+
 002B          ; Sm #       PLUS SIGN
 003C..003E    ; Sm #   [3] LESS-THAN SIGN..GREATER-THAN SIGN
 007C          ; Sm #       VERTICAL LINE
@@ -2205,6 +2225,8 @@ FFE9..FFEC    ; Sm #   [4] HALFWIDTH LEFTWARDS ARROW..HALFWIDTH DOWNWARDS ARROW
 
 # ================================================
 
+# General_Category=Currency_Symbol
+
 0024          ; Sc #       DOLLAR SIGN
 00A2..00A5    ; Sc #   [4] CENT SIGN..YEN SIGN
 09F2..09F3    ; Sc #   [2] BENGALI RUPEE MARK..BENGALI RUPEE SIGN
@@ -2222,6 +2244,8 @@ FFE5..FFE6    ; Sc #   [2] FULLWIDTH YEN SIGN..FULLWIDTH WON SIGN
 # Total code points: 36
 
 # ================================================
+
+# General_Category=Modifier_Symbol
 
 005E          ; Sk #       CIRCUMFLEX ACCENT
 0060          ; Sk #       GRAVE ACCENT
@@ -2249,6 +2273,8 @@ FFE3          ; Sk #       FULLWIDTH MACRON
 # Total code points: 74
 
 # ================================================
+
+# General_Category=Other_Symbol
 
 00A6..00A7    ; So #   [2] BROKEN BAR..SECTION SIGN
 00A9          ; So #       COPYRIGHT SIGN
@@ -2368,6 +2394,8 @@ FFFC..FFFD    ; So #   [2] OBJECT REPLACEMENT CHARACTER..REPLACEMENT CHARACTER
 
 # ================================================
 
+# General_Category=Initial_Punctuation
+
 00AB          ; Pi #       LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 2018          ; Pi #       LEFT SINGLE QUOTATION MARK
 201B..201C    ; Pi #   [2] SINGLE HIGH-REVERSED-9 QUOTATION MARK..LEFT DOUBLE QUOTATION MARK
@@ -2378,10 +2406,11 @@ FFFC..FFFD    ; So #   [2] OBJECT REPLACEMENT CHARACTER..REPLACEMENT CHARACTER
 
 # ================================================
 
+# General_Category=Final_Punctuation
+
 00BB          ; Pf #       RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 2019          ; Pf #       RIGHT SINGLE QUOTATION MARK
 201D          ; Pf #       RIGHT DOUBLE QUOTATION MARK
 203A          ; Pf #       SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
 
 # Total code points: 4
-
