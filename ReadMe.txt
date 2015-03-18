@@ -1,5 +1,5 @@
 
-UNICODE 2.1 CHARACTER DATABASE
+UNICODE 2.1 CHARACTER DATABASE (update 2.1.8)
 
 Copyright (c) 1991-1998 Unicode, Inc.
 All Rights reserved.
@@ -74,6 +74,19 @@ The exact ranges represented by start and end characters are:
 The following table describes the format and meaning of each field in a
 data entry in the Unicode Character Database. Fields which contain
 normative information are so indicated.
+
+Note that the term "normative" when applied to a property or field of
+the Unicode Character Database, does not mean that the value of that
+field will *never* change. Corrections and extensions to the standard
+in the future may require minor changes to normative values, even
+though the Unicode Technical Committee strives to minimize such changes.
+"Normative" means that implementations that claim conformance to the
+Unicode Standard (at a particular version) and which make use of
+a particular property or field must follow the specifications of the
+standard for that property or field in order to be conformant. If a
+property or field is only "informative", a conformant implementation
+is free to use or change such values as it may require, while still
+being conformant to the standard.
 
 Field	Explanation
 -----	-----------
@@ -156,7 +169,6 @@ the Unicode Standard. Note: the standard does not assign information to
 control characters (except for TAB in the Bidirectonal Algorithm).
 Implementations will generally also assign categories to certain control
 characters, notably CR and LF, according to platform conventions.
-
 
 Normative
     Mn = Mark, Non-Spacing
@@ -288,9 +300,26 @@ CANONICAL COMBINING CLASSES
 230: Above
 232: Above right
 234: Double above
+240: Below (iota subscript)
 
 Note: some of the combining classes in this list do not currently have
 members but are specified here for completeness.
+
+DECOMPOSITIONS AND NORMALIZATION
+
+The Unicode Technical Report #15 Normalization Forms is found on
+http://www.unicode.org/unicode/reports/tr15/.
+
+That report specifies how the decompositions defined in the Unicode
+Character Database are used to derive normalized forms of Unicode
+text.
+
+Note that as of the 2.1.8 update of the Unicode Character Database,
+the decompositions in the UnicodeData.txt file can be used to recursively
+derive the full decomposition in canonical order, without the need
+to separately apply canonical reordering. However, canonical reordering
+of combining character sequences must still be applied in decomposition
+when normalizing source text which contains any combining marks.
 
 CASE MAPPINGS
 
@@ -306,11 +335,77 @@ that have a single corresponding character of that type. Composite characters
 (such as "339D;SQUARE CM") that do not have a single corresponding character
 of that type can be cased by decomposition.
 
-The case mapping is an informative, default mapping. Certain languages, such
+The case mapping is an informative, default mapping. Case itself, on
+the other hand, has normative status. Thus, for example, 0041 LATIN
+CAPITAL LETTER A is normatively uppercase, but its lowercase mapping
+the 0061 LATIN SMALL LETTER A is informative. The reason for this is
+that case can be considered to be an inherent property of a particular
+character (and is usually, but not always, derivable from the presence
+of the terms "CAPITAL" or "SMALL" in the character name), but case
+mappings between characters are occasionally influenced by local
+conventions. For example, certain languages, such
 as Turkish, German, French, or Greek may have small deviations from the
 default mappings listed in the Unicode Character Database.
 
+For compatibility with existing parsers, the Unicode Character Database
+only contains case mappings for characters where they are one-to-one
+mappings; it also omits information about locale-specific
+case mappings. Information about these special cases can be found in
+a separate data file, SpecialCasing.txt, which has been added with
+the 2.1.8 update to the Unicode data files. SpecialCasing.txt contains
+additional informative case mappings that are either not one-to-one or
+which are context-sensitive.
+
 MODIFICATION HISTORY
+
+Modifications made for Version 2.1.8 of the Unicode Character Database:
+* Added combining class 240 for U+0345 COMBINING GREEK YPOGEGRAMMENI
+	so that decompositions involving iota subscript are derivable
+	directly in canonically reordered form; this also has a bearing
+	on simplification of casing of polytonic Greek.
+* Changes in decompositions related to Greek tonos. These result from
+	the clarification that monotonic Greek "tonos" should be
+	equated with U+0301 COMBINING ACUTE, rather than with
+	U+030D COMBINING VERTICAL LINE ABOVE. (All Greek characters
+	in the Greek block involving "tonos"; some Greek characters
+	in the polytonic Greek in the 1FXX block.)
+* Changed decompositions involving dialytika tonos. (U+0390, U+03B0)
+* Changed ternary decompositions to binary. (U+0CCB, U+FB2C, U+FB2D)
+	These changes simplify normalization.
+* Removed canonical decomposition for Latin Candrabindu. (U+0310)
+* Correct error in canonical decomposition for U+1FF4.
+* Added compatibility decompositions to clarify collation tables.
+	(U+2100, U+2101, U+2105, U+2106, U+1E9A)
+* A series of general category changes to assist the convergence of
+	of Unicode definition of identifier with ISO TR 10176:
+	So > Lo: U+0950, U+0AD0, U+0F00, U+0F88..U+0F8B
+	Po > Lo: U+0E2F, U+0EAF, U+3006
+	Lm > Sk: U+309B, U+309C
+	Po > Pc: U+30FB, U+FF65
+	Ps/Pe > Mn: U+0F3E, U+0F3F
+* A series of bidi property changes for consistency.
+	L > ET: U+09F2, U+09F3
+	ON > L: U+3007
+	L > ON: U+0F3A..U+0F3D, U+037E, U+0387
+* Add case mapping: U+01A6 <-> U+0280
+* Update symmetric swapping value for guillemets: U+00AB, U+00BB,
+	U+2039, U+203A.
+* Changes to combining class values. Most Indic fixed position class
+	non-spacing marks were changed to combining class 0. This fixes
+	some inconsistencies in how canonical reordering would apply
+	to Indic script, including Tibetan. Indic interacting top/bottom
+	fixed position classes were merged into single (non-zero)
+	classes as part of this change. Tibetan subjoined consonants
+	are changed from combining class 6 to combining class 0.
+	Thai pinthu (U+0E3A) moved to combining class 9. Move two
+	Devanagari stress marks into generic above and below
+	combining classes (U+0951, U+0952).
+* Correct placement of semicolon near symmetric swapping field.
+	(U+FA0E, etc., scattered positions to U+FA29)
+
+[Note that Versions 2.1.6 and 2.1.7 of the Unicode Character
+Database were for internal change tracking only, and were never
+finally approved for public release.]
 
 Modifications made for Version 2.1.5 of the Unicode Character Database:
 * Changed decomposition for U+FF9E and U+FF9F so that correct collation
@@ -376,5 +471,5 @@ to Version 2.0.14 for the Unicode Standard, Version 2.0 are:
 * Added Hebrew cantillation marks and the Tibetan script.
 * Added place holders for ranges such as CJK Ideographic Area and the
 	Private Use Area.
-* Added categories Me, Sk, Pc, Nl, Cs, Cf, and rectified a number of mistakes in the
-	database.
+* Added categories Me, Sk, Pc, Nl, Cs, Cf, and rectified a number of mistakes in
+	the database.
