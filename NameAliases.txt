@@ -1,10 +1,10 @@
-# NameAliases-5.0.0.txt
-# Date: 2006-05-25, 11:10:00 PST [AF/KW]
+# NameAliases-5.1.0.txt
+# Date: 2008-02-11, 11:36:00 PST [KW]
 #
 # This file is a normative contributory data file in the
 # Unicode Character Database.
 #
-# Copyright (c) 2005-2006 Unicode, Inc.
+# Copyright (c) 2005-2008 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
 # This file defines the formal name aliases for Unicode characters.
@@ -32,7 +32,7 @@
 0EA5;LAO LETTER LO
 0FD0;TIBETAN MARK BKA- SHOG GI MGO RGYAN
 A015;YI SYLLABLE ITERATION MARK
-FE18;PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRACKET 
+FE18;PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRACKET
 1D0C5;BYZANTINE MUSICAL SYMBOL FTHORA SKLIRON CHROMA VASIS
 
 # Total code points: 11

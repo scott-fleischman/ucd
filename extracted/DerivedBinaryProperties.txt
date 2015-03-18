@@ -1,8 +1,8 @@
-# DerivedBinaryProperties-5.0.0.txt
-# Date: 2006-02-27, 23:41:18 GMT [MD]
+# DerivedBinaryProperties-5.1.0.txt
+# Date: 2008-03-03, 21:57:22 GMT [MD]
 #
 # Unicode Character Database
-# Copyright (c) 1991-2006 Unicode, Inc.
+# Copyright (c) 1991-2008 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UCD.html
 
@@ -26,13 +26,6 @@
 0F3D          ; Bidi_Mirrored # Pe       TIBETAN MARK ANG KHANG GYAS
 169B          ; Bidi_Mirrored # Ps       OGHAM FEATHER MARK
 169C          ; Bidi_Mirrored # Pe       OGHAM REVERSED FEATHER MARK
-2018          ; Bidi_Mirrored # Pi       LEFT SINGLE QUOTATION MARK
-2019          ; Bidi_Mirrored # Pf       RIGHT SINGLE QUOTATION MARK
-201A          ; Bidi_Mirrored # Ps       SINGLE LOW-9 QUOTATION MARK
-201B..201C    ; Bidi_Mirrored # Pi   [2] SINGLE HIGH-REVERSED-9 QUOTATION MARK..LEFT DOUBLE QUOTATION MARK
-201D          ; Bidi_Mirrored # Pf       RIGHT DOUBLE QUOTATION MARK
-201E          ; Bidi_Mirrored # Ps       DOUBLE LOW-9 QUOTATION MARK
-201F          ; Bidi_Mirrored # Pi       DOUBLE HIGH-REVERSED-9 QUOTATION MARK
 2039          ; Bidi_Mirrored # Pi       SINGLE LEFT-POINTING ANGLE QUOTATION MARK
 203A          ; Bidi_Mirrored # Pf       SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
 2045          ; Bidi_Mirrored # Ps       LEFT SQUARE BRACKET WITH QUILL
@@ -89,6 +82,8 @@
 27C3..27C4    ; Bidi_Mirrored # Sm   [2] OPEN SUBSET..OPEN SUPERSET
 27C5          ; Bidi_Mirrored # Ps       LEFT S-SHAPED BAG DELIMITER
 27C6          ; Bidi_Mirrored # Pe       RIGHT S-SHAPED BAG DELIMITER
+27C8..27C9    ; Bidi_Mirrored # Sm   [2] REVERSE SOLIDUS PRECEDING SUBSET..SUPERSET PRECEDING SOLIDUS
+27CC          ; Bidi_Mirrored # Sm       LONG DIVISION
 27D3..27D6    ; Bidi_Mirrored # Sm   [4] LOWER RIGHT CORNER WITH DOT..RIGHT OUTER JOIN
 27DC..27DE    ; Bidi_Mirrored # Sm   [3] LEFT MULTIMAP..LONG LEFT TACK
 27E2..27E5    ; Bidi_Mirrored # Sm   [4] WHITE CONCAVE-SIDED DIAMOND WITH LEFTWARDS TICK..WHITE SQUARE WITH RIGHTWARDS TICK
@@ -98,6 +93,10 @@
 27E9          ; Bidi_Mirrored # Pe       MATHEMATICAL RIGHT ANGLE BRACKET
 27EA          ; Bidi_Mirrored # Ps       MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
 27EB          ; Bidi_Mirrored # Pe       MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
+27EC          ; Bidi_Mirrored # Ps       MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET
+27ED          ; Bidi_Mirrored # Pe       MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
+27EE          ; Bidi_Mirrored # Ps       MATHEMATICAL LEFT FLATTENED PARENTHESIS
+27EF          ; Bidi_Mirrored # Pe       MATHEMATICAL RIGHT FLATTENED PARENTHESIS
 2983          ; Bidi_Mirrored # Ps       LEFT WHITE CURLY BRACKET
 2984          ; Bidi_Mirrored # Pe       RIGHT WHITE CURLY BRACKET
 2985          ; Bidi_Mirrored # Ps       LEFT WHITE PARENTHESIS
@@ -170,6 +169,16 @@
 2E0D          ; Bidi_Mirrored # Pf       RIGHT RAISED OMISSION BRACKET
 2E1C          ; Bidi_Mirrored # Pi       LEFT LOW PARAPHRASE BRACKET
 2E1D          ; Bidi_Mirrored # Pf       RIGHT LOW PARAPHRASE BRACKET
+2E20          ; Bidi_Mirrored # Pi       LEFT VERTICAL BAR WITH QUILL
+2E21          ; Bidi_Mirrored # Pf       RIGHT VERTICAL BAR WITH QUILL
+2E22          ; Bidi_Mirrored # Ps       TOP LEFT HALF BRACKET
+2E23          ; Bidi_Mirrored # Pe       TOP RIGHT HALF BRACKET
+2E24          ; Bidi_Mirrored # Ps       BOTTOM LEFT HALF BRACKET
+2E25          ; Bidi_Mirrored # Pe       BOTTOM RIGHT HALF BRACKET
+2E26          ; Bidi_Mirrored # Ps       LEFT SIDEWAYS U BRACKET
+2E27          ; Bidi_Mirrored # Pe       RIGHT SIDEWAYS U BRACKET
+2E28          ; Bidi_Mirrored # Ps       LEFT DOUBLE PARENTHESIS
+2E29          ; Bidi_Mirrored # Pe       RIGHT DOUBLE PARENTHESIS
 3008          ; Bidi_Mirrored # Ps       LEFT ANGLE BRACKET
 3009          ; Bidi_Mirrored # Pe       RIGHT ANGLE BRACKET
 300A          ; Bidi_Mirrored # Ps       LEFT DOUBLE ANGLE BRACKET
@@ -188,8 +197,6 @@
 3019          ; Bidi_Mirrored # Pe       RIGHT WHITE TORTOISE SHELL BRACKET
 301A          ; Bidi_Mirrored # Ps       LEFT WHITE SQUARE BRACKET
 301B          ; Bidi_Mirrored # Pe       RIGHT WHITE SQUARE BRACKET
-301D          ; Bidi_Mirrored # Ps       REVERSED DOUBLE PRIME QUOTATION MARK
-301E..301F    ; Bidi_Mirrored # Pe   [2] DOUBLE PRIME QUOTATION MARK..LOW DOUBLE PRIME QUOTATION MARK
 FE59          ; Bidi_Mirrored # Ps       SMALL LEFT PARENTHESIS
 FE5A          ; Bidi_Mirrored # Pe       SMALL RIGHT PARENTHESIS
 FE5B          ; Bidi_Mirrored # Ps       SMALL LEFT CURLY BRACKET
@@ -215,6 +222,6 @@ FF63          ; Bidi_Mirrored # Pe       HALFWIDTH RIGHT CORNER BRACKET
 1D789         ; Bidi_Mirrored # Sm       MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL
 1D7C3         ; Bidi_Mirrored # Sm       MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL
 
-# Total code points: 537
+# Total code points: 543
 
 # EOF

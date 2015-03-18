@@ -1,8 +1,8 @@
-# DerivedDecompositionType-5.0.0.txt
-# Date: 2006-06-07, 17:42:36 GMT [MD]
+# DerivedDecompositionType-5.1.0.txt
+# Date: 2008-03-03, 21:57:30 GMT [MD]
 #
 # Unicode Character Database
-# Copyright (c) 1991-2006 Unicode, Inc.
+# Copyright (c) 1991-2008 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UCD.html
 
@@ -45,7 +45,7 @@
 0226..0233    ; Canonical # L&  [14] LATIN CAPITAL LETTER A WITH DOT ABOVE..LATIN SMALL LETTER Y WITH MACRON
 0340..0341    ; Canonical # Mn   [2] COMBINING GRAVE TONE MARK..COMBINING ACUTE TONE MARK
 0343..0344    ; Canonical # Mn   [2] COMBINING GREEK KORONIS..COMBINING GREEK DIALYTIKA TONOS
-0374          ; Canonical # Sk       GREEK NUMERAL SIGN
+0374          ; Canonical # Lm       GREEK NUMERAL SIGN
 037E          ; Canonical # Po       GREEK QUESTION MARK
 0385          ; Canonical # Sk       GREEK DIALYTIKA TONOS
 0386          ; Canonical # L&       GREEK CAPITAL LETTER ALPHA WITH TONOS
@@ -806,11 +806,13 @@ FEFB          ; Isolated # Lo       ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM
 207F          ; Super # L&       SUPERSCRIPT LATIN SMALL LETTER N
 2120          ; Super # So       SERVICE MARK
 2122          ; Super # So       TRADE MARK SIGN
+2C7D          ; Super # Lm       MODIFIER LETTER CAPITAL V
 2D6F          ; Super # Lm       TIFINAGH MODIFIER LETTER LABIALIZATION MARK
 3192..3195    ; Super # No   [4] IDEOGRAPHIC ANNOTATION ONE MARK..IDEOGRAPHIC ANNOTATION FOUR MARK
 3196..319F    ; Super # So  [10] IDEOGRAPHIC ANNOTATION TOP MARK..IDEOGRAPHIC ANNOTATION MAN MARK
+A770          ; Super # Lm       MODIFIER LETTER US
 
-# Total code points: 140
+# Total code points: 142
 
 # ================================================
 
@@ -820,8 +822,9 @@ FEFB          ; Isolated # Lo       ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM
 208D          ; Sub # Ps       SUBSCRIPT LEFT PARENTHESIS
 208E          ; Sub # Pe       SUBSCRIPT RIGHT PARENTHESIS
 2090..2094    ; Sub # Lm   [5] LATIN SUBSCRIPT SMALL LETTER A..LATIN SUBSCRIPT SMALL LETTER SCHWA
+2C7C          ; Sub # L&       LATIN SUBSCRIPT SMALL LETTER J
 
-# Total code points: 29
+# Total code points: 30
 
 # ================================================
 
