@@ -1,10 +1,10 @@
 #
 # Unihan_RadicalStrokeCounts.txt
-# Date: 2011-08-08 22:10:53 GMT [JHJ]
-# Unicode version: 6.1.0
+# Date: 2012-08-17 17:13:30 GMT [JHJ]
+# Unicode version: 6.2.0
 #
 # Unicode Character Database
-# Copyright (c) 1991-2011 Unicode, Inc.
+# Copyright (c) 1991-2012 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr44/
 #
@@ -61529,6 +61529,7 @@ U+9FB0	kRSUnicode	77.0
 U+9FB1	kRSUnicode	31.2
 U+9FB2	kRSUnicode	167.10
 U+9FB3	kRSUnicode	32.13
+U+9FB4	kRSAdobe_Japan1_6	C+14048+29.2.0
 U+9FB4	kRSUnicode	5.1
 U+9FB5	kRSUnicode	64.0
 U+9FB6	kRSUnicode	32.1
@@ -73155,7 +73156,7 @@ U+214CA	kRSUnicode	32.15
 U+214CB	kRSKangXi	32.15
 U+214CB	kRSUnicode	32.15
 U+214CC	kRSKangXi	32.15
-U+214CC	kRSUnicode	32.15
+U+214CC	kRSUnicode	32.16
 U+214CD	kRSKangXi	32.15
 U+214CD	kRSUnicode	32.15
 U+214CE	kRSKangXi	32.15
@@ -85625,7 +85626,7 @@ U+22D13	kRSUnicode	64.11
 U+22D14	kRSKangXi	64.11
 U+22D14	kRSUnicode	64.11
 U+22D15	kRSKangXi	64.11
-U+22D15	kRSUnicode	64.11
+U+22D15	kRSUnicode	64.12
 U+22D16	kRSKangXi	64.11
 U+22D16	kRSUnicode	64.11
 U+22D17	kRSKangXi	64.11
@@ -87302,9 +87303,9 @@ U+23058	kRSUnicode	67.9
 U+23059	kRSKangXi	67.9
 U+23059	kRSUnicode	67.9
 U+2305A	kRSKangXi	67.8
-U+2305A	kRSUnicode	67.8
+U+2305A	kRSUnicode	67.7
 U+2305B	kRSKangXi	67.11
-U+2305B	kRSUnicode	67.11
+U+2305B	kRSUnicode	66.11
 U+2305C	kRSKangXi	67.11
 U+2305C	kRSUnicode	67.11
 U+2305D	kRSKangXi	67.11
@@ -89070,6 +89071,7 @@ U+233CA	kRSKangXi	75.3
 U+233CA	kRSUnicode	75.3
 U+233CB	kRSKangXi	75.3
 U+233CB	kRSUnicode	75.3
+U+233CC	kRSAdobe_Japan1_6	C+14140+49.3.4 C+14140+75.4.3
 U+233CC	kRSKangXi	75.3
 U+233CC	kRSUnicode	75.3
 U+233CD	kRSKangXi	75.3
@@ -91218,6 +91220,7 @@ U+237EF	kRSKangXi	75.17
 U+237EF	kRSUnicode	75.17
 U+237F0	kRSKangXi	75.17
 U+237F0	kRSUnicode	75.17
+U+237F1	kRSAdobe_Japan1_6	C+20152+75.4.17
 U+237F1	kRSKangXi	75.17
 U+237F1	kRSUnicode	75.17
 U+237F2	kRSKangXi	75.17
@@ -97809,7 +97812,7 @@ U+244C5	kRSUnicode	86.18
 U+244C6	kRSKangXi	86.18
 U+244C6	kRSUnicode	86.18
 U+244C7	kRSKangXi	86.18
-U+244C7	kRSUnicode	86.18
+U+244C7	kRSUnicode	86.19
 U+244C8	kRSKangXi	86.19
 U+244C8	kRSUnicode	86.19
 U+244C9	kRSKangXi	86.19
@@ -109496,7 +109499,7 @@ U+25B86	kRSUnicode	118.7
 U+25B87	kRSKangXi	118.7
 U+25B87	kRSUnicode	118.7
 U+25B88	kRSKangXi	118.7
-U+25B88	kRSUnicode	118.7
+U+25B88	kRSUnicode	118.8
 U+25B89	kRSKangXi	118.7
 U+25B89	kRSUnicode	118.7
 U+25B8A	kRSKangXi	118.7
@@ -134690,7 +134693,7 @@ U+28C94	kRSUnicode	168.9
 U+28C95	kRSKangXi	168.9
 U+28C95	kRSUnicode	168.9
 U+28C96	kRSKangXi	168.9
-U+28C96	kRSUnicode	168.9
+U+28C96	kRSUnicode	168.10
 U+28C97	kRSKangXi	168.9
 U+28C97	kRSUnicode	168.9
 U+28C98	kRSKangXi	168.9
@@ -136654,7 +136657,7 @@ U+29064	kRSUnicode	172.15
 U+29065	kRSKangXi	172.15
 U+29065	kRSUnicode	172.15
 U+29066	kRSKangXi	172.15
-U+29066	kRSUnicode	172.15
+U+29066	kRSUnicode	172.16
 U+29067	kRSKangXi	172.16
 U+29067	kRSUnicode	172.16
 U+29068	kRSKangXi	172.16
@@ -152331,6 +152334,7 @@ U+2B742	kRSUnicode	1.6
 U+2B743	kRSUnicode	1.13
 U+2B744	kRSUnicode	4.2
 U+2B745	kRSUnicode	8.4
+U+2B746	kRSAdobe_Japan1_6	C+13780+9.2.3
 U+2B746	kRSUnicode	9.3
 U+2B747	kRSUnicode	9.6
 U+2B748	kRSUnicode	9.6
@@ -152342,8 +152346,10 @@ U+2B74D	kRSUnicode	13.7
 U+2B74E	kRSUnicode	15.7
 U+2B74F	kRSUnicode	15.9
 U+2B750	kRSUnicode	18.7
+U+2B751	kRSAdobe_Japan1_6	C+13866+19.2.11
 U+2B751	kRSUnicode	19.11
 U+2B752	kRSUnicode	24.5
+U+2B753	kRSAdobe_Japan1_6	C+20088+24.2.6
 U+2B753	kRSUnicode	24.6
 U+2B754	kRSUnicode	24.7
 U+2B755	kRSUnicode	27.5
@@ -152351,8 +152357,10 @@ U+2B756	kRSUnicode	27.8
 U+2B757	kRSUnicode	27.8
 U+2B758	kRSUnicode	30.3
 U+2B759	kRSUnicode	30.6
+U+2B75A	kRSAdobe_Japan1_6	C+20096+30.3.11
 U+2B75A	kRSUnicode	30.11
 U+2B75B	kRSUnicode	30.12
+U+2B75C	kRSAdobe_Japan1_6	C+20097+30.3.14
 U+2B75C	kRSUnicode	30.14
 U+2B75D	kRSUnicode	30.15
 U+2B75E	kRSUnicode	30.19
@@ -152362,6 +152370,7 @@ U+2B761	kRSUnicode	32.13
 U+2B762	kRSUnicode	36.3
 U+2B763	kRSUnicode	36.4
 U+2B764	kRSUnicode	37.7
+U+2B765	kRSAdobe_Japan1_6	C+20247+37.3.13 C+20247+123.6.10
 U+2B765	kRSUnicode	37.13
 U+2B766	kRSUnicode	38.4
 U+2B767	kRSUnicode	38.6
@@ -152379,18 +152388,22 @@ U+2B772	kRSUnicode	44.3
 U+2B773	kRSUnicode	46.3
 U+2B774	kRSUnicode	46.6
 U+2B775	kRSUnicode	46.7
+U+2B776	kRSAdobe_Japan1_6	C+20114+53.3.8
 U+2B776	kRSUnicode	53.8
+U+2B777	kRSAdobe_Japan1_6	C+13782+53.3.8
 U+2B777	kRSUnicode	53.8
 U+2B778	kRSUnicode	59.6
 U+2B779	kRSUnicode	61.4
 U+2B77A	kRSUnicode	64.5
 U+2B77B	kRSUnicode	64.6
+U+2B77C	kRSAdobe_Japan1_6	C+20125+64.3.9
 U+2B77C	kRSUnicode	64.9
 U+2B77D	kRSUnicode	64.10
 U+2B77E	kRSUnicode	64.11
 U+2B77F	kRSUnicode	64.15
 U+2B780	kRSUnicode	70.7
 U+2B781	kRSUnicode	70.9
+U+2B782	kRSAdobe_Japan1_6	C+20141+72.4.5 C+20141+96.5.4
 U+2B782	kRSUnicode	72.5
 U+2B783	kRSUnicode	72.5
 U+2B784	kRSUnicode	72.6
@@ -152398,17 +152411,21 @@ U+2B785	kRSUnicode	74.6
 U+2B786	kRSUnicode	74.8
 U+2B787	kRSUnicode	74.8
 U+2B788	kRSUnicode	75.4
+U+2B789	kRSAdobe_Japan1_6	C+14064+75.4.6
 U+2B789	kRSUnicode	75.6
 U+2B78A	kRSUnicode	75.6
+U+2B78B	kRSAdobe_Japan1_6	C+20149+75.4.10
 U+2B78B	kRSUnicode	75.10
 U+2B78C	kRSUnicode	75.10
 U+2B78D	kRSUnicode	75.11
+U+2B78E	kRSAdobe_Japan1_6	C+13724+75.4.11
 U+2B78E	kRSUnicode	75.11
 U+2B78F	kRSUnicode	75.11
 U+2B790	kRSUnicode	75.12
 U+2B791	kRSUnicode	75.13
 U+2B792	kRSUnicode	75.14
 U+2B793	kRSUnicode	77.9
+U+2B794	kRSAdobe_Japan1_6	C+20153+78.4.11
 U+2B794	kRSUnicode	78.11
 U+2B795	kRSUnicode	83.1
 U+2B796	kRSUnicode	83.2
@@ -152433,9 +152450,11 @@ U+2B7A8	kRSUnicode	96.10
 U+2B7A9	kRSUnicode	96.11
 U+2B7AA	kRSUnicode	99.4
 U+2B7AB	kRSUnicode	102.6
+U+2B7AC	kRSAdobe_Japan1_6	C+20176+104.5.5
 U+2B7AC	kRSUnicode	104.5
 U+2B7AD	kRSUnicode	104.10
 U+2B7AE	kRSUnicode	106.5
+U+2B7AF	kRSAdobe_Japan1_6	C+20180+108.5.3
 U+2B7AF	kRSUnicode	108.3
 U+2B7B0	kRSUnicode	108.4
 U+2B7B1	kRSUnicode	108.8
@@ -152450,6 +152469,7 @@ U+2B7B9	kRSUnicode	116.2
 U+2B7BA	kRSUnicode	116.17
 U+2B7BB	kRSUnicode	117.2
 U+2B7BC	kRSUnicode	117.6
+U+2B7BD	kRSAdobe_Japan1_6	C+14174+118.6.9
 U+2B7BD	kRSUnicode	118.9
 U+2B7BE	kRSUnicode	118.9
 U+2B7BF	kRSUnicode	118.9
@@ -152462,21 +152482,25 @@ U+2B7C5	kRSUnicode	120'.8
 U+2B7C6	kRSUnicode	120'.9
 U+2B7C7	kRSUnicode	120'.14
 U+2B7C8	kRSUnicode	123.3
+U+2B7C9	kRSAdobe_Japan1_6	C+20194+28.2.6 C+20194+128.6.2
 U+2B7C9	kRSUnicode	128.2
 U+2B7CA	kRSUnicode	130.10
 U+2B7CB	kRSUnicode	134.6
 U+2B7CC	kRSUnicode	140.5
 U+2B7CD	kRSUnicode	140.5
 U+2B7CE	kRSUnicode	140.6
+U+2B7CF	kRSAdobe_Japan1_6	C+20201+140.3.7
 U+2B7CF	kRSUnicode	140.7
 U+2B7D0	kRSUnicode	140.7
 U+2B7D1	kRSUnicode	140.7
+U+2B7D2	kRSAdobe_Japan1_6	C+20204+140.3.9
 U+2B7D2	kRSUnicode	140.9
 U+2B7D3	kRSUnicode	140.9
 U+2B7D4	kRSUnicode	140.10
 U+2B7D5	kRSUnicode	140.11
 U+2B7D6	kRSUnicode	140.12
 U+2B7D7	kRSUnicode	142.14
+U+2B7D8	kRSAdobe_Japan1_6	C+13651+144.6.9
 U+2B7D8	kRSUnicode	144.9
 U+2B7D9	kRSUnicode	144.11
 U+2B7DA	kRSUnicode	145.7
@@ -152501,6 +152525,7 @@ U+2B7EC	kRSUnicode	163.8
 U+2B7ED	kRSUnicode	163.9
 U+2B7EE	kRSUnicode	164.6
 U+2B7EF	kRSUnicode	166.2
+U+2B7F0	kRSAdobe_Japan1_6	C+20240+167.8.6
 U+2B7F0	kRSUnicode	167.6
 U+2B7F1	kRSUnicode	167.10
 U+2B7F2	kRSUnicode	167'.2
@@ -152530,6 +152555,7 @@ U+2B809	kRSUnicode	187.0
 U+2B80A	kRSUnicode	187'.5
 U+2B80B	kRSUnicode	187'.11
 U+2B80C	kRSUnicode	187'.13
+U+2B80D	kRSAdobe_Japan1_6	C+20256+195.11.10
 U+2B80D	kRSUnicode	195.10
 U+2B80E	kRSUnicode	195.13
 U+2B80F	kRSUnicode	195'.4
@@ -152540,9 +152566,11 @@ U+2B813	kRSUnicode	196.0
 U+2B814	kRSUnicode	196.5
 U+2B815	kRSUnicode	196.11
 U+2B816	kRSUnicode	196'.4
+U+2B817	kRSAdobe_Japan1_6	C+20260+197.7.8
 U+2B817	kRSUnicode	197'.8
 U+2B818	kRSUnicode	208.5
 U+2B819	kRSUnicode	211.4
+U+2B81A	kRSAdobe_Japan1_6	C+14278+211.12.5
 U+2B81A	kRSUnicode	211'.5
 U+2B81B	kRSUnicode	211.9
 U+2B81C	kRSUnicode	211'.8

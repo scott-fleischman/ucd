@@ -1,10 +1,10 @@
 #
 # Unihan_DictionaryLikeData.txt
-# Date: 2011-08-08 22:10:53 GMT [JHJ]
-# Unicode version: 6.1.0
+# Date: 2012-08-17 17:13:30 GMT [JHJ]
+# Unicode version: 6.2.0
 #
 # Unicode Character Database
-# Copyright (c) 1991-2011 Unicode, Inc.
+# Copyright (c) 1991-2012 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr44/
 #
@@ -33316,7 +33316,7 @@ U+5CA9	kCihaiT	456.404
 U+5CA9	kFourCornerCode	2260.1
 U+5CA9	kFrequency	5
 U+5CA9	kGradeLevel	5
-U+5CA9	kHKGlyph	1095 1130
+U+5CA9	kHKGlyph	1095
 U+5CA9	kPhonetic	955 1103 1566
 U+5CA9	kTotalStrokes	8
 U+5CAA	kCangjie	ULLN
@@ -120084,7 +120084,7 @@ U+214C8	kTotalStrokes	18
 U+214C9	kTotalStrokes	18
 U+214CA	kTotalStrokes	18
 U+214CB	kTotalStrokes	18
-U+214CC	kTotalStrokes	18
+U+214CC	kTotalStrokes	19
 U+214CD	kTotalStrokes	18
 U+214CE	kTotalStrokes	18
 U+214CF	kTotalStrokes	18
