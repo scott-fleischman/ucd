@@ -1,8 +1,8 @@
-# DerivedDecompositionType-4.1.0.txt
-# Date: 2005-02-26, 02:34:30 GMT [MD]
+# DerivedDecompositionType-5.0.0.txt
+# Date: 2006-06-07, 17:42:36 GMT [MD]
 #
 # Unicode Character Database
-# Copyright (c) 1991-2005 Unicode, Inc.
+# Copyright (c) 1991-2006 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UCD.html
 
@@ -12,6 +12,8 @@
 
 #  All code points not explicitly listed for Decomposition_Type
 #  have the value None.
+
+# @missing: 0000..10FFFF; None
 
 # ================================================
 
@@ -116,6 +118,16 @@
 0FAC          ; Canonical # Mn       TIBETAN SUBJOINED LETTER DZHA
 0FB9          ; Canonical # Mn       TIBETAN SUBJOINED LETTER KSSA
 1026          ; Canonical # Lo       MYANMAR LETTER UU
+1B06          ; Canonical # Lo       BALINESE LETTER AKARA TEDUNG
+1B08          ; Canonical # Lo       BALINESE LETTER IKARA TEDUNG
+1B0A          ; Canonical # Lo       BALINESE LETTER UKARA TEDUNG
+1B0C          ; Canonical # Lo       BALINESE LETTER RA REPA TEDUNG
+1B0E          ; Canonical # Lo       BALINESE LETTER LA LENGA TEDUNG
+1B12          ; Canonical # Lo       BALINESE LETTER OKARA TEDUNG
+1B3B          ; Canonical # Mc       BALINESE VOWEL SIGN RA REPA TEDUNG
+1B3D          ; Canonical # Mc       BALINESE VOWEL SIGN LA LENGA TEDUNG
+1B40..1B41    ; Canonical # Mc   [2] BALINESE VOWEL SIGN TALING TEDUNG..BALINESE VOWEL SIGN TALING REPA TEDUNG
+1B43          ; Canonical # Mc       BALINESE VOWEL SIGN PEPET TEDUNG
 1E00..1E99    ; Canonical # L& [154] LATIN CAPITAL LETTER A WITH RING BELOW..LATIN SMALL LETTER Y WITH RING ABOVE
 1E9B          ; Canonical # L&       LATIN SMALL LETTER LONG S WITH DOT ABOVE
 1EA0..1EF9    ; Canonical # L&  [90] LATIN CAPITAL LETTER A WITH DOT BELOW..LATIN SMALL LETTER Y WITH TILDE
@@ -241,7 +253,7 @@ FB46..FB4E    ; Canonical # Lo   [9] HEBREW LETTER TSADI WITH DAGESH..HEBREW LET
 1D1BB..1D1C0  ; Canonical # So   [6] MUSICAL SYMBOL MINIMA..MUSICAL SYMBOL FUSA BLACK
 2F800..2FA1D  ; Canonical # Lo [542] CJK COMPATIBILITY IDEOGRAPH-2F800..CJK COMPATIBILITY IDEOGRAPH-2FA1D
 
-# Total code points: 13204
+# Total code points: 13215
 
 # ================================================
 
@@ -380,10 +392,10 @@ FB29          ; Font # Sm       HEBREW LETTER ALTERNATIVE PLUS SIGN
 1D7A9         ; Font # Sm       MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA
 1D7AA..1D7C2  ; Font # L&  [25] MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ALPHA..MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMEGA
 1D7C3         ; Font # Sm       MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL
-1D7C4..1D7C9  ; Font # L&   [6] MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL..MATHEMATICAL SANS-SERIF BOLD ITALIC PI SYMBOL
+1D7C4..1D7CB  ; Font # L&   [8] MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL..MATHEMATICAL BOLD SMALL DIGAMMA
 1D7CE..1D7FF  ; Font # Nd  [50] MATHEMATICAL BOLD DIGIT ZERO..MATHEMATICAL MONOSPACE DIGIT NINE
 
-# Total code points: 1041
+# Total code points: 1043
 
 # ================================================
 
@@ -940,3 +952,5 @@ FE6A..FE6B    ; Small # Po   [2] SMALL PERCENT SIGN..SMALL COMMERCIAL AT
 2153..215F    ; Fraction # No  [13] VULGAR FRACTION ONE THIRD..FRACTION NUMERATOR ONE
 
 # Total code points: 16
+
+# EOF

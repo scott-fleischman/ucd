@@ -12,15 +12,7 @@
 <meta name="keywords" content="unicode, normalization, composition, decomposition">
 <meta name="description" content="Specifies the Unicode Normalization Formats">
 <title>UCD: Unicode NamesList File Format</title>
-<link rel="stylesheet" type="text/css" href="http://www.unicode.org/unicode/reports/reports.css">
-<style type="text/css">
-
-<!--
-
-.foo         {  }
--->
-
-</style>
+<link rel="stylesheet" type="text/css" href="http://www.unicode.org/reports/reports.css">
 </head>
 
 <body bgcolor="#ffffff">
@@ -40,7 +32,7 @@
     <tbody>
       <tr>
         <td valign="top" width="144">Revision</td>
-        <td valign="top">4.1.0</td>
+        <td valign="top">5.0.0</td>
       </tr>
       <tr>
         <td valign="top" width="144">Authors</td>
@@ -48,16 +40,16 @@
       </tr>
       <tr>
         <td valign="top" width="144">Date</td>
-        <td valign="top">2005-3-10</td>
+        <td valign="top">2006-7-13</td>
       </tr>
       <tr>
         <td valign="top" width="144">This Version</td>
         <td valign="top">
-		<a href="http://www.unicode.org/Public/4.1.0/ucd/NamesList.html">http://www.unicode.org/Public/4.1.0/ucd/NamesList.html</a></td>
+		<a href="http://www.unicode.org/Public/5.0.0/ucd/NamesList.html">http://www.unicode.org/Public/5.0.0/ucd/NamesList.html</a></td>
       </tr>
       <tr>
         <td valign="top" width="144">Previous Version</td>
-        <td valign="top"><a href="http://www.unicode.org/Public/4.0-Update/NamesList-4.0.0.html">http://www.unicode.org/Public/4.0-Update/NamesList-4.0.0.html</a></td>
+        <td valign="top"><a href="http://www.unicode.org/Public/4.1.0/ucd/NamesList.html">http://www.unicode.org/Public/4.1.0/ucd/NamesList.html</a></td>
       </tr>
       <tr>
         <td valign="top" width="144">Latest Version</td>
@@ -88,7 +80,9 @@
   when laid out for the book. Some of the syntax elements were used in  
   preparation of the drafts of the book and may not be present in the final,  
   released form of the NamesList.txt file.</p> 
-  <p>The same input file can be used to do the draft preparation for ISO/IEC  
+  <p>The syntax for formal aliases and index tabs was introduced with Unicode 
+	5.0.</p>
+	<p>The same input file can be used to do the draft preparation for ISO/IEC  
   10646 (referred below as ISO-style). This necessitates the presence of some  
   information in the name list file that is not needed (and in fact removed  
   during parsing) for the Unicode code charts.</p>
@@ -99,7 +93,7 @@
   Some information that can be inferred by the reader from context has been 
   suppressed to make the code charts more readable.&nbsp;</p> 
   <h3>1.1 NamesList File Overview</h3>
-  <p>The *.lst files are plain text files which in their most simple form look 
+  <p>The namelist files are plain text files which in their most simple form look 
   like this</p>
   <p>@@&lt;tab&gt;0020&lt;tab&gt;BASIC LATIN&lt;tab&gt;007F<br>
   ; this is a file comment (ignored)<br>
@@ -116,7 +110,7 @@
   their constituent syntax elements are needed.</p>
   <p>The full syntax with all the options is provided in the following sections.</p>
   <h3>1.2 NamesList File Structure</h3>
-  <p>This section gives defines the overall file structure</p>
+  <p>This section defines the overall file structure</p>
   <pre><strong>NAMELIST:     TITLE_PAGE* BLOCK* 
 </strong>
 <strong>TITLE_PAGE:   TITLE 
@@ -129,34 +123,39 @@
 		| TITLE_PAGE PAGEBREAK 
 </strong>
 <strong>BLOCK:	      BLOCKHEADER 
+		| BLOCKHEADER INDEX_TAB 
 		| BLOCK CHAR_ENTRY 
 		| BLOCK SUBHEADER 
 		| BLOCK NOTICE_LINE 
 		| BLOCK EMPTY_LINE 
-		| BLOCK IGNORED_LINE 
+		| BLOCK IGNORED_LINE
 		| BLOCK PAGEBREAK
 
 CHAR_ENTRY:   NAME_LINE | RESERVED_LINE
 		| CHAR_ENTRY ALIAS_LINE
+		| CHAR_ENTRY FORMALALIAS_LINE
 		| CHAR_ENTRY COMMENT_LINE
 		| CHAR_ENTRY CROSS_REF
 		| CHAR_ENTRY DECOMPOSITION
 		| CHAR_ENTRY COMPAT_MAPPING
 		| CHAR_ENTRY IGNORED_LINE
 		| CHAR_ENTRY EMPTY_LINE
-		| CHAR_ENTRY NOTICE
+		| CHAR_ENTRY NOTICE_LINE
 </strong></pre>
   <p>In other words:<br>   
   <br>
   Neither TITLE nor&nbsp; SUBTITLE may occur after the first BLOCKHEADER.</p>   
-  <p>Only TITLE, SUBTITLE, SUBHEADER, PAGEBREAK, COMMENT_LINE,&nbsp; and    
-  IGNORED_LINE may occur before the first BLOCKHEADER.</p>   
+  <p>Only TITLE, SUBTITLE, SUBHEADER, PAGEBREAK, COMMENT_LINE,&nbsp; NOTICE_LINE, 
+	EMPTY_LINE and IGNORED_LINE may occur before the first BLOCKHEADER.</p>   
   <p>Directly following either a NAME_LINE or a RESERVED_LINE an uninterrupted  
   sequence of the following lines may occur (in any order and repeated as often  
   as needed): ALIAS_LINE, CROSS_REF, DECOMPOSITION, COMPAT_MAPPING, NOTICE_LINE,  
   EMPTY_LINE and IGNORED_LINE.</p> 
   <p>Except for EMPTY_LINE, NOTICE_LINE and IGNORED_LINE, none of these lines may  
-  occur in any other place.</p> 
+  occur in any other place.</p>
+	<p>A PAGEBREAK may appear anywhere, except the middle of a CHARACTER_ENTRY. 
+	A PAGEBREAK before the file title lines may not be supported. INDEX_TABs may 
+	appear after any block header. </p> 
   <p><b>Note</b>: A NOTICE_LINE displays differently depending on whether it follows a   
   header or title or is part of a CHAR_ENTRY.</p>  
   <h3>1.3 NamesList File Elements</h3>
@@ -186,6 +185,9 @@ CHAR_ENTRY:   NAME_LINE | RESERVED_LINE
 
 <strong>ALIAS_LINE:	&lt;tab&gt; &quot;=&quot; SP LINE	
 </strong>			// replace = by itself, output line as alias
+
+<strong>FORMALALIAS_LINE:	&lt;tab&gt; &quot;%&quot; SP LINE		
+</strong>			// replace % by U+225D, output line as formal alias
 
 <strong>CROSS_REF:	&lt;tab&gt; &quot;X&quot; SP EXPAND_LINE	
 </strong>			// X is replaced by a right arrow
@@ -218,7 +220,7 @@ EMPTY_LINE:	LF
 			// a character code apply to the page/block/column 
 			// and are italicized, but not indented
 
-<strong>SUBTITLE:	&quot;@@@+&quot; &lt;tab&gt; LINE	
+<strong>SUBTITLE:		&quot;@@@+&quot; &lt;tab&gt; LINE	
 </strong>			// skip &quot;@@@+&quot;, output text as subtitle
 
 <strong>SUBHEADER:	&quot;@&quot; &lt;tab&gt; LINE	
@@ -240,6 +242,7 @@ EMPTY_LINE:	LF
 <strong>BLOCKSTART:	CHAR</strong>	// first character position in block
 <strong>BLOCKEND:		CHAR</strong>	// last character position in block
 <strong>PAGE_BREAK:	&quot;@@&quot;</strong>	// insert a column break
+<strong>INDEX_TAB:	&quot;@@+&quot;</strong>	// start a new index tab at latest BLOCKSTART
 
 <strong>TITLE:		&quot;@@@&quot; &lt;tab&gt; LINE</strong>	
 			// skip &quot;@@@&quot;, output line as text
@@ -270,13 +273,12 @@ EMPTY_LINE:	LF
   <p>The following are the primitives and terminals for the NamesList syntax.</p>
   <pre style="font-size:8pt"><strong>LINE:		STRING LF
 COMMENT:		&quot;(&quot; LABEL &quot;)&quot;
-		&quot;(&quot; LABEl &quot;)&quot; SP &quot;*&quot;
+		&quot;(&quot; LABEL &quot;)&quot; SP &quot;*&quot;
 </strong>		&quot;*&quot;<strong> </strong>
-<strong>BLOCKNAME:</strong>	&lt;sequence of Latin-1 characters, except &quot;(&quot; and &quot;)&quot;&gt; 
 <strong>NAME</strong>:	  	&lt;sequence of uppercase ASCII letters, digits and hyphen&gt; 
 <b>LCNAME:		</b>&lt;sequence of lowercase ASCII letters, digits and hyphen&gt;
 <strong>STRING</strong>:	  	&lt;sequence of Latin-1 characters, except space and controls&gt; 
-<strong>LABEL</strong>:	  	&lt;sequence of Latin-1 characters, except space, controls, &quot;(&quot; or &quot;)&quot;&gt; 
+<strong>LABEL</strong>:	  	&lt;sequence of Latin-1 characters, except controls, &quot;(&quot; or &quot;)&quot;&gt; 
 <strong>CHAR</strong>:		<strong>X X X X</strong>
 		<strong>| X X X X X</strong>
 		<strong>| X X X X X X</strong>
@@ -287,7 +289,7 @@ COMMENT:		&quot;(&quot; LABEL &quot;)&quot;
 </pre>
   <p><strong>Notes:</strong>
   <ul>
-    <li>Special lookahead logic prevents a mention of a 4 digit number for a standard, such  
+    <li>Special lookahead logic prevents a 4 digit number for a standard, such  
       as ISO 9999 from being misinterpreted as ISO CHAR. The hyphen in a character  
       range CHAR-CHAR is replaced by an EN DASH on output.</li>
     <li>The final LF in the file must be present</li>
@@ -301,16 +303,29 @@ COMMENT:		&quot;(&quot; LABEL &quot;)&quot;
       other than CHAR) is effectively restricted to Latin-1 characters.</li> 
   </ul>
   <h2>Modifications</h2>
-  <p><b>Version 4.0.0<br>
-  </b>&nbsp;&nbsp;&nbsp; Fix syntax to better reflect restrictions on characters 
-  in character and block names.<br>
-  &nbsp;&nbsp;&nbsp; Better document treatment of comments in block names, plus 
-  French name rules.</p>
-  <p><b>Version 3.2.0<br> 
-  </b>&nbsp;&nbsp;&nbsp; Fixed several broken links, added a left margin,  
-  changed version numbering.</p>
-  <p><b>Version 3.1.0 (2)<br>
-  </b>&nbsp;&nbsp;&nbsp; Use of 4-6 digit hex notation is now supported.</p> 
+  <p><b>Version 5.0.0</b></p>
+	<ul>
+		<li>Added FORMALALIAS_LINE and INDEX_TAB to syntax.</li>
+		<li>Fixed the list of lines that may appear before a blockheader by 
+		adding NOTICE_LINE.</li>
+		<li>Minor fixes to the wording of several syntax definitions.</li>
+	</ul>
+	<p><b>Version 4.0.0</b></p>
+	<ul>
+		<li>Fixed syntax to better reflect restrictions on characters 
+  in character and block names.</li>
+		<li>Better document treatment of comments in block names, plus 
+  French name rules.</li>
+	</ul>
+  <p><b>Version 3.2.0</b></p>
+	<ul>
+		<li>Fixed several broken links, added a left margin,  
+  changed version numbering.</li>
+	</ul>
+  <p><b>Version 3.1.0 (2)</b></p>
+	<ul>
+		<li>Use of 4-6 digit hex notation is now supported.</li>
+	</ul>
   <hr width="50%">
   <h2>UCD <a name="Terms of Use">Terms of Use</a></h2>
   <h3><i>Disclaimer</i></h3>
@@ -341,11 +356,13 @@ COMMENT:		&quot;(&quot; LABEL &quot;)&quot;
     <center>
     <table cellspacing="0" cellpadding="0" border="0">
       <tr>
-        <td><a href="http://www.unicode.org/unicode/copyright.html"><img src="http://www.unicode.org/img/hb_notice.gif" border="0" alt="Access to Copyright and terms of use" width="216" height="50"></a></td>
+        <td><a href="http://www.unicode.org/copyright.html">
+        <img src="http://www.unicode.org/img/hb_notice.gif" border="0" alt="Access to Copyright and terms of use" width="216" height="50"></a></td>
       </tr>
     </table>
-        <script language="Javascript" type="text/javascript" 
-        src="http://www.unicode.org/webscripts/lastModified.js"></script>
+
+<script language="Javascript" type="text/javascript" src="http://www.unicode.org/webscripts/lastModified.js">
+                </script>
     </center>
   </div>
 </div>
@@ -353,3 +370,4 @@ COMMENT:		&quot;(&quot; LABEL &quot;)&quot;
 </body>
 
 </html>
+
