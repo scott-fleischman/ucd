@@ -1,10 +1,10 @@
-June 23, 1999
+August 30, 2000
 
-This directory contains the initial release for Unicode 3.0.
+This directory contains the first update release for Unicode 3.0.
 
 This release consists of corrections and additions to the
-Unicode Character Database, to match the publication of
-The Unicode Standard, Version 3.0.
+Unicode Character Database for the Unicode Standard, 
+Version 3.0.1.
 
 Detailed documentation of the files constituting the
 Unicode Character Database (contributory data files for
