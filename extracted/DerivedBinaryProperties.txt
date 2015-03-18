@@ -1,16 +1,18 @@
-# DerivedBinaryProperties-3.2.0.txt
-# Date: 2002-03-19,23:30:33 GMT [MD]
+# DerivedBinaryProperties-4.0.0.txt
+# Date: 2003-03-19, 01:17:02 GMT [MD]
 #
 # Unicode Character Database: Derived Property Data
 # Generated algorithmically from the Unicode Character Database
-# For documentation, see DerivedProperties.html
-# Note: Unassigned and Noncharacter codepoints are omitted,
-#       except when listing Noncharacter or Cn.
+# For documentation, see UCD.html
+# Note: Unassigned and Noncharacter codepoints may be omitted
+#       if they have default property values.
 # ================================================
 
 
 # ================================================
-# BidiMirrored (listing UnicodeData.txt, field 9: see UnicodeData.html)
+# BidiMirrored (listing UnicodeData.txt, field 9: see UCD.html)
+#	All code points not explicitly listed in this file have the property
+#	value:   N.
 # ================================================
 
 0028          ; Bidi_Mirrored # Ps       LEFT PARENTHESIS

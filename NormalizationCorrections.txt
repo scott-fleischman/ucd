@@ -1,4 +1,4 @@
-# NormalizationCorrections-3.2.0.txt
+# NormalizationCorrections-4.0.0.txt
 #
 # This file is a normative contributory data file in the
 # Unicode Character Database.
@@ -19,10 +19,11 @@
 # safely reconstruct the exact state of the data tables at
 # any given version of Unicode.
 #
-# Currently this list has exactly one entry in it, for the
-# typo found and corrected in Corrigendum #3. All efforts
-# will be made to keep the listing to exactly one entry in
-# the future.
+# Currently this list has exactly six entries in it, one for the
+# typo found and corrected in Corrigendum #3, and five for
+# the typos and misidentifications found and corrected in 
+# Corrigendum #4. All efforts
+# will be made to keep the entries limited to just those fixes.
 #
 # Interpretation of the fields:
 #   Field 1: Unicode code point
@@ -35,3 +36,8 @@
 #
 #
 F951;96FB;964B;3.2.0 # Corrigendum 3
+2F868;2136A;36FC;4.0.0 # Corrigendum 4
+2F874;5F33;5F53;4.0.0 # Corrigendum 4
+2F91F;43AB;243AB;4.0.0 # Corrigendum 4
+2F95F;7AAE;7AEE;4.0.0 # Corrigendum 4
+2F9BF;4D57;45D7;4.0.0 # Corrigendum 4

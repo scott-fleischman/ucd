@@ -1,16 +1,18 @@
-# DerivedJoiningGroup-3.2.0.txt
-# Date: 2002-03-19,23:30:54 GMT [MD]
+# DerivedJoiningGroup-4.0.0.txt
+# Date: 2003-04-05, 02:41:45 GMT [MD]
 #
 # Unicode Character Database: Derived Property Data
 # Generated algorithmically from the Unicode Character Database
-# For documentation, see DerivedProperties.html
-# Note: Unassigned and Noncharacter codepoints are omitted,
-#       except when listing Noncharacter or Cn.
+# For documentation, see UCD.html
+# Note: Unassigned and Noncharacter codepoints may be omitted
+#       if they have default property values.
 # ================================================
 
 
 # ================================================
-# Joining Group (listing ArabicShaping.txt, field 2)
+# Joining Group (listing ArabicShaping.txt, field 3)
+#	All code points not explicitly listed in this file have the property
+#	value:   NO_JOINING_GROUP.
 # ================================================
 
 0639..063A    ; AIN # Lo   [2] ARABIC LETTER AIN..ARABIC LETTER GHAIN
@@ -47,22 +49,25 @@
 # ================================================
 
 0712          ; BETH # Lo       SYRIAC LETTER BETH
+072D          ; BETH # Lo       SYRIAC LETTER PERSIAN BHETH
 
-# Total code points: 1
+# Total code points: 2
 
 # ================================================
 
 062F..0630    ; DAL # Lo   [2] ARABIC LETTER DAL..ARABIC LETTER THAL
 0688..0690    ; DAL # Lo   [9] ARABIC LETTER DDAL..ARABIC LETTER DAL WITH FOUR DOTS ABOVE
+06EE          ; DAL # Lo       ARABIC LETTER DAL WITH INVERTED V
 
-# Total code points: 11
+# Total code points: 12
 
 # ================================================
 
 0715..0716    ; DALATH_RISH # Lo   [2] SYRIAC LETTER DALATH..SYRIAC LETTER DOTLESS DALATH RISH
 072A          ; DALATH_RISH # Lo       SYRIAC LETTER RISH
+072F          ; DALATH_RISH # Lo       SYRIAC LETTER PERSIAN DHALATH
 
-# Total code points: 3
+# Total code points: 4
 
 # ================================================
 
@@ -94,8 +99,9 @@
 # ================================================
 
 0713..0714    ; GAMAL # Lo   [2] SYRIAC LETTER GAMAL..SYRIAC LETTER GAMAL GARSHUNI
+072E          ; GAMAL # Lo       SYRIAC LETTER PERSIAN GHAMAL
 
-# Total code points: 2
+# Total code points: 3
 
 # ================================================
 
@@ -151,8 +157,9 @@
 # ================================================
 
 06BE          ; KNOTTED_HEH # Lo       ARABIC LETTER HEH DOACHASHMEE
+06FF          ; KNOTTED_HEH # Lo       ARABIC LETTER HEH WITH INVERTED V
 
-# Total code points: 1
+# Total code points: 2
 
 # ================================================
 
@@ -216,8 +223,9 @@
 
 0631..0632    ; REH # Lo   [2] ARABIC LETTER REH..ARABIC LETTER ZAIN
 0691..0699    ; REH # Lo   [9] ARABIC LETTER RREH..ARABIC LETTER REH WITH FOUR DOTS ABOVE
+06EF          ; REH # Lo       ARABIC LETTER REH WITH INVERTED V
 
-# Total code points: 11
+# Total code points: 12
 
 # ================================================
 
@@ -346,6 +354,24 @@
 # ================================================
 
 0719          ; ZAIN # Lo       SYRIAC LETTER ZAIN
+
+# Total code points: 1
+
+# ================================================
+
+074D          ; ZHAIN # Lo       SYRIAC LETTER SOGDIAN ZHAIN
+
+# Total code points: 1
+
+# ================================================
+
+074E          ; KHAPH # Lo       SYRIAC LETTER SOGDIAN KHAPH
+
+# Total code points: 1
+
+# ================================================
+
+074F          ; FE # Lo       SYRIAC LETTER SOGDIAN FE
 
 # Total code points: 1
 

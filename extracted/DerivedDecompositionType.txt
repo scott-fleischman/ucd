@@ -1,16 +1,18 @@
-# DerivedDecompositionType-3.2.0.txt
-# Date: 2002-03-19,23:30:45 GMT [MD]
+# DerivedDecompositionType-4.0.0.txt
+# Date: 2003-03-19, 01:17:20 GMT [MD]
 #
 # Unicode Character Database: Derived Property Data
 # Generated algorithmically from the Unicode Character Database
-# For documentation, see DerivedProperties.html
-# Note: Unassigned and Noncharacter codepoints are omitted,
-#       except when listing Noncharacter or Cn.
+# For documentation, see UCD.html
+# Note: Unassigned and Noncharacter codepoints may be omitted
+#       if they have default property values.
 # ================================================
 
 
 # ================================================
-# Decomposition Type (from UnicodeData.txt, field 5: see UnicodeData.html)
+# Decomposition Type (from UnicodeData.txt, field 5: see UCD.html)
+#	All code points not explicitly listed in this file have the property
+#	value:   None.
 # ================================================
 
 00C0..00C5    ; canonical # L&   [6] LATIN CAPITAL LETTER A WITH GRAVE..LATIN CAPITAL LETTER A WITH RING ABOVE
@@ -260,6 +262,7 @@ FB46..FB4E    ; canonical # Lo   [9] HEBREW LETTER TSADI WITH DAGESH..HEBREW LET
 03D5..03D6    ; compat # L&   [2] GREEK PHI SYMBOL..GREEK PI SYMBOL
 03F0..03F2    ; compat # L&   [3] GREEK KAPPA SYMBOL..GREEK LUNATE SIGMA SYMBOL
 03F4..03F5    ; compat # L&   [2] GREEK CAPITAL THETA SYMBOL..GREEK LUNATE EPSILON SYMBOL
+03F9          ; compat # L&       GREEK CAPITAL LUNATE SIGMA SYMBOL
 0587          ; compat # L&       ARMENIAN SMALL LIGATURE ECH YIWN
 0675..0678    ; compat # Lo   [4] ARABIC LETTER HIGH HAMZA ALEF..ARABIC LETTER HIGH HAMZA YEH
 0E33          ; compat # Lo       THAI CHARACTER SARA AM
@@ -291,6 +294,7 @@ FB46..FB4E    ; canonical # Lo   [9] HEBREW LETTER TSADI WITH DAGESH..HEBREW LET
 2116          ; compat # So       NUMERO SIGN
 2121          ; compat # So       TELEPHONE SIGN
 2135..2138    ; compat # Lo   [4] ALEF SYMBOL..DALET SYMBOL
+213B          ; compat # So       FACSIMILE SIGN
 2160..217F    ; compat # Nl  [32] ROMAN NUMERAL ONE..SMALL ROMAN NUMERAL ONE THOUSAND
 222C..222D    ; compat # Sm   [2] DOUBLE INTEGRAL..TRIPLE INTEGRAL
 222F..2230    ; compat # Sm   [2] SURFACE INTEGRAL..VOLUME INTEGRAL
@@ -305,7 +309,7 @@ FB46..FB4E    ; canonical # Lo   [9] HEBREW LETTER TSADI WITH DAGESH..HEBREW LET
 3038..303A    ; compat # Nl   [3] HANGZHOU NUMERAL TEN..HANGZHOU NUMERAL THIRTY
 309B..309C    ; compat # Sk   [2] KATAKANA-HIRAGANA VOICED SOUND MARK..KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK
 3131..318E    ; compat # Lo  [94] HANGUL LETTER KIYEOK..HANGUL LETTER ARAEAE
-3200..321C    ; compat # So  [29] PARENTHESIZED HANGUL KIYEOK..PARENTHESIZED HANGUL CIEUC U
+3200..321E    ; compat # So  [31] PARENTHESIZED HANGUL KIYEOK..PARENTHESIZED KOREAN CHARACTER O HU
 3220..3229    ; compat # No  [10] PARENTHESIZED IDEOGRAPH ONE..PARENTHESIZED IDEOGRAPH TEN
 322A..3243    ; compat # So  [26] PARENTHESIZED IDEOGRAPH MOON..PARENTHESIZED IDEOGRAPH REACH
 32C0..32CB    ; compat # So  [12] IDEOGRAPHIC TELEGRAPH SYMBOL FOR JANUARY..IDEOGRAPHIC TELEGRAPH SYMBOL FOR DECEMBER
@@ -317,7 +321,7 @@ FB4F          ; compat # Lo       HEBREW LIGATURE ALEF LAMED
 FE49..FE4C    ; compat # Po   [4] DASHED OVERLINE..DOUBLE WAVY OVERLINE
 FE4D..FE4F    ; compat # Pc   [3] DASHED LOW LINE..WAVY LOW LINE
 
-# Total code points: 669
+# Total code points: 673
 
 # ================================================
 
@@ -344,8 +348,7 @@ FB29          ; font # Sm       HEBREW LETTER ALTERNATIVE PLUS SIGN
 1D4A9..1D4AC  ; font # L&   [4] MATHEMATICAL SCRIPT CAPITAL N..MATHEMATICAL SCRIPT CAPITAL Q
 1D4AE..1D4B9  ; font # L&  [12] MATHEMATICAL SCRIPT CAPITAL S..MATHEMATICAL SCRIPT SMALL D
 1D4BB         ; font # L&       MATHEMATICAL SCRIPT SMALL F
-1D4BD..1D4C0  ; font # L&   [4] MATHEMATICAL SCRIPT SMALL H..MATHEMATICAL SCRIPT SMALL K
-1D4C2..1D4C3  ; font # L&   [2] MATHEMATICAL SCRIPT SMALL M..MATHEMATICAL SCRIPT SMALL N
+1D4BD..1D4C3  ; font # L&   [7] MATHEMATICAL SCRIPT SMALL H..MATHEMATICAL SCRIPT SMALL N
 1D4C5..1D505  ; font # L&  [65] MATHEMATICAL SCRIPT SMALL P..MATHEMATICAL FRAKTUR CAPITAL B
 1D507..1D50A  ; font # L&   [4] MATHEMATICAL FRAKTUR CAPITAL D..MATHEMATICAL FRAKTUR CAPITAL G
 1D50D..1D514  ; font # L&   [8] MATHEMATICAL FRAKTUR CAPITAL J..MATHEMATICAL FRAKTUR CAPITAL Q
@@ -379,7 +382,7 @@ FB29          ; font # Sm       HEBREW LETTER ALTERNATIVE PLUS SIGN
 1D7C4..1D7C9  ; font # L&   [6] MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL..MATHEMATICAL SANS-SERIF BOLD ITALIC PI SYMBOL
 1D7CE..1D7FF  ; font # Nd  [50] MATHEMATICAL BOLD DIGIT ZERO..MATHEMATICAL MONOSPACE DIGIT NINE
 
-# Total code points: 1037
+# Total code points: 1038
 
 # ================================================
 
@@ -758,13 +761,13 @@ FEFB          ; isolated # Lo       ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM
 24B6..24E9    ; circle # So  [52] CIRCLED LATIN CAPITAL LETTER A..CIRCLED LATIN SMALL LETTER Z
 24EA          ; circle # No       CIRCLED DIGIT ZERO
 3251..325F    ; circle # No  [15] CIRCLED NUMBER TWENTY ONE..CIRCLED NUMBER THIRTY FIVE
-3260..327B    ; circle # So  [28] CIRCLED HANGUL KIYEOK..CIRCLED HANGUL HIEUH A
+3260..327D    ; circle # So  [30] CIRCLED HANGUL KIYEOK..CIRCLED KOREAN CHARACTER JUEUI
 3280..3289    ; circle # No  [10] CIRCLED IDEOGRAPH ONE..CIRCLED IDEOGRAPH TEN
 328A..32B0    ; circle # So  [39] CIRCLED IDEOGRAPH MOON..CIRCLED IDEOGRAPH NIGHT
 32B1..32BF    ; circle # No  [15] CIRCLED NUMBER THIRTY SIX..CIRCLED NUMBER FIFTY
 32D0..32FE    ; circle # So  [47] CIRCLED KATAKANA A..CIRCLED KATAKANA WO
 
-# Total code points: 227
+# Total code points: 229
 
 # ================================================
 
@@ -774,6 +777,10 @@ FEFB          ; isolated # Lo       ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM
 00BA          ; super # L&       MASCULINE ORDINAL INDICATOR
 02B0..02B8    ; super # Lm   [9] MODIFIER LETTER SMALL H..MODIFIER LETTER SMALL Y
 02E0..02E4    ; super # Lm   [5] MODIFIER LETTER SMALL GAMMA..MODIFIER LETTER SMALL REVERSED GLOTTAL STOP
+1D2C..1D2E    ; super # Lm   [3] MODIFIER LETTER CAPITAL A..MODIFIER LETTER CAPITAL B
+1D30..1D3A    ; super # Lm  [11] MODIFIER LETTER CAPITAL D..MODIFIER LETTER CAPITAL N
+1D3C..1D4D    ; super # Lm  [18] MODIFIER LETTER CAPITAL O..MODIFIER LETTER SMALL G
+1D4F..1D61    ; super # Lm  [19] MODIFIER LETTER SMALL K..MODIFIER LETTER SMALL CHI
 2070          ; super # No       SUPERSCRIPT ZERO
 2071          ; super # L&       SUPERSCRIPT LATIN SMALL LETTER I
 2074..2079    ; super # No   [6] SUPERSCRIPT FOUR..SUPERSCRIPT NINE
@@ -786,16 +793,17 @@ FEFB          ; isolated # Lo       ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM
 3192..3195    ; super # No   [4] IDEOGRAPHIC ANNOTATION ONE MARK..IDEOGRAPHIC ANNOTATION FOUR MARK
 3196..319F    ; super # So  [10] IDEOGRAPHIC ANNOTATION TOP MARK..IDEOGRAPHIC ANNOTATION MAN MARK
 
-# Total code points: 49
+# Total code points: 100
 
 # ================================================
 
+1D62..1D6A    ; sub # L&   [9] LATIN SUBSCRIPT SMALL LETTER I..GREEK SUBSCRIPT SMALL LETTER CHI
 2080..2089    ; sub # No  [10] SUBSCRIPT ZERO..SUBSCRIPT NINE
 208A..208C    ; sub # Sm   [3] SUBSCRIPT PLUS SIGN..SUBSCRIPT EQUALS SIGN
 208D          ; sub # Ps       SUBSCRIPT LEFT PARENTHESIS
 208E          ; sub # Pe       SUBSCRIPT RIGHT PARENTHESIS
 
-# Total code points: 15
+# Total code points: 24
 
 # ================================================
 
@@ -820,8 +828,10 @@ FE41          ; vertical # Ps       PRESENTATION FORM FOR VERTICAL LEFT CORNER B
 FE42          ; vertical # Pe       PRESENTATION FORM FOR VERTICAL RIGHT CORNER BRACKET
 FE43          ; vertical # Ps       PRESENTATION FORM FOR VERTICAL LEFT WHITE CORNER BRACKET
 FE44          ; vertical # Pe       PRESENTATION FORM FOR VERTICAL RIGHT WHITE CORNER BRACKET
+FE47          ; vertical # Ps       PRESENTATION FORM FOR VERTICAL LEFT SQUARE BRACKET
+FE48          ; vertical # Pe       PRESENTATION FORM FOR VERTICAL RIGHT SQUARE BRACKET
 
-# Total code points: 23
+# Total code points: 25
 
 # ================================================
 
@@ -907,11 +917,13 @@ FE6A..FE6B    ; small # Po   [2] SMALL PERCENT SIGN..SMALL COMMERCIAL AT
 
 # ================================================
 
+3250          ; square # So       PARTNERSHIP SIGN
+32CC..32CF    ; square # So   [4] SQUARE HG..LIMITED LIABILITY SIGN
 3300..3357    ; square # So  [88] SQUARE APAATO..SQUARE WATTO
-3371..3376    ; square # So   [6] SQUARE HPA..SQUARE PC
-337B..33DD    ; square # So  [99] SQUARE ERA NAME HEISEI..SQUARE WB
+3371..33DF    ; square # So [111] SQUARE HPA..SQUARE A OVER M
+33FF          ; square # So       SQUARE GAL
 
-# Total code points: 193
+# Total code points: 205
 
 # ================================================
 
