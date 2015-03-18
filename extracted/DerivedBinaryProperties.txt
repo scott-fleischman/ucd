@@ -1,8 +1,8 @@
-# DerivedBinaryProperties-4.0.1.txt
-# Date: 2004-03-02, 02:41:37 GMT [MD]
+# DerivedBinaryProperties-4.1.0.txt
+# Date: 2005-02-26, 02:32:21 GMT [MD]
 #
 # Unicode Character Database
-# Copyright (c) 1991-2004 Unicode, Inc.
+# Copyright (c) 1991-2005 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UCD.html
 
@@ -72,6 +72,10 @@
 2773          ; Bidi_Mirrored # Pe       LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT
 2774          ; Bidi_Mirrored # Ps       MEDIUM LEFT CURLY BRACKET ORNAMENT
 2775          ; Bidi_Mirrored # Pe       MEDIUM RIGHT CURLY BRACKET ORNAMENT
+27C0          ; Bidi_Mirrored # Sm       THREE DIMENSIONAL ANGLE
+27C3..27C4    ; Bidi_Mirrored # Sm   [2] OPEN SUBSET..OPEN SUPERSET
+27C5          ; Bidi_Mirrored # Ps       LEFT S-SHAPED BAG DELIMITER
+27C6          ; Bidi_Mirrored # Pe       RIGHT S-SHAPED BAG DELIMITER
 27D3..27D6    ; Bidi_Mirrored # Sm   [4] LOWER RIGHT CORNER WITH DOT..RIGHT OUTER JOIN
 27DC..27DE    ; Bidi_Mirrored # Sm   [3] LEFT MULTIMAP..LONG LEFT TACK
 27E2..27E5    ; Bidi_Mirrored # Sm   [4] WHITE CONCAVE-SIDED DIAMOND WITH LEFTWARDS TICK..WHITE SQUARE WITH RIGHTWARDS TICK
@@ -143,6 +147,16 @@
 2AF3          ; Bidi_Mirrored # Sm       PARALLEL WITH TILDE OPERATOR
 2AF7..2AFB    ; Bidi_Mirrored # Sm   [5] TRIPLE NESTED LESS-THAN..TRIPLE SOLIDUS BINARY RELATION
 2AFD          ; Bidi_Mirrored # Sm       DOUBLE SOLIDUS OPERATOR
+2E02          ; Bidi_Mirrored # Pi       LEFT SUBSTITUTION BRACKET
+2E03          ; Bidi_Mirrored # Pf       RIGHT SUBSTITUTION BRACKET
+2E04          ; Bidi_Mirrored # Pi       LEFT DOTTED SUBSTITUTION BRACKET
+2E05          ; Bidi_Mirrored # Pf       RIGHT DOTTED SUBSTITUTION BRACKET
+2E09          ; Bidi_Mirrored # Pi       LEFT TRANSPOSITION BRACKET
+2E0A          ; Bidi_Mirrored # Pf       RIGHT TRANSPOSITION BRACKET
+2E0C          ; Bidi_Mirrored # Pi       LEFT RAISED OMISSION BRACKET
+2E0D          ; Bidi_Mirrored # Pf       RIGHT RAISED OMISSION BRACKET
+2E1C          ; Bidi_Mirrored # Pi       LEFT LOW PARAPHRASE BRACKET
+2E1D          ; Bidi_Mirrored # Pf       RIGHT LOW PARAPHRASE BRACKET
 3008          ; Bidi_Mirrored # Ps       LEFT ANGLE BRACKET
 3009          ; Bidi_Mirrored # Pe       RIGHT ANGLE BRACKET
 300A          ; Bidi_Mirrored # Ps       LEFT DOUBLE ANGLE BRACKET
@@ -174,4 +188,4 @@ FF60          ; Bidi_Mirrored # Pe       FULLWIDTH RIGHT WHITE PARENTHESIS
 FF62          ; Bidi_Mirrored # Ps       HALFWIDTH LEFT CORNER BRACKET
 FF63          ; Bidi_Mirrored # Pe       HALFWIDTH RIGHT CORNER BRACKET
 
-# Total code points: 492
+# Total code points: 507
