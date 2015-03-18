@@ -1,9 +1,10 @@
 #
 # Unihan_DictionaryLikeData.txt
-# Date: 2009-08-30 23:54:17 UDT [JHJ]
+# Date: 2010-09-23 09:29:56 UDT [JHJ]
+# Unicode version: 6.0.0
 #
 # Unicode Character Database
-# Copyright (c) 1991-2009 Unicode, Inc.
+# Copyright (c) 1991-2010 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr44/
 #
@@ -73242,7 +73243,7 @@ U+7D2B	kFrequency	4
 U+7D2B	kGradeLevel	6
 U+7D2B	kHKGlyph	3095
 U+7D2B	kPhonetic	156
-U+7D2B	kTotalStrokes	11
+U+7D2B	kTotalStrokes	12
 U+7D2C	kCangjie	VFLW
 U+7D2C	kCihaiT	1038.101
 U+7D2C	kFourCornerCode	2596.0

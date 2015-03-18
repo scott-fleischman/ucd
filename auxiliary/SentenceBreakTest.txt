@@ -1,8 +1,8 @@
-# SentenceBreakTest-5.2.0.txt
-# Date: 2009-09-19, 00:42:15 GMT [MD]
+# SentenceBreakTest-6.0.0.txt
+# Date: 2010-08-19, 01:19:53 GMT [MD]
 #
 # Unicode Character Database
-# Copyright (c) 1991-2009 Unicode, Inc.
+# Copyright (c) 1991-2010 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr44/
 #
@@ -510,4 +510,4 @@
 ÷ 2060 × 0065 × 2060 × 0074 × 2060 × 0063 × 2060 × 002E × 2060 ÷ 5B83 × 2060 × 2060 ÷	#  ÷ [0.2] WORD JOINER (Format_FE) × [12.0] LATIN SMALL LETTER E (Lower) × [5.0] WORD JOINER (Format_FE) × [12.0] LATIN SMALL LETTER T (Lower) × [5.0] WORD JOINER (Format_FE) × [12.0] LATIN SMALL LETTER C (Lower) × [5.0] WORD JOINER (Format_FE) × [12.0] FULL STOP (ATerm) × [5.0] WORD JOINER (Format_FE) ÷ [11.0] CJK UNIFIED IDEOGRAPH-5B83 (OLetter) × [5.0] WORD JOINER (Format_FE) × [5.0] WORD JOINER (Format_FE) ÷ [0.3]
 ÷ 2060 × 0065 × 2060 × 0074 × 2060 × 0063 × 2060 × 002E × 2060 × 3002 × 2060 × 2060 ÷	#  ÷ [0.2] WORD JOINER (Format_FE) × [12.0] LATIN SMALL LETTER E (Lower) × [5.0] WORD JOINER (Format_FE) × [12.0] LATIN SMALL LETTER T (Lower) × [5.0] WORD JOINER (Format_FE) × [12.0] LATIN SMALL LETTER C (Lower) × [5.0] WORD JOINER (Format_FE) × [12.0] FULL STOP (ATerm) × [5.0] WORD JOINER (Format_FE) × [8.1] IDEOGRAPHIC FULL STOP (STerm) × [5.0] WORD JOINER (Format_FE) × [5.0] WORD JOINER (Format_FE) ÷ [0.3]
 ÷ 2060 × 5B57 × 2060 × 3002 × 2060 ÷ 5B83 × 2060 × 2060 ÷	#  ÷ [0.2] WORD JOINER (Format_FE) × [12.0] CJK UNIFIED IDEOGRAPH-5B57 (OLetter) × [5.0] WORD JOINER (Format_FE) × [12.0] IDEOGRAPHIC FULL STOP (STerm) × [5.0] WORD JOINER (Format_FE) ÷ [11.0] CJK UNIFIED IDEOGRAPH-5B83 (OLetter) × [5.0] WORD JOINER (Format_FE) × [5.0] WORD JOINER (Format_FE) ÷ [0.3]
-# Lines: 450
+# Lines: 490
