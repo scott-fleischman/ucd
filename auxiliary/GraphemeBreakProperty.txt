@@ -1,5 +1,5 @@
 # GraphemeBreakProperty-9.0.0.txt
-# Date: 2016-03-03, 12:43:52 GMT
+# Date: 2016-06-03, 22:23:55 GMT
 # © 2016 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
@@ -21,11 +21,12 @@
 0600..0605    ; Prepend # Cf   [6] ARABIC NUMBER SIGN..ARABIC NUMBER MARK ABOVE
 06DD          ; Prepend # Cf       ARABIC END OF AYAH
 070F          ; Prepend # Cf       SYRIAC ABBREVIATION MARK
+08E2          ; Prepend # Cf       ARABIC DISPUTED END OF AYAH
 0D4E          ; Prepend # Lo       MALAYALAM LETTER DOT REPH
 110BD         ; Prepend # Cf       KAITHI NUMBER SIGN
 111C2..111C3  ; Prepend # Lo   [2] SHARADA SIGN JIHVAMULIYA..SHARADA SIGN UPADHMANIYA
 
-# Total code points: 12
+# Total code points: 13
 
 # ================================================
 
@@ -47,7 +48,6 @@
 007F..009F    ; Control # Cc  [33] <control-007F>..<control-009F>
 00AD          ; Control # Cf       SOFT HYPHEN
 061C          ; Control # Cf       ARABIC LETTER MARK
-08E2          ; Control # Cf       ARABIC DISPUTED END OF AYAH
 180E          ; Control # Cf       MONGOLIAN VOWEL SEPARATOR
 200B          ; Control # Cf       ZERO WIDTH SPACE
 200E..200F    ; Control # Cf   [2] LEFT-TO-RIGHT MARK..RIGHT-TO-LEFT MARK
@@ -69,7 +69,7 @@ E0002..E001F  ; Control # Cn  [30] <reserved-E0002>..<reserved-E001F>
 E0080..E00FF  ; Control # Cn [128] <reserved-E0080>..<reserved-E00FF>
 E01F0..E0FFF  ; Control # Cn [3600] <reserved-E01F0>..<reserved-E0FFF>
 
-# Total code points: 5926
+# Total code points: 5925
 
 # ================================================
 
@@ -354,7 +354,7 @@ FF9E..FF9F    ; Extend # Lm   [2] HALFWIDTH KATAKANA VOICED SOUND MARK..HALFWIDT
 11722..11725  ; Extend # Mn   [4] AHOM VOWEL SIGN I..AHOM VOWEL SIGN UU
 11727..1172B  ; Extend # Mn   [5] AHOM VOWEL SIGN AW..AHOM SIGN KILLER
 11C30..11C36  ; Extend # Mn   [7] BHAIKSUKI VOWEL SIGN I..BHAIKSUKI VOWEL SIGN VOCALIC L
-11C3C..11C3D  ; Extend # Mn   [2] BHAIKSUKI SIGN CANDRABINDU..BHAIKSUKI SIGN ANUSVARA
+11C38..11C3D  ; Extend # Mn   [6] BHAIKSUKI VOWEL SIGN E..BHAIKSUKI SIGN ANUSVARA
 11C3F         ; Extend # Mn       BHAIKSUKI SIGN VIRAMA
 11C92..11CA7  ; Extend # Mn  [22] MARCHEN SUBJOINED LETTER KA..MARCHEN SUBJOINED LETTER ZA
 11CAA..11CB0  ; Extend # Mn   [7] MARCHEN SUBJOINED LETTER RA..MARCHEN VOWEL SIGN AA
@@ -387,7 +387,7 @@ FF9E..FF9F    ; Extend # Lm   [2] HALFWIDTH KATAKANA VOICED SOUND MARK..HALFWIDT
 E0020..E007F  ; Extend # Cf  [96] TAG SPACE..CANCEL TAG
 E0100..E01EF  ; Extend # Mn [240] VARIATION SELECTOR-17..VARIATION SELECTOR-256
 
-# Total code points: 1824
+# Total code points: 1828
 
 # ================================================
 
@@ -530,7 +530,6 @@ ABEC          ; SpacingMark # Mc       MEETEI MAYEK LUM IYEK
 11720..11721  ; SpacingMark # Mc   [2] AHOM VOWEL SIGN A..AHOM VOWEL SIGN AA
 11726         ; SpacingMark # Mc       AHOM VOWEL SIGN E
 11C2F         ; SpacingMark # Mc       BHAIKSUKI VOWEL SIGN AA
-11C38..11C3B  ; SpacingMark # Mc   [4] BHAIKSUKI VOWEL SIGN E..BHAIKSUKI VOWEL SIGN AU
 11C3E         ; SpacingMark # Mc       BHAIKSUKI SIGN VISARGA
 11CA9         ; SpacingMark # Mc       MARCHEN SUBJOINED LETTER YA
 11CB1         ; SpacingMark # Mc       MARCHEN VOWEL SIGN I
@@ -539,7 +538,7 @@ ABEC          ; SpacingMark # Mc       MEETEI MAYEK LUM IYEK
 1D166         ; SpacingMark # Mc       MUSICAL SYMBOL COMBINING SPRECHGESANG STEM
 1D16D         ; SpacingMark # Mc       MUSICAL SYMBOL COMBINING AUGMENTATION DOT
 
-# Total code points: 345
+# Total code points: 341
 
 # ================================================
 
@@ -1399,9 +1398,9 @@ D789..D7A3    ; LVT # Lo  [27] HANGUL SYLLABLE HIG..HANGUL SYLLABLE HIH
 1F926         ; E_Base # So       FACE PALM
 1F930         ; E_Base # So       PREGNANT WOMAN
 1F933..1F939  ; E_Base # So   [7] SELFIE..JUGGLING
-1F93B..1F93E  ; E_Base # So   [4] MODERN PENTATHLON..HANDBALL
+1F93C..1F93E  ; E_Base # So   [3] WRESTLERS..HANDBALL
 
-# Total code points: 80
+# Total code points: 79
 
 # ================================================
 

@@ -1,5 +1,5 @@
 # PropList-9.0.0.txt
-# Date: 2016-03-02, 18:55:03 GMT
+# Date: 2016-06-01, 10:34:30 GMT
 # © 2016 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
@@ -728,8 +728,7 @@ FB1E          ; Other_Alphabetic # Mn       HEBREW POINT JUDEO-SPANISH VARIKA
 11727..1172A  ; Other_Alphabetic # Mn   [4] AHOM VOWEL SIGN AW..AHOM VOWEL SIGN AM
 11C2F         ; Other_Alphabetic # Mc       BHAIKSUKI VOWEL SIGN AA
 11C30..11C36  ; Other_Alphabetic # Mn   [7] BHAIKSUKI VOWEL SIGN I..BHAIKSUKI VOWEL SIGN VOCALIC L
-11C38..11C3B  ; Other_Alphabetic # Mc   [4] BHAIKSUKI VOWEL SIGN E..BHAIKSUKI VOWEL SIGN AU
-11C3C..11C3D  ; Other_Alphabetic # Mn   [2] BHAIKSUKI SIGN CANDRABINDU..BHAIKSUKI SIGN ANUSVARA
+11C38..11C3D  ; Other_Alphabetic # Mn   [6] BHAIKSUKI VOWEL SIGN E..BHAIKSUKI SIGN ANUSVARA
 11C3E         ; Other_Alphabetic # Mc       BHAIKSUKI SIGN VISARGA
 11C92..11CA7  ; Other_Alphabetic # Mn  [22] MARCHEN SUBJOINED LETTER KA..MARCHEN SUBJOINED LETTER ZA
 11CA9         ; Other_Alphabetic # Mc       MARCHEN SUBJOINED LETTER YA
@@ -1068,7 +1067,7 @@ FFFFE..FFFFF  ; Noncharacter_Code_Point # Cn   [2] <noncharacter-FFFFE>..<noncha
 0D57          ; Other_Grapheme_Extend # Mc       MALAYALAM AU LENGTH MARK
 0DCF          ; Other_Grapheme_Extend # Mc       SINHALA VOWEL SIGN AELA-PILLA
 0DDF          ; Other_Grapheme_Extend # Mc       SINHALA VOWEL SIGN GAYANUKITTA
-200C..200D    ; Other_Grapheme_Extend # Cf   [2] ZERO WIDTH NON-JOINER..ZERO WIDTH JOINER
+200C          ; Other_Grapheme_Extend # Cf       ZERO WIDTH NON-JOINER
 302E..302F    ; Other_Grapheme_Extend # Mc   [2] HANGUL SINGLE DOT TONE MARK..HANGUL DOUBLE DOT TONE MARK
 FF9E..FF9F    ; Other_Grapheme_Extend # Lm   [2] HALFWIDTH KATAKANA VOICED SOUND MARK..HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK
 1133E         ; Other_Grapheme_Extend # Mc       GRANTHA VOWEL SIGN AA
@@ -1078,8 +1077,9 @@ FF9E..FF9F    ; Other_Grapheme_Extend # Lm   [2] HALFWIDTH KATAKANA VOICED SOUND
 115AF         ; Other_Grapheme_Extend # Mc       SIDDHAM VOWEL SIGN AA
 1D165         ; Other_Grapheme_Extend # Mc       MUSICAL SYMBOL COMBINING STEM
 1D16E..1D172  ; Other_Grapheme_Extend # Mc   [5] MUSICAL SYMBOL COMBINING FLAG-1..MUSICAL SYMBOL COMBINING FLAG-5
+E0020..E007F  ; Other_Grapheme_Extend # Cf  [96] TAG SPACE..CANCEL TAG
 
-# Total code points: 30
+# Total code points: 125
 
 # ================================================
 
@@ -1571,8 +1571,9 @@ FE45..FE46    ; Pattern_Syntax # Po   [2] SESAME DOT..WHITE SESAME DOT
 0600..0605    ; Prepended_Concatenation_Mark # Cf   [6] ARABIC NUMBER SIGN..ARABIC NUMBER MARK ABOVE
 06DD          ; Prepended_Concatenation_Mark # Cf       ARABIC END OF AYAH
 070F          ; Prepended_Concatenation_Mark # Cf       SYRIAC ABBREVIATION MARK
+08E2          ; Prepended_Concatenation_Mark # Cf       ARABIC DISPUTED END OF AYAH
 110BD         ; Prepended_Concatenation_Mark # Cf       KAITHI NUMBER SIGN
 
-# Total code points: 9
+# Total code points: 10
 
 # EOF
