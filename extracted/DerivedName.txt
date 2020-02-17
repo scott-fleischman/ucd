@@ -1,5 +1,5 @@
-# DerivedName-12.0.0.txt
-# Date: 2019-01-22, 08:18:29 GMT
+# DerivedName-12.1.0.txt
+# Date: 2019-04-01, 09:10:22 GMT
 # © 2019 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
@@ -11831,6 +11831,7 @@
 32FC          ; CIRCLED KATAKANA WI
 32FD          ; CIRCLED KATAKANA WE
 32FE          ; CIRCLED KATAKANA WO
+32FF          ; SQUARE ERA NAME REIWA
 3300          ; SQUARE APAATO
 3301          ; SQUARE ARUHUA
 3302          ; SQUARE ANPEA
@@ -42558,6 +42559,6 @@ E01ED         ; VARIATION SELECTOR-254
 E01EE         ; VARIATION SELECTOR-255
 E01EF         ; VARIATION SELECTOR-256
 
-# Total code points: 137928
+# Total code points: 137929
 
 # EOF
